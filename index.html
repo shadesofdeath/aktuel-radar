@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aktüel Radar — BİM · A101 · ŞOK indirim takibi</title>
+<meta name="description" content="BİM, A101 ve ŞOK aktüel ürünlerini ve indirimlerini tek ekranda takip et. Haftalık kataloglar, fiyatlar ve arama.">
+<meta property="og:title" content="Aktüel Radar">
+<meta property="og:description" content="BİM · A101 · ŞOK aktüel indirimleri tek ekranda.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F3F4F1;
+    --card: #FFFFFF;
+    --ink: #171A1F;
+    --muted: #68707B;
+    --line: #E2E4E0;
+    --tag: #FFD23B;
+    --tag-ink: #171207;
+    --bim: #E30613;
+    --a101: #00A7C4;
+    --sok: #F5B800;
+    --radius: 14px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #101318;
+      --card: #181D24;
+      --ink: #EAEDF1;
+      --muted: #8D96A3;
+      --line: #242B34;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: "Inter", system-ui, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    min-height: 100vh;
+  }
+  a { color: inherit; }
+
+  /* ---------- header ---------- */
+  header {
+    padding: 26px 16px 14px;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .logo {
+    font-family: "Anton", sans-serif;
+    font-size: clamp(34px, 8vw, 54px);
+    letter-spacing: .5px;
+    line-height: .95;
+    text-transform: uppercase;
+  }
+  .logo em {
+    font-style: normal;
+    background: var(--tag);
+    color: var(--tag-ink);
+    padding: 0 .18em;
+    clip-path: polygon(0 12%, 100% 0, 97% 100%, 3% 92%);
+    display: inline-block;
+    transform: rotate(-1.5deg);
+  }
+  .tagline {
+    margin-top: 8px;
+    font-size: 13px;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .dot.bim { background: var(--bim); }
+  .dot.a101 { background: var(--a101); }
+  .dot.sok { background: var(--sok); }
+
+  /* ---------- toolbar ---------- */
+  .toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: color-mix(in srgb, var(--paper) 88%, transparent);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .toolbar-inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 10px 16px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .chips {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip {
+    flex: 0 0 auto;
+    border: 1.5px solid var(--line);
+    background: var(--card);
+    color: var(--ink);
+    font: 600 13px "Inter", sans-serif;
+    padding: 8px 15px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: transform .08s ease, background .15s, border-color .15s, color .15s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .chip:active { transform: scale(.95); }
+  .chip[data-m="all"].on  { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .chip[data-m="bim"].on  { background: var(--bim); color: #fff; border-color: var(--bim); }
+  .chip[data-m="a101"].on { background: var(--a101); color: #fff; border-color: var(--a101); }
+  .chip[data-m="sok"].on  { background: var(--sok); color: #201700; border-color: var(--sok); }
+  .row2 { display: flex; gap: 8px; }
+  .search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--card);
+    border: 1.5px solid var(--line);
+    border-radius: 999px;
+    padding: 0 14px;
+    height: 42px;
+  }
+  .search svg { flex: 0 0 auto; opacity: .45; }
+  .search input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: var(--ink);
+    font: 500 14px "Inter", sans-serif;
+    min-width: 0;
+  }
+  select {
+    height: 42px;
+    border: 1.5px solid var(--line);
+    background: var(--card);
+    color: var(--ink);
+    border-radius: 999px;
+    font: 600 13px "Inter", sans-serif;
+    padding: 0 12px;
+    outline: none;
+  }
+  .count { font-size: 12px; color: var(--muted); }
+
+  /* ---------- grid ---------- */
+  main {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(158px, 1fr));
+    gap: 10px;
+  }
+  @media (min-width: 640px) {
+    .grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 12px 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: transform .1s ease, box-shadow .15s ease;
+    animation: pop .25s ease backwards;
+  }
+  @keyframes pop { from { opacity: 0; transform: translateY(6px); } }
+  @media (prefers-reduced-motion: reduce) { .card { animation: none; } }
+  .card:active { transform: scale(.97); }
+  .card::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 4px;
+    background: var(--mc);
+  }
+  .card.bim  { --mc: var(--bim); }
+  .card.a101 { --mc: var(--a101); }
+  .card.sok  { --mc: var(--sok); }
+  .card img {
+    width: 100%;
+    height: 110px;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 8px;
+  }
+  .mkt {
+    align-self: flex-start;
+    font: 700 10px "Inter", sans-serif;
+    letter-spacing: .8px;
+    color: var(--mc);
+    text-transform: uppercase;
+  }
+  .brand {
+    font: 600 11px "Inter", sans-serif;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    min-height: 13px;
+  }
+  .name {
+    font: 600 14px/1.3 "Inter", sans-serif;
+    flex: 1;
+  }
+  .unit { font-size: 12px; color: var(--muted); }
+
+  /* raf etiketi — imza öğesi */
+  .tag {
+    margin-top: 6px;
+    align-self: flex-start;
+    background: var(--tag);
+    color: var(--tag-ink);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+    padding: 5px 12px 4px 12px;
+    display: flex;
+    align-items: baseline;
+    font-family: "Anton", sans-serif;
+  }
+  .tag .lira { font-size: 13px; margin-right: 2px; }
+  .tag .tam  { font-size: 24px; letter-spacing: .5px; }
+  .tag .kurus { font-size: 13px; transform: translateY(-7px); margin-left: 1px; }
+
+  /* ---------- empty / footer ---------- */
+  .empty {
+    padding: 48px 16px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .empty b { color: var(--ink); }
+  footer {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 24px 16px 40px;
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.7;
+    border-top: 1px solid var(--line);
+  }
+  footer .upd { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 8px; }
+  .chip:focus-visible, .card:focus-visible, select:focus-visible, .search:focus-within {
+    outline: 2px solid var(--a101);
+    outline-offset: 2px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1 class="logo">Aktüel <em>Radar</em></h1>
+  <p class="tagline">
+    <span><span class="dot bim"></span> BİM</span>
+    <span><span class="dot a101"></span> A101</span>
+    <span><span class="dot sok"></span> ŞOK</span>
+    <span>· haftalık indirimler tek ekranda</span>
+  </p>
+</header>
+
+<div class="toolbar">
+  <div class="toolbar-inner">
+    <div class="chips" id="chips">
+      <button class="chip on" data-m="all">Tümü</button>
+      <button class="chip" data-m="bim">BİM</button>
+      <button class="chip" data-m="a101">A101</button>
+      <button class="chip" data-m="sok">ŞOK</button>
+    </div>
+    <div class="row2">
+      <label class="search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Ürün veya marka ara…" autocomplete="off">
+      </label>
+      <select id="sort" aria-label="Sıralama">
+        <option value="default">Öne çıkan</option>
+        <option value="asc">Fiyat ↑</option>
+        <option value="desc">Fiyat ↓</option>
+        <option value="az">A → Z</option>
+      </select>
+    </div>
+    <div class="count" id="count"></div>
+  </div>
+</div>
+
+<main>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden></div>
+</main>
+
+<footer>
+  <div class="upd" id="upd"></div>
+  <div>
+    Veriler marketlerin resmi sitelerinden otomatik derlenir; bilgilendirme amaçlıdır.
+    Fiyat farkı olursa mağaza fiyatı geçerlidir. Kaynak:
+    <a href="https://www.bim.com.tr/categories/100/aktuel-urunler.aspx" target="_blank" rel="noopener">bim.com.tr</a> ·
+    <a href="https://www.a101.com.tr" target="_blank" rel="noopener">a101.com.tr</a> ·
+    <a href="https://www.sokmarket.com.tr" target="_blank" rel="noopener">sokmarket.com.tr</a>
+  </div>
+</footer>
+
+<script>
+const MARKETS = {
+  bim:  { label: "BİM" },
+  a101: { label: "A101" },
+  sok:  { label: "ŞOK" },
+};
+const state = { market: "all", q: "", sort: "default", items: [], meta: {} };
+
+const trFmt = new Intl.NumberFormat("tr-TR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const trLower = s => s.toLocaleLowerCase("tr-TR");
+
+async function load() {
+  const bust = Date.now();
+  const results = await Promise.allSettled(
+    Object.keys(MARKETS).map(m =>
+      fetch(`data/${m}.json?v=${bust}`).then(r => r.json()).then(d => ({ m, d }))
+    )
+  );
+  for (const r of results) {
+    if (r.status !== "fulfilled") continue;
+    const { m, d } = r.value;
+    state.meta[m] = { updatedAt: d.updatedAt, count: (d.products || []).length };
+    for (const p of d.products || []) state.items.push({ ...p, market: m });
+  }
+  renderMeta();
+  render();
+}
+
+function renderMeta() {
+  document.getElementById("upd").innerHTML = Object.entries(MARKETS).map(([m, v]) => {
+    const meta = state.meta[m];
+    const t = meta?.updatedAt
+      ? new Date(meta.updatedAt).toLocaleString("tr-TR", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })
+      : "bekleniyor";
+    return `<span><b>${v.label}</b>: ${t}</span>`;
+  }).join("");
+}
+
+function filtered() {
+  let list = state.items;
+  if (state.market !== "all") list = list.filter(p => p.market === state.market);
+  if (state.q) {
+    const q = trLower(state.q);
+    list = list.filter(p => trLower(p.name + " " + (p.brand || "")).includes(q));
+  }
+  if (state.sort === "asc")  list = [...list].sort((a, b) => a.price - b.price);
+  if (state.sort === "desc") list = [...list].sort((a, b) => b.price - a.price);
+  if (state.sort === "az")   list = [...list].sort((a, b) => a.name.localeCompare(b.name, "tr"));
+  return list;
+}
+
+function priceTag(price) {
+  const [tam, kurus] = trFmt.format(price).split(",");
+  return `<span class="tag"><span class="lira">₺</span><span class="tam">${tam}</span><span class="kurus">,${kurus}</span></span>`;
+}
+
+const esc = s => (s || "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+function render() {
+  const list = filtered();
+  const grid = document.getElementById("grid");
+  const empty = document.getElementById("empty");
+  document.getElementById("count").textContent = list.length ? `${list.length} ürün listeleniyor` : "";
+
+  grid.innerHTML = list.slice(0, 400).map((p, i) => {
+    const tagEl = p.market === "sok" ? "ŞOK" : MARKETS[p.market].label;
+    const inner = `
+      ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy" onerror="this.remove()">` : ""}
+      <span class="mkt">${tagEl}</span>
+      <span class="brand">${esc(p.brand)}</span>
+      <span class="name">${esc(p.name)}</span>
+      ${p.unit ? `<span class="unit">${esc(p.unit)}</span>` : ""}
+      ${priceTag(p.price)}`;
+    const style = `style="animation-delay:${Math.min(i, 20) * 15}ms"`;
+    return p.url
+      ? `<a class="card ${p.market}" ${style} href="${esc(p.url)}" target="_blank" rel="noopener">${inner}</a>`
+      : `<div class="card ${p.market}" ${style}>${inner}</div>`;
+  }).join("");
+
+  if (!list.length) {
+    empty.hidden = false;
+    const mLabel = state.market !== "all" ? MARKETS[state.market].label : "";
+    empty.innerHTML = state.q
+      ? `"<b>${esc(state.q)}</b>" için sonuç yok. Farklı bir kelime dene.`
+      : `<b>${mLabel}</b> verisi henüz yüklenmedi.<br>Otomatik güncelleme (GitHub Actions) ilk çalıştığında burada listelenecek.`;
+  } else {
+    empty.hidden = true;
+  }
+}
+
+document.getElementById("chips").addEventListener("click", e => {
+  const btn = e.target.closest(".chip");
+  if (!btn) return;
+  document.querySelectorAll(".chip").forEach(c => c.classList.remove("on"));
+  btn.classList.add("on");
+  state.market = btn.dataset.m;
+  render();
+});
+document.getElementById("q").addEventListener("input", e => { state.q = e.target.value.trim(); render(); });
+document.getElementById("sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
+
+load();
+</script>
+</body>
+</html>
