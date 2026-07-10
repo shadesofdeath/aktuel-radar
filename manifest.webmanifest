@@ -1,0 +1,23 @@
+{
+  "name": "Aktüel Radar — Market Fiyatları",
+  "short_name": "Aktüel Radar",
+  "description": "BİM, A101, ŞOK, Migros, CarrefourSA ve Tarım Kredi market fiyatlarını tek ekranda karşılaştır.",
+  "lang": "tr-TR",
+  "dir": "ltr",
+  "start_url": "./?utm_source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0E1116",
+  "theme_color": "#0E1116",
+  "categories": ["shopping", "food", "lifestyle", "finance"],
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "BİM", "url": "./?market=bim" },
+    { "name": "A101", "url": "./?market=a101" },
+    { "name": "ŞOK", "url": "./?market=sok" }
+  ]
+}

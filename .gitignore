@@ -1,0 +1,5 @@
+node_modules/
+*.log
+shot-*.png
+_verify.mjs
+_shot.mjs

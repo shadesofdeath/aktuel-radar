@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Aktüel Radar — Market Fiyatları">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12151A"/>
+      <stop offset="1" stop-color="#1B2430"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1000" cy="150" r="260" fill="#E4001B" opacity="0.12"/>
+  <circle cx="180" cy="560" r="220" fill="#00A0DF" opacity="0.12"/>
+  <g transform="translate(96,150)">
+    <rect width="96" height="96" rx="24" fill="#E4001B"/>
+    <g fill="none" stroke="#FFD11A" stroke-width="7" transform="translate(48,48)">
+      <circle r="30"/><circle r="18"/>
+    </g>
+    <circle cx="48" cy="48" r="7" fill="#FFD11A"/>
+  </g>
+  <text x="216" y="215" font-family="Arial, sans-serif" font-weight="900" font-size="72" fill="#EAEEF3">Aktüel Radar</text>
+  <text x="96" y="330" font-family="Arial, sans-serif" font-weight="700" font-size="46" fill="#EAEEF3">Market fiyatları tek ekranda</text>
+  <text x="96" y="392" font-family="Arial, sans-serif" font-weight="500" font-size="30" fill="#8B94A0">BİM · A101 · ŞOK · Migros · CarrefourSA · Tarım Kredi</text>
+  <g font-family="Arial, sans-serif" font-weight="800" font-size="26">
+    <rect x="96" y="452" width="150" height="58" rx="14" fill="#E4001B"/><text x="171" y="490" fill="#fff" text-anchor="middle">BİM</text>
+    <rect x="262" y="452" width="150" height="58" rx="14" fill="#00A0DF"/><text x="337" y="490" fill="#fff" text-anchor="middle">A101</text>
+    <rect x="428" y="452" width="150" height="58" rx="14" fill="#F0A500"/><text x="503" y="490" fill="#1b1500" text-anchor="middle">ŞOK</text>
+    <rect x="594" y="452" width="180" height="58" rx="14" fill="#FF6A13"/><text x="684" y="490" fill="#fff" text-anchor="middle">Migros</text>
+  </g>
+  <rect x="0" y="614" width="1200" height="16" fill="#FFD11A"/>
+</svg>
