@@ -14,10 +14,22 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 
 const BASE = "https://api.marketfiyati.org.tr";
 
-// İstanbul merkez — en geniş zincir çeşitliliği burada bulunur.
+// Ürün araması için referans konum (İstanbul merkez).
 const LOCATION = { latitude: 41.0082, longitude: 28.9784 };
+// Market keşfi için birden fazla büyük şehir taranır — böylece ulusal +
+// bölgesel tüm zincirler (Hakmar, Onur, File, Happy Center, Metro vb.) yakalanır.
+const DISCOVERY_POINTS = [
+  { name: "İstanbul-Avr", latitude: 41.0082, longitude: 28.9784 },
+  { name: "İstanbul-And", latitude: 40.9903, longitude: 29.027 },
+  { name: "Ankara", latitude: 39.9208, longitude: 32.8541 },
+  { name: "İzmir", latitude: 38.4237, longitude: 27.1428 },
+  { name: "Bursa", latitude: 40.1885, longitude: 29.061 },
+  { name: "Adana", latitude: 37.0, longitude: 35.3213 },
+  { name: "Antalya", latitude: 36.8969, longitude: 30.7133 },
+];
 const DISTANCE_KM = 15;
-const DEPOTS_PER_MARKET = 5; // her market için taranacak depo sayısı
+const DEPOTS_PER_MARKET = 6; // her market için taranacak depo sayısı
+const MAX_DEPOTS = 600; // arama yükünü sınırla
 const MIN_PRODUCTS = 8; // bir market en az bu kadar ürün verirse sekme açılır
 
 // Bilinen zincirler için görünen ad + marka rengi. Bilinmeyenler otomatik
@@ -121,27 +133,36 @@ function metaFor(slug) {
   return { label: titleCase(slug), color: colorFromSlug(slug) };
 }
 
-// 1) En yakın depoları bul, her market için depo id'lerini topla.
+// 1) Birden fazla şehri tarayıp her market için depo id'lerini topla.
 async function collectDepots() {
-  const data = await post("/api/v2/nearest", {
-    latitude: LOCATION.latitude,
-    longitude: LOCATION.longitude,
-    distance: DISTANCE_KM,
-  });
-  const list = Array.isArray(data) ? data : data?.content || [];
-  const byMarket = new Map(); // slug -> [depotId]
-  for (const d of list) {
-    const slug = slugify(d.marketName || d.marketAdi);
-    if (!slug) continue;
-    if (!byMarket.has(slug)) byMarket.set(slug, []);
-    const arr = byMarket.get(slug);
-    if (arr.length < DEPOTS_PER_MARKET) arr.push(d.id);
+  const byMarket = new Map(); // slug -> Set(depotId)
+  for (const pt of DISCOVERY_POINTS) {
+    try {
+      const data = await post("/api/v2/nearest", {
+        latitude: pt.latitude,
+        longitude: pt.longitude,
+        distance: DISTANCE_KM,
+      });
+      const list = Array.isArray(data) ? data : data?.content || [];
+      for (const d of list) {
+        const slug = slugify(d.marketName || d.marketAdi);
+        if (!slug || !d.id) continue;
+        if (!byMarket.has(slug)) byMarket.set(slug, new Set());
+        const set = byMarket.get(slug);
+        if (set.size < DEPOTS_PER_MARKET) set.add(d.id);
+      }
+      console.log(`[${pt.name}] ${list.length} depo`);
+    } catch (e) {
+      console.warn(`[${pt.name}] nearest hata: ${e.message}`);
+    }
+    await sleep(150);
   }
-  const depotIds = [...byMarket.values()].flat();
+  let depotIds = [...byMarket.values()].flatMap((s) => [...s]);
+  if (depotIds.length > MAX_DEPOTS) depotIds = depotIds.slice(0, MAX_DEPOTS);
   console.log(
-    `Keşfedilen market sayısı: ${byMarket.size} — ${[...byMarket.keys()].join(", ")}`
+    `\nKeşfedilen market sayısı: ${byMarket.size} — ${[...byMarket.keys()].join(", ")}`
   );
-  console.log(`Toplam depo: ${depotIds.length}`);
+  console.log(`Toplam depo: ${depotIds.length}\n`);
   return depotIds;
 }
 
