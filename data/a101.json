@@ -2,9 +2,9 @@
   "market": "a101",
   "label": "A101",
   "color": "#00A0DF",
-  "updatedAt": "2026-07-10T17:24:29.357Z",
+  "updatedAt": "2026-07-10T17:26:21.736Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 216,
+  "count": 227,
   "products": [
     {
       "name": "Cafex 2'si 1 Arada Hazır Kahve 12 Gr",
@@ -49,6 +49,15 @@
       "unit": "250 ML",
       "unitPrice": "50,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101/13002008.jpg",
+      "url": null
+    },
+    {
+      "name": "Oba Burgu Makarna 500 Gr",
+      "brand": "Oba",
+      "price": 14,
+      "unit": "500 GR",
+      "unitPrice": "28,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/1708355.png",
       "url": null
     },
     {
@@ -268,6 +277,15 @@
       "url": null
     },
     {
+      "name": "Bi Mango Exotic Buzlu Çay 330 Ml",
+      "brand": "Bi",
+      "price": 24.5,
+      "unit": "330 ML",
+      "unitPrice": "74,24 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101/13001976.jpg",
+      "url": null
+    },
+    {
       "name": "Hoşbeş Limon Kremalı Gofret 66 Gr",
       "brand": "Hoşbeş",
       "price": 24.5,
@@ -391,6 +409,15 @@
       "unit": "60 GR",
       "unitPrice": "583,33 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/migros/7030996.jpg",
+      "url": null
+    },
+    {
+      "name": "Torku Bitter Portakal Gofret 142 Gr",
+      "brand": "Torku",
+      "price": 35,
+      "unit": "142 GR",
+      "unitPrice": "246,48 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101/17002397.jpg",
       "url": null
     },
     {
@@ -583,6 +610,15 @@
       "url": null
     },
     {
+      "name": "Yöresel Ekmek 1 Adet",
+      "brand": "Markasız",
+      "price": 49.95,
+      "unit": "1 Adet",
+      "unitPrice": "49,95 ₺/Adet",
+      "image": "",
+      "url": null
+    },
+    {
       "name": "Coca-Cola Kola 330 Ml",
       "brand": "Coca-Cola",
       "price": 50,
@@ -592,21 +628,21 @@
       "url": null
     },
     {
+      "name": "Elma Çiçeğim Bulaşık Deterjanı 750 Ml",
+      "brand": "Elma Çiçeğim",
+      "price": 52,
+      "unit": "750 ML",
+      "unitPrice": "69,33 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/22002301.png",
+      "url": null
+    },
+    {
       "name": "Yayla Kırmızı Yaprak Mercimek 1 Kg",
       "brand": "Yayla",
       "price": 54.5,
       "unit": "1 KG",
       "unitPrice": "54,50 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/14002013.png",
-      "url": null
-    },
-    {
-      "name": "Yöresel Ekmek 1 Adet",
-      "brand": "Markasız",
-      "price": 54.95,
-      "unit": "1 Adet",
-      "unitPrice": "54,95 ₺/Adet",
-      "image": "",
       "url": null
     },
     {
@@ -790,6 +826,24 @@
       "url": null
     },
     {
+      "name": "İçim Çikolatalı Pastörize Süt 1 Lt",
+      "brand": "İçim",
+      "price": 69.5,
+      "unit": "1 LT",
+      "unitPrice": "69,50 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101/12002430.jpg",
+      "url": null
+    },
+    {
+      "name": "Yayla Yerli Osmancık Pirinç 1 Kg",
+      "brand": "Yayla",
+      "price": 69.5,
+      "unit": "1 KG",
+      "unitPrice": "69,50 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101/14001809.jpg",
+      "url": null
+    },
+    {
       "name": "Bee'o On The Go Propolisli Ham Bal 49 Gr",
       "brand": "Bee'o On The Go",
       "price": 69.5,
@@ -895,6 +949,24 @@
       "unit": "1.08 LT",
       "unitPrice": "73,61 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/12003192.png",
+      "url": null
+    },
+    {
+      "name": "Sütaş Çikolatalı Süt 1.08 Lt",
+      "brand": "Sütaş",
+      "price": 79.5,
+      "unit": "1.08 LT",
+      "unitPrice": "73,61 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/12002638.png",
+      "url": null
+    },
+    {
+      "name": "İçim Laktozsuz Yoğurt 750 Gr",
+      "brand": "İçim",
+      "price": 79.5,
+      "unit": "750 GR",
+      "unitPrice": "106,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101/12003479.jpg",
       "url": null
     },
     {
@@ -1057,15 +1129,6 @@
       "unit": "1.85 LT",
       "unitPrice": "53,78 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/22002640.png",
-      "url": null
-    },
-    {
-      "name": "Colgate Max White Diş Macunu 75 Ml",
-      "brand": "Colgate",
-      "price": 109,
-      "unit": "75 ML",
-      "unitPrice": "1.453,33 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/24002942.png",
       "url": null
     },
     {
@@ -1303,12 +1366,12 @@
       "url": null
     },
     {
-      "name": "Abc Lotus Konsantre Yumuşatıcı 1.44 Lt",
-      "brand": "Abc",
-      "price": 169,
-      "unit": "1.44 LT",
-      "unitPrice": "117,36 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101/22002292.jpg",
+      "name": "Blendax Isırgan Özlü Şampuan 500 Ml",
+      "brand": "Blendax",
+      "price": 175,
+      "unit": "500 ML",
+      "unitPrice": "350,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/migros/34255822.jpg",
       "url": null
     },
     {
@@ -1321,21 +1384,21 @@
       "url": null
     },
     {
-      "name": "Blendax Isırgan Özlü Şampuan 500 Ml",
-      "brand": "Blendax",
-      "price": 175,
-      "unit": "500 ML",
-      "unitPrice": "350,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migros/34255822.jpg",
-      "url": null
-    },
-    {
       "name": "Sensodyne Ekstra Ferah Diş Macunu 100 Ml",
       "brand": "Sensodyne",
       "price": 178.5,
       "unit": "100 ML",
       "unitPrice": "1.785,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/24002356.png",
+      "url": null
+    },
+    {
+      "name": "Sensodyne Naneli Diş Macunu 100 Ml",
+      "brand": "Sensodyne",
+      "price": 178.5,
+      "unit": "100 ML",
+      "unitPrice": "1.785,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/24002350.png",
       "url": null
     },
     {
@@ -1456,15 +1519,6 @@
       "url": null
     },
     {
-      "name": "Kaanlar Gemlik Xl Siyah Zeytin 450 Gr",
-      "brand": "Kaanlar",
-      "price": 215,
-      "unit": "450 GR",
-      "unitPrice": "477,78 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/16002186.png",
-      "url": null
-    },
-    {
       "name": "Tahsildaroğlu Klasik Beyaz Peynir 600 Gr",
       "brand": "Tahsildaroğlu",
       "price": 219,
@@ -1480,6 +1534,15 @@
       "unit": "700 ML",
       "unitPrice": "315,71 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/24000424.png",
+      "url": null
+    },
+    {
+      "name": "Orkide Ayçiçek Yağı 2 Lt",
+      "brand": "Orkide",
+      "price": 224.5,
+      "unit": "2 LT",
+      "unitPrice": "112,25 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101/19000016.jpg",
       "url": null
     },
     {
@@ -1579,6 +1642,15 @@
       "unit": "700 GR",
       "unitPrice": "355,71 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sutasimages/sutas_beyaz_peynir_700.jpg",
+      "url": null
+    },
+    {
+      "name": "Torku Tereyağı 250 Gr",
+      "brand": "Torku",
+      "price": 249,
+      "unit": "250 GR",
+      "unitPrice": "996,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101/12002275.jpg",
       "url": null
     },
     {
@@ -1744,12 +1816,12 @@
       "url": null
     },
     {
-      "name": "Doğuş Rize Çay 1 Kg",
-      "brand": "Doğuş",
-      "price": 309,
+      "name": "Torku Beyaz Peynir 1 Kg",
+      "brand": "Torku",
+      "price": 319,
       "unit": "1 KG",
-      "unitPrice": "309,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/13000053.png",
+      "unitPrice": "319,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/12001418.png",
       "url": null
     },
     {
@@ -1762,12 +1834,12 @@
       "url": null
     },
     {
-      "name": "Molfix Premium XL Çocuk Bezi 54 Adet",
-      "brand": "Molfix",
-      "price": 339,
-      "unit": "54 Adet",
-      "unitPrice": "6,28 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/23001450.png",
+      "name": "Ekici Tereyağı 350 Gr",
+      "brand": "Ekici",
+      "price": 325,
+      "unit": "350 GR",
+      "unitPrice": "928,57 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/12002355.png",
       "url": null
     },
     {
@@ -1807,6 +1879,33 @@
       "url": null
     },
     {
+      "name": "Kaanlar Tereyağı 500 Gr",
+      "brand": "Kaanlar",
+      "price": 369,
+      "unit": "500 GR",
+      "unitPrice": "738,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/12003186.png",
+      "url": null
+    },
+    {
+      "name": "Kahve Dünyası Türk Kahvesi 4x100 Gr",
+      "brand": "Kahve Dünyası",
+      "price": 370,
+      "unit": "400 GR",
+      "unitPrice": "925,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/30000637.png",
+      "url": null
+    },
+    {
+      "name": "Öncü Domates Salçası 4.3 Kg",
+      "brand": "Öncü",
+      "price": 385,
+      "unit": "4.3 KG",
+      "unitPrice": "89,53 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101/18002945.jpg",
+      "url": null
+    },
+    {
       "name": "Fairy Bulaşık Deterjanı 2.6 Lt",
       "brand": "Fairy",
       "price": 399.9,
@@ -1825,21 +1924,21 @@
       "url": null
     },
     {
-      "name": "Molfix Junior 5 Numara 48 Adet",
-      "brand": "Molfix",
-      "price": 415,
-      "unit": "48 Adet",
-      "unitPrice": "8,65 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/23001477.png",
-      "url": null
-    },
-    {
       "name": "Tarabya Kaşar Peyniri 1 Kg",
       "brand": "Tarabya",
       "price": 425,
       "unit": "1 KG",
       "unitPrice": "425,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/12002820.png",
+      "url": null
+    },
+    {
+      "name": "Sırma Ayçiçek Yağı 5 Lt",
+      "brand": "Sırma",
+      "price": 429,
+      "unit": "5 LT",
+      "unitPrice": "85,80 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101/19000841.jpg",
       "url": null
     },
     {

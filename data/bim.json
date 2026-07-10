@@ -2,9 +2,9 @@
   "market": "bim",
   "label": "BİM",
   "color": "#E4001B",
-  "updatedAt": "2026-07-10T17:24:29.357Z",
+  "updatedAt": "2026-07-10T17:26:21.736Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 166,
+  "count": 151,
   "products": [
     {
       "name": "Vip 3ü 1 Arada Hazır Kahve 18 Gr",
@@ -31,15 +31,6 @@
       "unit": "18 GR",
       "unitPrice": "250,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bimimages/300492.png",
-      "url": null
-    },
-    {
-      "name": "Kidy Şeftali Meyveli Su Buzu 60 Ml",
-      "brand": "Kidy",
-      "price": 5,
-      "unit": "60 ML",
-      "unitPrice": "83,33 ₺/Lt",
-      "image": "",
       "url": null
     },
     {
@@ -187,15 +178,6 @@
       "url": null
     },
     {
-      "name": "Makaroma Tortiglioni Makarna 500 Gr",
-      "brand": "Makaroma",
-      "price": 24.5,
-      "unit": "500 GR",
-      "unitPrice": "49,00 ₺/Kg",
-      "image": "",
-      "url": null
-    },
-    {
       "name": "Blume Peçete 200 Adet",
       "brand": "Blume",
       "price": 27,
@@ -297,15 +279,6 @@
     {
       "name": "Naturalove Meyve Temalı Peçete 20 Adet",
       "brand": "Naturalove",
-      "price": 39.5,
-      "unit": "20 Adet",
-      "unitPrice": "1,98 ₺/Adet",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Cepli Sunum Peçete 33x40 Cm 20 Adet",
-      "brand": "Markasız",
       "price": 39.5,
       "unit": "20 Adet",
       "unitPrice": "1,98 ₺/Adet",
@@ -517,15 +490,6 @@
       "unit": "1 LT",
       "unitPrice": "59,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/bim/201224.jpg",
-      "url": null
-    },
-    {
-      "name": "Centro Sütlü Fındık Kremalı Gofret 240 Gr",
-      "brand": "Centro",
-      "price": 59,
-      "unit": "240 GR",
-      "unitPrice": "245,83 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/1705218.png",
       "url": null
     },
     {
@@ -799,24 +763,6 @@
       "url": null
     },
     {
-      "name": "Saban Yerli Kırmızı Mercimek 1 Kg",
-      "brand": "Saban",
-      "price": 89.5,
-      "unit": "1 KG",
-      "unitPrice": "89,50 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/401744.png",
-      "url": null
-    },
-    {
-      "name": "İnci Köy Kırma Çizik Zeytin 400 Gr",
-      "brand": "İnci",
-      "price": 92.5,
-      "unit": "400 GR",
-      "unitPrice": "231,25 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/601609.png",
-      "url": null
-    },
-    {
       "name": "Saklıköy Çikolata Kremalı Bisküvi 435 Gr",
       "brand": "Saklıköy",
       "price": 99,
@@ -844,15 +790,6 @@
       "url": null
     },
     {
-      "name": "Colgate Max White Diş Macunu 75 Ml",
-      "brand": "Colgate",
-      "price": 109,
-      "unit": "75 ML",
-      "unitPrice": "1.453,33 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/24002942.png",
-      "url": null
-    },
-    {
       "name": "Saban Kırmızı Mercimek 2.5 Kg",
       "brand": "Saban",
       "price": 110,
@@ -868,15 +805,6 @@
       "unit": "5 LT",
       "unitPrice": "23,00 ₺/Lt",
       "image": "",
-      "url": null
-    },
-    {
-      "name": "Sole Ayçiçek Yağı 1 Lt",
-      "brand": "Sole",
-      "price": 119,
-      "unit": "1 LT",
-      "unitPrice": "119,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/900308.png",
       "url": null
     },
     {
@@ -997,24 +925,6 @@
       "url": null
     },
     {
-      "name": "Tat Domates Salçası 1.5 Kg",
-      "brand": "Tat",
-      "price": 139,
-      "unit": "1.5 KG",
-      "unitPrice": "92,67 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30393338.png",
-      "url": null
-    },
-    {
-      "name": "Bingo Lilyum Konsantre Yumuşatıcı 1.44 Lt",
-      "brand": "Bingo",
-      "price": 139,
-      "unit": "1.44 LT",
-      "unitPrice": "96,53 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/bim/1712952.jpg",
-      "url": null
-    },
-    {
       "name": "Senfoni Sıvı Bulaşık Deterjanı 4 Lt",
       "brand": "Senfoni",
       "price": 139,
@@ -1039,15 +949,6 @@
       "unit": "5 KG",
       "unitPrice": "29,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bimimages/401848.png",
-      "url": null
-    },
-    {
-      "name": "Hasata Şeker Fasulye 500 Gr",
-      "brand": "Hasata",
-      "price": 149,
-      "unit": "500 GR",
-      "unitPrice": "298,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bim/1713104.jpg",
       "url": null
     },
     {
@@ -1078,15 +979,6 @@
       "url": null
     },
     {
-      "name": "Bingo Sıvı Bulaşık Deterjanı 4 Kg",
-      "brand": "Bingo",
-      "price": 159,
-      "unit": "4 KG",
-      "unitPrice": "39,75 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefour/30211580.jpg",
-      "url": null
-    },
-    {
       "name": "Domestos Çamaşır Suyu 1.25 Lt",
       "brand": "Domestos",
       "price": 167,
@@ -1102,15 +994,6 @@
       "unit": "1 KG",
       "unitPrice": "169,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bimimages/601363.png",
-      "url": null
-    },
-    {
-      "name": "Jacobs Monarch Intense Filtre Kahve 250 Gr",
-      "brand": "Jacobs",
-      "price": 175,
-      "unit": "250 GR",
-      "unitPrice": "700,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bim/1712766.jpg",
       "url": null
     },
     {
@@ -1147,15 +1030,6 @@
       "unit": "3 LT",
       "unitPrice": "63,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/22002454.png",
-      "url": null
-    },
-    {
-      "name": "Bingo Soft Sensitive Yumuşatıcı 5 Lt",
-      "brand": "Bingo",
-      "price": 195,
-      "unit": "5 LT",
-      "unitPrice": "39,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30006466.png",
       "url": null
     },
     {
@@ -1290,15 +1164,6 @@
       "price": 235,
       "unit": "100 Adet",
       "unitPrice": "2,35 ₺/Adet",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "7Bahar Süzme Çiçek Balı 850 Gr",
-      "brand": "7Bahar",
-      "price": 279,
-      "unit": "850 GR",
-      "unitPrice": "328,24 ₺/Kg",
       "image": "",
       "url": null
     },

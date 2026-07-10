@@ -2,10 +2,19 @@
   "market": "sok",
   "label": "ŞOK",
   "color": "#F0A500",
-  "updatedAt": "2026-07-10T17:24:29.357Z",
+  "updatedAt": "2026-07-10T17:26:21.736Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 90,
+  "count": 88,
   "products": [
+    {
+      "name": "Avril Su 500 Ml",
+      "brand": "Avril",
+      "price": 6.75,
+      "unit": "500 ML",
+      "unitPrice": "13,50 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/145189.png",
+      "url": null
+    },
     {
       "name": "Güzelpınar Su 1.5 Lt",
       "brand": "Güzelpınar",
@@ -13,6 +22,15 @@
       "unit": "1.5 LT",
       "unitPrice": "8,17 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/41631.png",
+      "url": null
+    },
+    {
+      "name": "Kardelen Su 1.5 Lt",
+      "brand": "Kardelen",
+      "price": 12.25,
+      "unit": "1.5 LT",
+      "unitPrice": "8,17 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/hakmarimages/1031513.png",
       "url": null
     },
     {
@@ -238,15 +256,6 @@
       "unit": "200 Adet",
       "unitPrice": "0,29 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/31049089.png",
-      "url": null
-    },
-    {
-      "name": "Tamköy Ekşi Mayalı Ekmek 1 Kg",
-      "brand": "Tamköy",
-      "price": 59.75,
-      "unit": "1 KG",
-      "unitPrice": "59,75 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/69707.png",
       "url": null
     },
     {
@@ -493,15 +502,6 @@
       "url": null
     },
     {
-      "name": "Sensodyne Promine Çocuk Diş Macunu 50 Ml",
-      "brand": "Sensodyne",
-      "price": 110,
-      "unit": "50 ML",
-      "unitPrice": "2.200,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/sok/170822.jpg",
-      "url": null
-    },
-    {
       "name": "Activia Probiyotik Yoğurt Orman Meyveli 4x100 Gr",
       "brand": "Activia",
       "price": 114.5,
@@ -571,15 +571,6 @@
       "unit": "5 KG",
       "unitPrice": "27,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/5015500.png",
-      "url": null
-    },
-    {
-      "name": "Colgate Max White Diş Macunu 75 Ml",
-      "brand": "Colgate",
-      "price": 147,
-      "unit": "75 ML",
-      "unitPrice": "1.960,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/24002942.png",
       "url": null
     },
     {
@@ -664,6 +655,15 @@
       "url": null
     },
     {
+      "name": "Sensodyne Ferah Nefes Diş Macunu 100 Ml",
+      "brand": "Sensodyne",
+      "price": 179,
+      "unit": "100 ML",
+      "unitPrice": "1.790,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sok/84393.jpg",
+      "url": null
+    },
+    {
       "name": "Lezzcafe Filtre Kahve 250 Gr",
       "brand": "Lezzcafe",
       "price": 189,
@@ -727,30 +727,12 @@
       "url": null
     },
     {
-      "name": "Mis Tuzlu Tereyağı 500 Gr",
-      "brand": "Mis",
-      "price": 295,
-      "unit": "500 GR",
-      "unitPrice": "590,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/85162.png",
-      "url": null
-    },
-    {
       "name": "Mis Tereyağı 500 Gr",
       "brand": "Mis",
       "price": 299,
       "unit": "500 GR",
       "unitPrice": "598,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/12010997.png",
-      "url": null
-    },
-    {
-      "name": "Sütaş Yayık Tereyağı 350 Gr",
-      "brand": "Sütaş",
-      "price": 299,
-      "unit": "350 GR",
-      "unitPrice": "854,29 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/106860.png",
       "url": null
     },
     {
