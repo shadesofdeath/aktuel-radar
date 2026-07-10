@@ -2,243 +2,272 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aktüel Radar — BİM · A101 · ŞOK gerçek fiyat takibi</title>
-<meta name="description" content="BİM, A101 ve ŞOK marketlerinin gerçek ürün fiyatlarını tek ekranda karşılaştır. Günlük güncellenen fiyatlar, birim fiyat ve arama.">
-<meta name="theme-color" content="#0e1116">
-<meta property="og:title" content="Aktüel Radar">
-<meta property="og:description" content="BİM · A101 · ŞOK gerçek fiyatları tek ekranda.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+<!-- ==================== SEO ==================== -->
+<title>Aktüel Radar — BİM, A101, ŞOK, Migros, CarrefourSA Market Fiyatları</title>
+<meta name="description" content="BİM, A101, ŞOK, Migros, CarrefourSA ve Tarım Kredi marketlerinin gerçek ürün fiyatlarını tek ekranda karşılaştır. Günlük güncellenen fiyatlar, birim fiyat karşılaştırması, arama ve market filtresi. Ücretsiz ve reklamsız.">
+<meta name="keywords" content="market fiyatları, bim aktüel, a101 fiyat, şok market, migros fiyat, carrefoursa, market fiyat karşılaştırma, ucuz market, indirim, aktüel ürünler, güncel fiyatlar">
+<meta name="author" content="Aktüel Radar">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="googlebot" content="index, follow">
+<link rel="canonical" href="https://shadesofdeath.github.io/aktuel-radar/">
+<meta name="theme-color" content="#F4F5F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1116" media="(prefers-color-scheme: dark)">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Aktüel Radar">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:url" content="https://shadesofdeath.github.io/aktuel-radar/">
+<meta property="og:title" content="Aktüel Radar — Market Fiyatları Tek Ekranda">
+<meta property="og:description" content="BİM · A101 · ŞOK · Migros · CarrefourSA · Tarım Kredi gerçek fiyatları karşılaştır. Günlük güncellenir.">
+<meta property="og:image" content="https://shadesofdeath.github.io/aktuel-radar/og.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Aktüel Radar logosu">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aktüel Radar — Market Fiyatları Tek Ekranda">
+<meta name="twitter:description" content="BİM · A101 · ŞOK · Migros · CarrefourSA gerçek fiyatları karşılaştır.">
+<meta name="twitter:image" content="https://shadesofdeath.github.io/aktuel-radar/og.svg">
+
+<!-- PWA / mobil uygulama -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Aktüel Radar">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23E4001B'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%23FFD11A' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='9' fill='none' stroke='%23FFD11A' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='3' fill='%23FFD11A'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="mask-icon" href="icon.svg" color="#E4001B">
+
+<!-- JSON-LD structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://shadesofdeath.github.io/aktuel-radar/#website",
+      "url": "https://shadesofdeath.github.io/aktuel-radar/",
+      "name": "Aktüel Radar",
+      "description": "BİM, A101, ŞOK, Migros, CarrefourSA ve Tarım Kredi market fiyatlarını karşılaştıran ücretsiz servis.",
+      "inLanguage": "tr-TR",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": { "@type": "EntryPoint", "urlTemplate": "https://shadesofdeath.github.io/aktuel-radar/?q={search_term_string}" },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://shadesofdeath.github.io/aktuel-radar/#org",
+      "name": "Aktüel Radar",
+      "url": "https://shadesofdeath.github.io/aktuel-radar/",
+      "logo": "https://shadesofdeath.github.io/aktuel-radar/icon.svg"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Aktüel Radar fiyatları nereden alıyor?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Fiyatlar T.C. Ticaret Bakanlığı Market Fiyatı servisinden (marketfiyati.org.tr) otomatik derlenir ve günde iki kez güncellenir." }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi marketler destekleniyor?",
+          "acceptedAnswer": { "@type": "Answer", "text": "BİM, A101, ŞOK, Migros, CarrefourSA ve Tarım Kredi Kooperatif Market fiyatları listelenir." }
+        },
+        {
+          "@type": "Question",
+          "name": "Aktüel Radar ücretsiz mi?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Evet, tamamen ücretsiz ve reklamsızdır. Fiyatlar bilgilendirme amaçlıdır." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   :root {
-    --paper: #F4F5F2;
-    --paper-2: #ECEEE9;
-    --card: #FFFFFF;
-    --ink: #14171C;
-    --muted: #6A727D;
-    --faint: #99A0AA;
-    --line: #E3E5E0;
-    --tag: #FFD11A;
-    --tag-ink: #191100;
-    --bim: #E4001B;
-    --a101: #0090C1;
-    --sok: #F0A500;
-    --sale: #E4001B;
-    --radius: 16px;
-    --shadow: 0 1px 2px rgba(20,23,28,.04), 0 8px 24px rgba(20,23,28,.05);
+    --paper: #F4F5F2; --paper-2: #EBEDE8; --card: #FFFFFF;
+    --ink: #12151A; --muted: #69707B; --faint: #9AA1AB; --line: #E4E6E1;
+    --tag: #FFD11A; --tag-ink: #191100;
+    --brandA: #E4001B; --brandB: #00A0DF;
+    --radius: 18px;
+    --shadow: 0 1px 2px rgba(18,21,26,.04), 0 10px 28px rgba(18,21,26,.06);
+    --sat-b: env(safe-area-inset-bottom, 0px);
   }
+  :root[data-theme="dark"], :root:not([data-theme="light"]) {}
   @media (prefers-color-scheme: dark) {
-    :root {
-      --paper: #0E1116;
-      --paper-2: #141922;
-      --card: #171D26;
-      --ink: #EAEEF3;
-      --muted: #8C95A1;
-      --faint: #5C6672;
-      --line: #232B36;
-      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+    :root:not([data-theme="light"]) {
+      --paper: #0E1116; --paper-2: #151A22; --card: #171D26;
+      --ink: #EAEEF3; --muted: #8B94A0; --faint: #59626E; --line: #232B36;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 12px 32px rgba(0,0,0,.4);
     }
+  }
+  :root[data-theme="dark"] {
+    --paper: #0E1116; --paper-2: #151A22; --card: #171D26;
+    --ink: #EAEEF3; --muted: #8B94A0; --faint: #59626E; --line: #232B36;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 12px 32px rgba(0,0,0,.4);
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
   body {
-    font-family: "Inter", system-ui, -apple-system, sans-serif;
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     background:
-      radial-gradient(1200px 500px at 100% -10%, color-mix(in srgb, var(--a101) 8%, transparent), transparent 60%),
-      radial-gradient(900px 500px at -10% 0%, color-mix(in srgb, var(--bim) 7%, transparent), transparent 55%),
+      radial-gradient(1100px 480px at 100% -8%, color-mix(in srgb, var(--brandB) 9%, transparent), transparent 60%),
+      radial-gradient(900px 460px at -8% 0%, color-mix(in srgb, var(--brandA) 8%, transparent), transparent 55%),
       var(--paper);
-    color: var(--ink);
-    min-height: 100vh;
-    -webkit-font-smoothing: antialiased;
+    color: var(--ink); min-height: 100vh; -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
   }
   a { color: inherit; text-decoration: none; }
+  .wrap { max-width: 1160px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
 
-  /* ---------- header ---------- */
-  header {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 30px 18px 8px;
+  /* ---------- app bar ---------- */
+  .appbar { position: sticky; top: 0; z-index: 40; }
+  .appbar::before { content:""; position:absolute; inset:0;
+    background: color-mix(in srgb, var(--paper) 80%, transparent);
+    backdrop-filter: blur(14px) saturate(1.3); -webkit-backdrop-filter: blur(14px) saturate(1.3);
+    border-bottom: 1px solid var(--line); }
+  .appbar-in { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 11px 0; }
+  .logo { font-family: "Anton", sans-serif; font-size: clamp(22px, 5.5vw, 30px); letter-spacing: .4px; line-height: 1; text-transform: uppercase; display:flex; align-items:center; gap:9px; }
+  .logo .rad {
+    width: 30px; height: 30px; border-radius: 9px; flex:0 0 auto;
+    background: var(--brandA); display: grid; place-items: center;
   }
-  .brand-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
-  .logo {
-    font-family: "Anton", sans-serif;
-    font-size: clamp(36px, 8.5vw, 60px);
-    letter-spacing: .5px;
-    line-height: .92;
-    text-transform: uppercase;
-  }
-  .logo em {
-    font-style: normal;
-    background: var(--tag);
-    color: var(--tag-ink);
-    padding: 0 .16em;
-    clip-path: polygon(0 10%, 100% 0, 98% 100%, 2% 92%);
-    display: inline-block;
-    transform: rotate(-1.5deg);
-  }
-  .badge-live {
-    display: inline-flex; align-items: center; gap: 7px;
-    font: 700 11px "Inter"; letter-spacing: .6px; text-transform: uppercase;
-    color: var(--muted);
-    background: var(--card); border: 1px solid var(--line);
-    padding: 7px 12px; border-radius: 999px;
-  }
-  .pulse { width: 8px; height: 8px; border-radius: 50%; background: #16b364; box-shadow: 0 0 0 0 rgba(22,179,100,.5); animation: pulse 2s infinite; }
-  @keyframes pulse { 70% { box-shadow: 0 0 0 8px rgba(22,179,100,0); } 100% { box-shadow: 0 0 0 0 rgba(22,179,100,0); } }
-  .tagline {
-    margin-top: 12px; font-size: 13.5px; color: var(--muted);
-    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
-  }
-  .mk { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; }
-  .dot { width: 9px; height: 9px; border-radius: 3px; display: inline-block; }
-  .dot.bim { background: var(--bim); } .dot.a101 { background: var(--a101); } .dot.sok { background: var(--sok); }
+  .logo .rad svg { width: 20px; height: 20px; }
+  .logo em { font-style: normal; background: var(--tag); color: var(--tag-ink); padding: 0 .16em; clip-path: polygon(0 10%,100% 0,98% 100%,2% 92%); display:inline-block; transform: rotate(-1.5deg); }
+  .appbar-actions { display: flex; align-items: center; gap: 8px; }
+  .icon-btn { width: 40px; height: 40px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--ink); display: grid; place-items: center; cursor: pointer; transition: transform .08s, background .15s; }
+  .icon-btn:active { transform: scale(.92); }
+  .icon-btn svg { width: 19px; height: 19px; }
+  #install { display: none; align-items: center; gap: 7px; width: auto; padding: 0 14px; font: 700 13px "Inter"; background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .badge-live { display:inline-flex; align-items:center; gap:6px; font:700 10.5px "Inter"; letter-spacing:.5px; text-transform:uppercase; color: var(--muted); }
+  .pulse { width:8px; height:8px; border-radius:50%; background:#16b364; box-shadow:0 0 0 0 rgba(22,179,100,.5); animation:pulse 2s infinite; }
+  @keyframes pulse { 70%{box-shadow:0 0 0 8px rgba(22,179,100,0)} 100%{box-shadow:0 0 0 0 rgba(22,179,100,0)} }
+
+  /* ---------- hero ---------- */
+  .hero { padding: 22px 0 4px; }
+  .hero h1 { font-family:"Anton",sans-serif; font-size: clamp(30px, 8vw, 52px); line-height:.98; text-transform: uppercase; letter-spacing:.5px; }
+  .hero h1 em { font-style:normal; background:var(--tag); color:var(--tag-ink); padding:0 .14em; clip-path: polygon(0 10%,100% 0,98% 100%,2% 92%); display:inline-block; transform: rotate(-1.5deg); }
+  .hero p { margin-top: 11px; font-size: 14.5px; color: var(--muted); max-width: 60ch; line-height: 1.55; }
+  .stats { display:flex; gap:9px; flex-wrap:wrap; margin-top:15px; }
+  .stat { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:9px 14px; box-shadow:var(--shadow); }
+  .stat b { font-family:"Anton",sans-serif; font-size:20px; display:block; line-height:1.1; }
+  .stat span { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.4px; font-weight:600; }
 
   /* ---------- toolbar ---------- */
-  .toolbar { position: sticky; top: 0; z-index: 20; margin-top: 16px; }
-  .toolbar::before {
-    content: ""; position: absolute; inset: 0;
+  .toolbar { position: sticky; top: 61px; z-index: 30; margin-top: 16px; }
+  .toolbar::before { content:""; position:absolute; inset:0;
     background: color-mix(in srgb, var(--paper) 82%, transparent);
     backdrop-filter: blur(12px) saturate(1.2); -webkit-backdrop-filter: blur(12px) saturate(1.2);
-    border-bottom: 1px solid var(--line);
-  }
-  .toolbar-inner {
-    position: relative; max-width: 1120px; margin: 0 auto;
-    padding: 12px 18px 14px; display: flex; flex-direction: column; gap: 11px;
-  }
-  .chips { display: flex; gap: 9px; overflow-x: auto; scrollbar-width: none; }
-  .chips::-webkit-scrollbar { display: none; }
-  .chip {
-    flex: 0 0 auto; display: inline-flex; align-items: center; gap: 7px;
-    border: 1.5px solid var(--line); background: var(--card); color: var(--ink);
-    font: 600 13.5px "Inter"; padding: 8px 15px; border-radius: 999px; cursor: pointer;
-    transition: transform .08s, background .15s, border-color .15s, color .15s;
-    -webkit-tap-highlight-color: transparent; white-space: nowrap;
-  }
-  .chip .n { font-size: 11px; font-weight: 700; opacity: .6; }
+    border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  .toolbar-in { position: relative; padding: 11px 0 12px; display:flex; flex-direction:column; gap:10px; }
+  .chips { display:flex; gap:8px; overflow-x:auto; scrollbar-width:none; margin: 0 -16px; padding: 0 16px; }
+  .chips::-webkit-scrollbar { display:none; }
+  .chip { flex:0 0 auto; display:inline-flex; align-items:center; gap:7px; border:1.5px solid var(--line); background:var(--card); color:var(--ink); font:600 13.5px "Inter"; padding:8px 15px; border-radius:999px; cursor:pointer; transition: transform .08s, background .15s, border-color .15s, color .15s; -webkit-tap-highlight-color:transparent; white-space:nowrap; }
+  .chip .swatch { width:9px; height:9px; border-radius:3px; }
+  .chip .n { font-size:11px; font-weight:800; opacity:.55; }
   .chip:active { transform: scale(.95); }
-  .chip[data-m="all"].on  { background: var(--ink); color: var(--paper); border-color: var(--ink); }
-  .chip[data-m="bim"].on  { background: var(--bim); color: #fff; border-color: var(--bim); }
-  .chip[data-m="a101"].on { background: var(--a101); color: #fff; border-color: var(--a101); }
-  .chip[data-m="sok"].on  { background: var(--sok); color: #1c1400; border-color: var(--sok); }
-  .chip.on .n { opacity: .85; }
-  .row2 { display: flex; gap: 9px; }
-  .search {
-    flex: 1; display: flex; align-items: center; gap: 9px;
-    background: var(--card); border: 1.5px solid var(--line); border-radius: 999px;
-    padding: 0 15px; height: 44px; transition: border-color .15s, box-shadow .15s;
-  }
-  .search:focus-within { border-color: var(--a101); box-shadow: 0 0 0 4px color-mix(in srgb, var(--a101) 15%, transparent); }
-  .search svg { flex: 0 0 auto; opacity: .45; }
-  .search input {
-    flex: 1; border: 0; outline: 0; background: transparent; color: var(--ink);
-    font: 500 14.5px "Inter"; min-width: 0;
-  }
-  select {
-    height: 44px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink);
-    border-radius: 999px; font: 600 13px "Inter"; padding: 0 14px; outline: none; cursor: pointer;
-  }
-  .count { font-size: 12.5px; color: var(--muted); min-height: 15px; }
-  .count b { color: var(--ink); }
+  .chip.on { color:#fff; }
+  .chip.on .n { opacity:.9; color: inherit; }
+  .chip.on .swatch { display:none; }
+  .row2 { display:flex; gap:9px; }
+  .search { flex:1; display:flex; align-items:center; gap:9px; background:var(--card); border:1.5px solid var(--line); border-radius:999px; padding:0 15px; height:46px; transition:border-color .15s, box-shadow .15s; }
+  .search:focus-within { border-color: var(--brandB); box-shadow:0 0 0 4px color-mix(in srgb, var(--brandB) 15%, transparent); }
+  .search svg { flex:0 0 auto; opacity:.45; }
+  .search input { flex:1; border:0; outline:0; background:transparent; color:var(--ink); font:500 15px "Inter"; min-width:0; }
+  .search .clr { border:0; background:transparent; color:var(--faint); cursor:pointer; font-size:18px; display:none; padding:4px; }
+  select { height:46px; border:1.5px solid var(--line); background:var(--card); color:var(--ink); border-radius:999px; font:600 13px "Inter"; padding:0 14px; outline:none; cursor:pointer; }
+  .count { font-size:12.5px; color:var(--muted); min-height:15px; }
+  .count b { color:var(--ink); }
 
   /* ---------- grid ---------- */
-  main { max-width: 1120px; margin: 0 auto; padding: 18px; }
-  .grid {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px;
-  }
-  @media (min-width: 640px) { .grid { grid-template-columns: repeat(auto-fill, minmax(196px, 1fr)); gap: 16px; } }
+  main { padding-top: 16px; padding-bottom: 40px; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(155px, 1fr)); gap:12px; }
+  @media (min-width:560px){ .grid{ grid-template-columns: repeat(auto-fill, minmax(190px,1fr)); gap:15px; } }
 
-  .card {
-    background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
-    padding: 10px 10px 14px; display: flex; flex-direction: column; gap: 4px;
-    position: relative; overflow: hidden; box-shadow: var(--shadow);
-    transition: transform .12s ease, box-shadow .18s ease, border-color .18s;
-    animation: pop .28s ease backwards;
-  }
-  @keyframes pop { from { opacity: 0; transform: translateY(8px); } }
-  @media (prefers-reduced-motion: reduce) { .card { animation: none; } }
-  .card:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(20,23,28,.12); border-color: color-mix(in srgb, var(--mc) 40%, var(--line)); }
-  .card::after { content: ""; position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--mc); opacity: .9; }
-  .card.bim  { --mc: var(--bim); } .card.a101 { --mc: var(--a101); } .card.sok  { --mc: var(--sok); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:9px 9px 13px; display:flex; flex-direction:column; gap:3px; position:relative; overflow:hidden; box-shadow:var(--shadow); transition: transform .13s ease, box-shadow .18s ease, border-color .18s; animation: pop .3s ease backwards; }
+  @keyframes pop { from{ opacity:0; transform: translateY(9px); } }
+  @media (prefers-reduced-motion: reduce){ .card{ animation:none; } }
+  .card:hover { transform: translateY(-3px); box-shadow:0 10px 34px rgba(18,21,26,.13); border-color: color-mix(in srgb, var(--mc) 45%, var(--line)); }
+  .card::after { content:""; position:absolute; inset:0 auto 0 0; width:4px; background:var(--mc); }
+  .thumb { position:relative; width:100%; aspect-ratio:1/1; border-radius:12px; background:#fff; overflow:hidden; display:flex; align-items:center; justify-content:center; }
+  .thumb img { width:100%; height:100%; object-fit:contain; transition: transform .3s ease; }
+  .card:hover .thumb img { transform: scale(1.05); }
+  .thumb .ph { font:800 13px "Inter"; color:#C9CDD3; letter-spacing:.5px; }
+  .mk-badge { position:absolute; top:8px; right:8px; z-index:2; background:var(--mc); color:var(--mc-ink); font:800 9.5px "Inter"; letter-spacing:.6px; text-transform:uppercase; padding:4px 8px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,.15); }
+  .info { padding:5px 4px 0; display:flex; flex-direction:column; gap:3px; flex:1; }
+  .brand { font:700 10.5px "Inter"; color:var(--muted); text-transform:uppercase; letter-spacing:.5px; min-height:13px; }
+  .name { font:600 13.5px/1.32 "Inter"; flex:1; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+  .unit { font-size:11.5px; color:var(--faint); }
+  .price-row { display:flex; align-items:flex-end; justify-content:space-between; gap:6px; margin-top:9px; padding:0 4px; }
+  .tag { background:var(--tag); color:var(--tag-ink); clip-path: polygon(0 0,100% 0,100% 100%,11px 100%,0 calc(100% - 11px)); padding:5px 13px 4px 12px; display:flex; align-items:baseline; font-family:"Anton",sans-serif; }
+  .tag .lira { font-size:13px; margin-right:2px; } .tag .tam { font-size:25px; letter-spacing:.5px; } .tag .kurus { font-size:13px; transform: translateY(-8px); margin-left:1px; }
+  .uprice { font:500 10.5px "Inter"; color:var(--faint); text-align:right; line-height:1.3; }
 
-  .thumb {
-    position: relative; width: 100%; aspect-ratio: 1/1; border-radius: 11px;
-    background: #fff; overflow: hidden; display: flex; align-items: center; justify-content: center;
-  }
-  .thumb img { width: 100%; height: 100%; object-fit: contain; }
-  .thumb .ph { font: 800 13px "Inter"; color: #C9CDD3; letter-spacing: .5px; }
-  .disc {
-    position: absolute; top: 8px; left: 8px; z-index: 2;
-    background: var(--sale); color: #fff; font: 800 12px "Inter"; letter-spacing: .3px;
-    padding: 4px 8px; border-radius: 8px; box-shadow: 0 2px 8px rgba(228,0,27,.35);
-  }
-  .mk-badge {
-    position: absolute; top: 8px; right: 8px; z-index: 2;
-    background: var(--mc); color: #fff; font: 800 9.5px "Inter"; letter-spacing: .8px; text-transform: uppercase;
-    padding: 4px 8px; border-radius: 7px;
-  }
-  .card.sok .mk-badge { color: #1c1400; }
-  .info { padding: 4px 4px 0; display: flex; flex-direction: column; gap: 3px; flex: 1; }
-  .brand { font: 700 10.5px "Inter"; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; min-height: 13px; }
-  .name { font: 600 13.5px/1.32 "Inter"; flex: 1; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-  .unit { font-size: 11.5px; color: var(--faint); }
+  /* ---------- skeleton / states ---------- */
+  .sk { background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:9px; box-shadow:var(--shadow); }
+  .sk .b { background: linear-gradient(90deg, var(--paper-2) 25%, color-mix(in srgb, var(--paper-2) 55%, var(--card)) 37%, var(--paper-2) 63%); background-size:400% 100%; animation: shimmer 1.4s ease infinite; border-radius:9px; }
+  .sk .b1{ aspect-ratio:1/1; margin-bottom:10px; } .sk .b2{ height:11px; width:55%; margin:6px 4px; } .sk .b3{ height:13px; width:85%; margin:6px 4px; } .sk .b4{ height:26px; width:45%; margin:12px 4px 4px; }
+  @keyframes shimmer { 0%{background-position:100% 0} 100%{background-position:-100% 0} }
+  .empty { grid-column:1/-1; padding:56px 16px; text-align:center; color:var(--muted); font-size:14.5px; line-height:1.7; }
+  .empty .big { font-size:42px; margin-bottom:10px; }
+  .empty b { color:var(--ink); }
+  .sentinel { grid-column:1/-1; height:1px; }
 
-  .price-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 6px; margin-top: 8px; padding: 0 4px; }
-  .tag {
-    background: var(--tag); color: var(--tag-ink);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 11px 100%, 0 calc(100% - 11px));
-    padding: 5px 13px 4px 12px; display: flex; align-items: baseline; font-family: "Anton", sans-serif;
-  }
-  .tag .lira { font-size: 13px; margin-right: 2px; }
-  .tag .tam  { font-size: 25px; letter-spacing: .5px; }
-  .tag .kurus { font-size: 13px; transform: translateY(-8px); margin-left: 1px; }
-  .uprice { font: 500 10.5px "Inter"; color: var(--faint); text-align: right; line-height: 1.3; }
+  /* ---------- footer ---------- */
+  footer { border-top:1px solid var(--line); margin-top:8px; padding-top:24px; padding-bottom: calc(40px + var(--sat-b)); font-size:12.5px; color:var(--muted); line-height:1.7; }
+  .upd { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px; }
+  .pill { background:var(--card); border:1px solid var(--line); border-radius:999px; padding:5px 11px; font-size:11.5px; display:inline-flex; gap:6px; align-items:center; }
+  .pill b { color:var(--ink); } .pill .swatch { width:8px; height:8px; border-radius:2px; }
 
-  /* ---------- skeleton ---------- */
-  .sk { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px; box-shadow: var(--shadow); }
-  .sk .b { background: linear-gradient(90deg, var(--paper-2) 25%, color-mix(in srgb, var(--paper-2) 60%, var(--card)) 37%, var(--paper-2) 63%); background-size: 400% 100%; animation: shimmer 1.4s ease infinite; border-radius: 8px; }
-  .sk .b1 { aspect-ratio: 1/1; margin-bottom: 10px; } .sk .b2 { height: 11px; width: 55%; margin: 6px 4px; } .sk .b3 { height: 13px; width: 85%; margin: 6px 4px; } .sk .b4 { height: 26px; width: 45%; margin: 12px 4px 4px; }
-  @keyframes shimmer { 0% { background-position: 100% 0; } 100% { background-position: -100% 0; } }
+  /* ---------- scroll top ---------- */
+  #top { position:fixed; right:16px; bottom: calc(18px + var(--sat-b)); width:46px; height:46px; border-radius:14px; border:1px solid var(--line); background:var(--card); color:var(--ink); box-shadow:var(--shadow); display:grid; place-items:center; cursor:pointer; opacity:0; transform: translateY(10px); pointer-events:none; transition: opacity .2s, transform .2s; z-index:35; }
+  #top.show { opacity:1; transform:none; pointer-events:auto; }
 
-  /* ---------- states ---------- */
-  .empty { grid-column: 1/-1; padding: 56px 16px; text-align: center; color: var(--muted); font-size: 14.5px; line-height: 1.7; }
-  .empty .big { font-size: 40px; margin-bottom: 10px; }
-  .empty b { color: var(--ink); }
-  footer { max-width: 1120px; margin: 0 auto; padding: 26px 18px 48px; font-size: 12.5px; color: var(--muted); line-height: 1.7; border-top: 1px solid var(--line); margin-top: 12px; }
-  footer .upd { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
-  footer .pill { background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 5px 11px; font-size: 11.5px; }
-  footer .pill b { color: var(--ink); }
-  .chip:focus-visible, .card:focus-visible, select:focus-visible { outline: 2px solid var(--a101); outline-offset: 2px; }
+  .chip:focus-visible, .card:focus-visible, select:focus-visible, .icon-btn:focus-visible { outline:2px solid var(--brandB); outline-offset:2px; }
 </style>
 </head>
 <body>
 
-<header>
-  <div class="brand-row">
-    <h1 class="logo">Aktüel <em>Radar</em></h1>
-    <span class="badge-live"><span class="pulse"></span> Canlı fiyatlar</span>
+<div class="appbar">
+  <div class="wrap appbar-in">
+    <a href="./" class="logo" aria-label="Aktüel Radar ana sayfa">
+      <span class="rad"><svg viewBox="0 0 24 24" fill="none" stroke="#FFD11A" stroke-width="2.4"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5"/><circle cx="12" cy="12" r="1" fill="#FFD11A"/></svg></span>
+      Aktüel <em>Radar</em>
+    </a>
+    <div class="appbar-actions">
+      <span class="badge-live"><span class="pulse"></span> Canlı</span>
+      <button id="install" class="icon-btn" title="Uygulamayı yükle">⬇ Yükle</button>
+      <button id="theme" class="icon-btn" title="Tema değiştir" aria-label="Tema değiştir"></button>
+    </div>
   </div>
-  <p class="tagline">
-    <span class="mk"><span class="dot bim"></span> BİM</span>
-    <span class="mk"><span class="dot a101"></span> A101</span>
-    <span class="mk"><span class="dot sok"></span> ŞOK</span>
-    <span>· gerçek market fiyatları tek ekranda</span>
-  </p>
+</div>
+
+<header class="wrap hero">
+  <h1>Market Fiyatları <em>Radarda</em></h1>
+  <p>BİM, A101, ŞOK, Migros, CarrefourSA ve Tarım Kredi'nin gerçek ürün fiyatlarını tek ekranda karşılaştır. Günlük güncellenen fiyatlar, birim fiyat ve arama.</p>
+  <div class="stats" id="stats"></div>
 </header>
 
-<div class="toolbar">
-  <div class="toolbar-inner">
-    <div class="chips" id="chips">
-      <button class="chip on" data-m="all">Tümü <span class="n" id="n-all"></span></button>
-      <button class="chip" data-m="bim">BİM <span class="n" id="n-bim"></span></button>
-      <button class="chip" data-m="a101">A101 <span class="n" id="n-a101"></span></button>
-      <button class="chip" data-m="sok">ŞOK <span class="n" id="n-sok"></span></button>
-    </div>
+<nav class="toolbar" aria-label="Filtreler">
+  <div class="wrap toolbar-in">
+    <div class="chips" id="chips"></div>
     <div class="row2">
       <label class="search">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        <input id="q" type="search" placeholder="Ürün veya marka ara…" autocomplete="off">
+        <input id="q" type="search" placeholder="Ürün veya marka ara…" autocomplete="off" aria-label="Ürün ara">
+        <button class="clr" id="clr" aria-label="Aramayı temizle">×</button>
       </label>
       <select id="sort" aria-label="Sıralama">
         <option value="asc">Fiyat ↑ (ucuz)</option>
@@ -248,80 +277,121 @@
     </div>
     <div class="count" id="count"></div>
   </div>
-</div>
+</nav>
 
-<main>
+<main class="wrap">
   <div class="grid" id="grid"></div>
 </main>
 
-<footer>
+<footer class="wrap">
   <div class="upd" id="upd"></div>
   <div>
-    Fiyatlar T.C. Ticaret Bakanlığı Market Fiyatı servisinden otomatik derlenir; bilgilendirme amaçlıdır.
+    Fiyatlar <b>T.C. Ticaret Bakanlığı</b> Market Fiyatı servisinden otomatik derlenir; bilgilendirme amaçlıdır.
     Fiyat farkı olursa mağaza fiyatı geçerlidir. Kaynak:
     <a href="https://marketfiyati.org.tr" target="_blank" rel="noopener"><b>marketfiyati.org.tr</b></a>
   </div>
 </footer>
 
-<script>
-const MARKETS = { bim: "BİM", a101: "A101", sok: "ŞOK" };
-const state = { market: "all", q: "", sort: "asc", items: [], meta: {} };
+<button id="top" aria-label="Yukarı çık"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
 
+<script>
+const state = { market: "all", q: "", sort: "asc", items: [], meta: {}, markets: [], colors: {}, labels: {}, page: 0, list: [] };
+const PAGE = 48;
 const trFmt = new Intl.NumberFormat("tr-TR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const nfmt = new Intl.NumberFormat("tr-TR");
 const trLower = s => (s || "").toLocaleLowerCase("tr-TR");
 const esc = s => (s || "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
-function skeleton() {
-  document.getElementById("grid").innerHTML = Array.from({ length: 12 }, () =>
-    `<div class="sk"><div class="b b1"></div><div class="b b2"></div><div class="b b3"></div><div class="b b4"></div></div>`
-  ).join("");
+// Bir renk için okunabilir metin rengi (siyah/beyaz) seç.
+function inkFor(color) {
+  const m = /^#([0-9a-f]{6})$/i.exec(color);
+  if (!m) return "#fff"; // hsl(...) → koyu arka plan varsayımı
+  const n = parseInt(m[1], 16), r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255;
+  const L = (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255;
+  return L > 0.62 ? "#1b1500" : "#fff";
 }
 
-async function load() {
+function skeleton() {
+  document.getElementById("grid").innerHTML = Array.from({ length: 12 }, () =>
+    `<div class="sk"><div class="b b1"></div><div class="b b2"></div><div class="b b3"></div><div class="b b4"></div></div>`).join("");
+}
+
+async function boot() {
   skeleton();
   const bust = Date.now();
+  let manifest;
+  try {
+    manifest = await fetch(`data/markets.json?v=${bust}`).then(r => r.json());
+  } catch { manifest = { markets: [] }; }
+  state.markets = manifest.markets || [];
+  for (const m of state.markets) { state.colors[m.slug] = m.color; state.labels[m.slug] = m.label; }
+
+  buildChips();
+
   const results = await Promise.allSettled(
-    Object.keys(MARKETS).map(m =>
-      fetch(`data/${m}.json?v=${bust}`).then(r => { if (!r.ok) throw 0; return r.json(); }).then(d => ({ m, d }))
+    state.markets.map(m =>
+      fetch(`data/${m.slug}.json?v=${bust}`).then(r => { if (!r.ok) throw 0; return r.json(); }).then(d => ({ slug: m.slug, d }))
     )
   );
   for (const r of results) {
     if (r.status !== "fulfilled") continue;
-    const { m, d } = r.value;
-    state.meta[m] = { updatedAt: d.updatedAt, count: (d.products || []).length };
-    for (const p of d.products || []) state.items.push({ ...p, market: m });
+    const { slug, d } = r.value;
+    state.meta[slug] = { updatedAt: d.updatedAt, count: (d.products || []).length };
+    for (const p of d.products || []) state.items.push({ ...p, market: slug });
   }
+  applyQueryParam();
+  renderStats();
   renderMeta();
-  renderCounts();
-  render();
+  render(true);
 }
 
-function renderCounts() {
-  document.getElementById("n-all").textContent = state.items.length || "";
-  for (const m of Object.keys(MARKETS)) {
-    document.getElementById("n-" + m).textContent = state.meta[m]?.count || "";
+function buildChips() {
+  const total = state.markets.reduce((s, m) => s + m.count, 0);
+  const chips = [`<button class="chip on" data-m="all" style="--mc:var(--ink);--mc-ink:var(--paper)">Tümü <span class="n">${nfmt.format(total)}</span></button>`];
+  for (const m of state.markets) {
+    chips.push(`<button class="chip" data-m="${m.slug}" style="--mc:${m.color};--mc-ink:${inkFor(m.color)}"><span class="swatch" style="background:${m.color}"></span>${esc(m.label)} <span class="n">${nfmt.format(m.count)}</span></button>`);
   }
+  const el = document.getElementById("chips");
+  el.innerHTML = chips.join("");
+  el.querySelectorAll(".chip").forEach(c => c.style.cssText += "");
+  el.addEventListener("click", e => {
+    const btn = e.target.closest(".chip"); if (!btn) return;
+    el.querySelectorAll(".chip").forEach(c => { c.classList.remove("on"); c.style.background = ""; c.style.color = ""; c.style.borderColor = ""; });
+    btn.classList.add("on");
+    const mc = btn.style.getPropertyValue("--mc"), ink = btn.style.getPropertyValue("--mc-ink");
+    btn.style.background = mc; btn.style.color = ink; btn.style.borderColor = mc;
+    state.market = btn.dataset.m;
+    render(true);
+    window.scrollTo({ top: document.querySelector(".toolbar").offsetTop - 8, behavior: "smooth" });
+  });
+  // İlk aktif çip stilini uygula
+  const first = el.querySelector(".chip.on");
+  first.style.background = "var(--ink)"; first.style.color = "var(--paper)"; first.style.borderColor = "var(--ink)";
+}
+
+function renderStats() {
+  const el = document.getElementById("stats");
+  const last = Object.values(state.meta).map(m => m.updatedAt).filter(Boolean).sort().pop();
+  const lastTxt = last ? new Date(last).toLocaleDateString("tr-TR", { day: "numeric", month: "long" }) : "—";
+  el.innerHTML = `
+    <div class="stat"><b>${nfmt.format(state.items.length)}</b><span>ürün</span></div>
+    <div class="stat"><b>${state.markets.length}</b><span>market</span></div>
+    <div class="stat"><b>${lastTxt}</b><span>güncelleme</span></div>`;
 }
 
 function renderMeta() {
-  document.getElementById("upd").innerHTML = Object.entries(MARKETS).map(([m, label]) => {
-    const meta = state.meta[m];
-    const t = meta?.updatedAt
-      ? new Date(meta.updatedAt).toLocaleString("tr-TR", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })
-      : "bekleniyor";
-    return `<span class="pill"><b>${label}</b> · ${t}</span>`;
+  document.getElementById("upd").innerHTML = state.markets.map(m => {
+    const meta = state.meta[m.slug];
+    const t = meta?.updatedAt ? new Date(meta.updatedAt).toLocaleString("tr-TR", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) : "—";
+    return `<span class="pill"><span class="swatch" style="background:${m.color}"></span><b>${esc(m.label)}</b> · ${t}</span>`;
   }).join("");
 }
 
 function filtered() {
   let list = state.items;
   if (state.market !== "all") list = list.filter(p => p.market === state.market);
-  if (state.q) {
-    const q = trLower(state.q);
-    list = list.filter(p => trLower(p.name + " " + (p.brand || "")).includes(q));
-  }
-  const s = state.sort;
-  list = [...list];
+  if (state.q) { const q = trLower(state.q); list = list.filter(p => trLower(p.name + " " + (p.brand || "")).includes(q)); }
+  const s = state.sort; list = [...list];
   if (s === "desc") list.sort((a, b) => b.price - a.price);
   else if (s === "az") list.sort((a, b) => a.name.localeCompare(b.name, "tr"));
   else list.sort((a, b) => a.price - b.price);
@@ -333,56 +403,95 @@ function priceTag(price) {
   return `<span class="tag"><span class="lira">₺</span><span class="tam">${tam}</span><span class="kurus">,${kurus}</span></span>`;
 }
 
+function imgFail(el) {
+  const ph = document.createElement("span");
+  ph.className = "ph";
+  ph.textContent = el.dataset.ph || "";
+  el.replaceWith(ph);
+}
+window.imgFail = imgFail;
+
 function card(p, i) {
+  const color = state.colors[p.market] || "#888", ink = inkFor(color), label = state.labels[p.market] || p.market;
   const img = p.image
-    ? `<img src="${esc(p.image)}" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<span class=ph>${esc(MARKETS[p.market])}</span>'">`
-    : `<span class="ph">${esc(MARKETS[p.market])}</span>`;
+    ? `<img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy" data-ph="${esc(label)}" onerror="imgFail(this)">`
+    : `<span class="ph">${esc(label)}</span>`;
   const uprice = p.unitPrice ? `<span class="uprice">${esc(p.unitPrice)}</span>` : "";
-  const style = `style="animation-delay:${Math.min(i, 24) * 14}ms"`;
-  return `
-    <article class="card ${p.market}" ${style}>
-      <div class="thumb"><span class="mk-badge">${esc(MARKETS[p.market])}</span>${img}</div>
-      <div class="info">
-        <span class="brand">${esc(p.brand)}</span>
-        <span class="name">${esc(p.name)}</span>
-        ${p.unit ? `<span class="unit">${esc(p.unit)}</span>` : ""}
-      </div>
+  return `<article class="card" style="--mc:${color};--mc-ink:${ink};animation-delay:${Math.min(i, 24) * 12}ms">
+      <div class="thumb"><span class="mk-badge">${esc(label)}</span>${img}</div>
+      <div class="info"><span class="brand">${esc(p.brand)}</span><span class="name">${esc(p.name)}</span>${p.unit ? `<span class="unit">${esc(p.unit)}</span>` : ""}</div>
       <div class="price-row">${priceTag(p.price)}${uprice}</div>
     </article>`;
 }
 
-function render() {
-  const list = filtered();
+let io;
+function render(reset) {
   const grid = document.getElementById("grid");
-  document.getElementById("count").innerHTML = list.length
-    ? `<b>${list.length}</b> ürün listeleniyor`
-    : "";
+  if (reset) { state.list = filtered(); state.page = 0; grid.innerHTML = ""; }
+  document.getElementById("count").innerHTML = state.list.length ? `<b>${nfmt.format(state.list.length)}</b> ürün listeleniyor` : "";
 
-  if (!list.length) {
+  if (!state.list.length) {
     const anyData = state.items.length > 0;
-    grid.innerHTML = `<div class="empty">
-      <div class="big">${anyData ? "🔍" : "📡"}</div>
-      ${anyData
-        ? (state.q ? `"<b>${esc(state.q)}</b>" için sonuç yok.<br>Farklı bir kelime dene.` : `Bu markette ürün bulunamadı.`)
-        : `<b>Veriler henüz yüklenmedi.</b><br>Otomatik güncelleme (GitHub Actions) ilk çalıştığında ürünler burada listelenecek.`}
-    </div>`;
+    grid.innerHTML = `<div class="empty"><div class="big">${anyData ? "🔍" : "📡"}</div>${anyData ? (state.q ? `"<b>${esc(state.q)}</b>" için sonuç yok.<br>Farklı bir kelime dene.` : `Bu markette ürün bulunamadı.`) : `<b>Veriler henüz yüklenmedi.</b><br>Otomatik güncelleme ilk çalıştığında ürünler burada listelenecek.`}</div>`;
     return;
   }
-  grid.innerHTML = list.slice(0, 500).map(card).join("");
+  const start = state.page * PAGE, slice = state.list.slice(start, start + PAGE);
+  grid.insertAdjacentHTML("beforeend", slice.map((p, k) => card(p, k)).join(""));
+  state.page++;
+
+  const old = grid.querySelector(".sentinel"); if (old) old.remove();
+  if (state.page * PAGE < state.list.length) {
+    const s = document.createElement("div"); s.className = "sentinel"; grid.appendChild(s);
+    io?.disconnect();
+    io = new IntersectionObserver(es => { if (es[0].isIntersecting) { io.disconnect(); render(false); } }, { rootMargin: "600px" });
+    io.observe(s);
+  }
 }
 
-document.getElementById("chips").addEventListener("click", e => {
-  const btn = e.target.closest(".chip");
-  if (!btn) return;
-  document.querySelectorAll(".chip").forEach(c => c.classList.remove("on"));
-  btn.classList.add("on");
-  state.market = btn.dataset.m;
-  render();
-});
-document.getElementById("q").addEventListener("input", e => { state.q = e.target.value.trim(); render(); });
-document.getElementById("sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
+function applyQueryParam() {
+  const q = new URLSearchParams(location.search).get("q");
+  if (q) { state.q = q.trim(); document.getElementById("q").value = q; document.getElementById("clr").style.display = "block"; }
+}
 
-load();
+// events
+const qEl = document.getElementById("q"), clr = document.getElementById("clr");
+qEl.addEventListener("input", e => { state.q = e.target.value.trim(); clr.style.display = e.target.value ? "block" : "none"; render(true); });
+clr.addEventListener("click", () => { qEl.value = ""; state.q = ""; clr.style.display = "none"; render(true); qEl.focus(); });
+document.getElementById("sort").addEventListener("change", e => { state.sort = e.target.value; render(true); });
+
+// theme toggle
+const themeBtn = document.getElementById("theme");
+const sun = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M19 5l-1.5 1.5M6.5 17.5 5 19"/></svg>`;
+const moon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>`;
+function applyTheme(t) {
+  if (t) document.documentElement.setAttribute("data-theme", t); else document.documentElement.removeAttribute("data-theme");
+  const dark = t === "dark" || (!t && matchMedia("(prefers-color-scheme: dark)").matches);
+  themeBtn.innerHTML = dark ? sun : moon;
+}
+applyTheme(localStorage.getItem("theme"));
+themeBtn.addEventListener("click", () => {
+  const dark = document.documentElement.getAttribute("data-theme") === "dark" || (!document.documentElement.getAttribute("data-theme") && matchMedia("(prefers-color-scheme: dark)").matches);
+  const next = dark ? "light" : "dark"; localStorage.setItem("theme", next); applyTheme(next);
+});
+
+// scroll to top
+const topBtn = document.getElementById("top");
+addEventListener("scroll", () => topBtn.classList.toggle("show", scrollY > 700), { passive: true });
+topBtn.addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
+
+// PWA install
+let deferredPrompt;
+const installBtn = document.getElementById("install");
+addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferredPrompt = e; installBtn.style.display = "inline-flex"; });
+installBtn.addEventListener("click", async () => { if (!deferredPrompt) return; deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt = null; installBtn.style.display = "none"; });
+addEventListener("appinstalled", () => { installBtn.style.display = "none"; });
+
+// service worker
+if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+  addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+}
+
+boot();
 </script>
 </body>
 </html>
