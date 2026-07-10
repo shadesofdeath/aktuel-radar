@@ -1,5 +1,5 @@
 // Aktüel Radar — Service Worker (PWA offline + hız)
-const VERSION = "v1";
+const VERSION = "v2";
 const SHELL = `ar-shell-${VERSION}`;
 const DATA = `ar-data-${VERSION}`;
 const SHELL_ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon.svg"];
@@ -22,19 +22,21 @@ self.addEventListener("fetch", (e) => {
   const url = new URL(req.url);
   if (url.origin !== location.origin) return; // dış kaynaklar (fontlar, görseller) tarayıcıya bırakılır
 
-  // Veri (JSON): network-first, çevrimdışıysa cache.
-  if (url.pathname.includes("/data/")) {
+  // HTML gezinmeleri + veri (JSON): network-first, çevrimdışıysa cache.
+  // Böylece tasarım/veri güncellemeleri eski önbellekte takılmaz.
+  if (req.mode === "navigate" || url.pathname.includes("/data/")) {
+    const store = url.pathname.includes("/data/") ? DATA : SHELL;
     e.respondWith(
       fetch(req).then((res) => {
         const copy = res.clone();
-        caches.open(DATA).then((c) => c.put(req, copy));
+        caches.open(store).then((c) => c.put(req, copy));
         return res;
-      }).catch(() => caches.match(req))
+      }).catch(() => caches.match(req).then((c) => c || caches.match("./index.html")))
     );
     return;
   }
 
-  // Kabuk: cache-first, arkada güncelle (stale-while-revalidate).
+  // Statik varlıklar (ikon, manifest, sw): cache-first, arkada güncelle.
   e.respondWith(
     caches.match(req).then((cached) => {
       const net = fetch(req).then((res) => {

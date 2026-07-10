@@ -104,6 +104,7 @@
     --radius: 18px;
     --shadow: 0 1px 2px rgba(18,21,26,.04), 0 10px 28px rgba(18,21,26,.06);
     --sat-b: env(safe-area-inset-bottom, 0px);
+    --gutter: 18px;
   }
   :root[data-theme="dark"], :root:not([data-theme="light"]) {}
   @media (prefers-color-scheme: dark) {
@@ -130,7 +131,8 @@
     overflow-x: hidden;
   }
   a { color: inherit; text-decoration: none; }
-  .wrap { max-width: 1160px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
+  .wrap { max-width: 1160px; margin: 0 auto; padding-left: max(var(--gutter), env(safe-area-inset-left)); padding-right: max(var(--gutter), env(safe-area-inset-right)); }
+  @media (min-width: 720px) { :root { --gutter: 28px; } }
 
   /* ---------- app bar ---------- */
   .appbar { position: sticky; top: 0; z-index: 40; }
@@ -138,7 +140,7 @@
     background: color-mix(in srgb, var(--paper) 80%, transparent);
     backdrop-filter: blur(14px) saturate(1.3); -webkit-backdrop-filter: blur(14px) saturate(1.3);
     border-bottom: 1px solid var(--line); }
-  .appbar-in { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 11px 0; }
+  .appbar-in { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 11px; padding-bottom: 11px; }
   .logo { font-family: "Anton", sans-serif; font-size: clamp(22px, 5.5vw, 30px); letter-spacing: .4px; line-height: 1; text-transform: uppercase; display:flex; align-items:center; gap:9px; }
   .logo .rad {
     width: 30px; height: 30px; border-radius: 9px; flex:0 0 auto;
@@ -156,7 +158,7 @@
   @keyframes pulse { 70%{box-shadow:0 0 0 8px rgba(22,179,100,0)} 100%{box-shadow:0 0 0 0 rgba(22,179,100,0)} }
 
   /* ---------- hero ---------- */
-  .hero { padding: 22px 0 4px; }
+  .hero { padding-top: 22px; padding-bottom: 4px; }
   .hero h1 { font-family:"Anton",sans-serif; font-size: clamp(30px, 8vw, 52px); line-height:.98; text-transform: uppercase; letter-spacing:.5px; }
   .hero h1 em { font-style:normal; background:var(--tag); color:var(--tag-ink); padding:0 .14em; clip-path: polygon(0 10%,100% 0,98% 100%,2% 92%); display:inline-block; transform: rotate(-1.5deg); }
   .hero p { margin-top: 11px; font-size: 14.5px; color: var(--muted); max-width: 60ch; line-height: 1.55; }
@@ -171,8 +173,8 @@
     background: color-mix(in srgb, var(--paper) 82%, transparent);
     backdrop-filter: blur(12px) saturate(1.2); -webkit-backdrop-filter: blur(12px) saturate(1.2);
     border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
-  .toolbar-in { position: relative; padding: 11px 0 12px; display:flex; flex-direction:column; gap:10px; }
-  .chips { display:flex; gap:8px; overflow-x:auto; scrollbar-width:none; margin: 0 -16px; padding: 0 16px; }
+  .toolbar-in { position: relative; padding-top: 11px; padding-bottom: 12px; display:flex; flex-direction:column; gap:10px; }
+  .chips { display:flex; gap:8px; overflow-x:auto; scrollbar-width:none; margin: 0 calc(-1 * var(--gutter)); padding: 0 var(--gutter); }
   .chips::-webkit-scrollbar { display:none; }
   .chip { flex:0 0 auto; display:inline-flex; align-items:center; gap:7px; border:1.5px solid var(--line); background:var(--card); color:var(--ink); font:600 13.5px "Inter"; padding:8px 15px; border-radius:999px; cursor:pointer; transition: transform .08s, background .15s, border-color .15s, color .15s; -webkit-tap-highlight-color:transparent; white-space:nowrap; }
   .chip .swatch { width:9px; height:9px; border-radius:3px; }
@@ -182,7 +184,8 @@
   .chip.on .n { opacity:.9; color: inherit; }
   .chip.on .swatch { display:none; }
   .row2 { display:flex; gap:9px; }
-  .search { flex:1; display:flex; align-items:center; gap:9px; background:var(--card); border:1.5px solid var(--line); border-radius:999px; padding:0 15px; height:46px; transition:border-color .15s, box-shadow .15s; }
+  .row2 { min-width: 0; }
+  .search { flex:1; min-width:0; display:flex; align-items:center; gap:9px; background:var(--card); border:1.5px solid var(--line); border-radius:999px; padding:0 15px; height:46px; transition:border-color .15s, box-shadow .15s; }
   .search:focus-within { border-color: var(--brandB); box-shadow:0 0 0 4px color-mix(in srgb, var(--brandB) 15%, transparent); }
   .search svg { flex:0 0 auto; opacity:.45; }
   .search input { flex:1; border:0; outline:0; background:transparent; color:var(--ink); font:500 15px "Inter"; min-width:0; }
