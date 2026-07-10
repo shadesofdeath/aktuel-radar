@@ -1,0 +1,31 @@
+{
+  "market": "sok",
+  "updatedAt": "2026-07-10T06:00:00.000Z",
+  "source": "https://www.sokmarket.com.tr",
+  "products": [
+    {
+      "name": "Akıllı Saat",
+      "brand": "FitBand",
+      "price": 899.00,
+      "unit": "1 adet",
+      "image": "",
+      "url": "https://www.sokmarket.com.tr"
+    },
+    {
+      "name": "Kettle Su Isıtıcı",
+      "brand": "Kitchen+",
+      "price": 429.00,
+      "unit": "1.7 L",
+      "image": "",
+      "url": "https://www.sokmarket.com.tr"
+    },
+    {
+      "name": "Çocuk Bisikleti",
+      "brand": "",
+      "price": 1799.00,
+      "unit": "16 jant",
+      "image": "",
+      "url": "https://www.sokmarket.com.tr"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "market": "bim",
+  "updatedAt": "2026-07-10T06:00:00.000Z",
+  "source": "https://www.bim.com.tr/categories/100/aktuel-urunler.aspx",
+  "products": [
+    {
+      "name": "Dört Kapılı Buzdolabı",
+      "brand": "Regal",
+      "price": 24900.00,
+      "unit": "1 adet",
+      "image": "",
+      "url": "https://www.bim.com.tr/categories/100/aktuel-urunler.aspx"
+    },
+    {
+      "name": "Kablosuz Kulaklık",
+      "brand": "PowerAudio",
+      "price": 599.00,
+      "unit": "1 adet",
+      "image": "",
+      "url": "https://www.bim.com.tr/categories/100/aktuel-urunler.aspx"
+    },
+    {
+      "name": "Erkek Spor Ayakkabı",
+      "brand": "",
+      "price": 449.00,
+      "unit": "38-44 numara",
+      "image": "",
+      "url": "https://www.bim.com.tr/categories/100/aktuel-urunler.aspx"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "aktuel-radar",
+  "version": "1.0.0",
+  "description": "BİM · A101 · ŞOK aktüel ürünlerini ve indirimlerini tek ekranda takip eden statik site.",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape.mjs",
+    "start": "node --version >/dev/null && python3 -m http.server 8080"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

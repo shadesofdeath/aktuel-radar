@@ -1,0 +1,41 @@
+name: Aktüel verilerini güncelle
+
+on:
+  schedule:
+    # Her gün 06:00 ve 18:00 (TR saati ile ~09:00 / 21:00)
+    - cron: "0 6,18 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: true
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu al
+        uses: actions/checkout@v4
+
+      - name: Node.js kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Verileri topla
+        run: node scripts/scrape.mjs
+
+      - name: Değişiklikleri commit et
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data)" ]; then
+            git add data
+            git commit -m "chore: aktüel verileri otomatik güncelle"
+            git push
+          else
+            echo "Değişiklik yok."
+          fi
