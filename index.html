@@ -241,9 +241,8 @@
         <input id="q" type="search" placeholder="Ürün veya marka ara…" autocomplete="off">
       </label>
       <select id="sort" aria-label="Sıralama">
-        <option value="disc">En çok indirim</option>
-        <option value="asc">Fiyat ↑</option>
-        <option value="desc">Fiyat ↓</option>
+        <option value="asc">Fiyat ↑ (ucuz)</option>
+        <option value="desc">Fiyat ↓ (pahalı)</option>
         <option value="az">A → Z</option>
       </select>
     </div>
@@ -266,7 +265,7 @@
 
 <script>
 const MARKETS = { bim: "BİM", a101: "A101", sok: "ŞOK" };
-const state = { market: "all", q: "", sort: "disc", items: [], meta: {} };
+const state = { market: "all", q: "", sort: "asc", items: [], meta: {} };
 
 const trFmt = new Intl.NumberFormat("tr-TR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 const trLower = s => (s || "").toLocaleLowerCase("tr-TR");
@@ -323,10 +322,9 @@ function filtered() {
   }
   const s = state.sort;
   list = [...list];
-  if (s === "asc")  list.sort((a, b) => a.price - b.price);
-  else if (s === "desc") list.sort((a, b) => b.price - a.price);
-  else if (s === "az")   list.sort((a, b) => a.name.localeCompare(b.name, "tr"));
-  else list.sort((a, b) => (b.discount || 0) - (a.discount || 0) || a.price - b.price);
+  if (s === "desc") list.sort((a, b) => b.price - a.price);
+  else if (s === "az") list.sort((a, b) => a.name.localeCompare(b.name, "tr"));
+  else list.sort((a, b) => a.price - b.price);
   return list;
 }
 
@@ -339,12 +337,11 @@ function card(p, i) {
   const img = p.image
     ? `<img src="${esc(p.image)}" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<span class=ph>${esc(MARKETS[p.market])}</span>'">`
     : `<span class="ph">${esc(MARKETS[p.market])}</span>`;
-  const disc = p.discount ? `<span class="disc">%${p.discount}</span>` : "";
   const uprice = p.unitPrice ? `<span class="uprice">${esc(p.unitPrice)}</span>` : "";
   const style = `style="animation-delay:${Math.min(i, 24) * 14}ms"`;
   return `
     <article class="card ${p.market}" ${style}>
-      <div class="thumb">${disc}<span class="mk-badge">${esc(MARKETS[p.market])}</span>${img}</div>
+      <div class="thumb"><span class="mk-badge">${esc(MARKETS[p.market])}</span>${img}</div>
       <div class="info">
         <span class="brand">${esc(p.brand)}</span>
         <span class="name">${esc(p.name)}</span>

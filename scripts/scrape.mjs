@@ -118,16 +118,12 @@ async function searchKeyword(keyword, depots) {
 function foldProduct(product, buckets, seen) {
   const infos = product.productDepotInfoList || [];
   // Her market için o markette geçerli en düşük fiyatı seç.
-  const best = {}; // market -> { price, unitPrice, percentage }
+  const best = {}; // market -> { price, unitPrice }
   for (const info of infos) {
     const m = normalizeMarket(info.marketAdi);
     if (!m || typeof info.price !== "number") continue;
     if (!best[m] || info.price < best[m].price) {
-      best[m] = {
-        price: info.price,
-        unitPrice: info.unitPrice || "",
-        percentage: typeof info.percentage === "number" ? info.percentage : 0,
-      };
+      best[m] = { price: info.price, unitPrice: info.unitPrice || "" };
     }
   }
   const unit = product.refinedVolumeOrWeight || product.refinedQuantityUnit || "";
@@ -141,7 +137,6 @@ function foldProduct(product, buckets, seen) {
       price: b.price,
       unit,
       unitPrice: b.unitPrice,
-      discount: Math.round(b.percentage) || 0,
       image: product.imageUrl || "",
       url: null,
     });
@@ -159,8 +154,8 @@ function save(market, products) {
       return;
     }
   }
-  // İndirim yüzdesi (varsa) sonra fiyat artan sırada.
-  products.sort((a, b) => b.discount - a.discount || a.price - b.price);
+  // Fiyat artan sırada.
+  products.sort((a, b) => a.price - b.price);
   const payload = {
     market,
     label: TARGETS[market],
