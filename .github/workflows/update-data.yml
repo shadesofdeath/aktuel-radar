@@ -2,15 +2,21 @@ name: Aktüel verilerini güncelle
 
 on:
   schedule:
-    # Her gün 06:00 ve 18:00 (TR saati ile ~09:00 / 21:00)
+    # Her gün 06:00 ve 18:00 UTC (TR ~09:00 / 21:00)
     - cron: "0 6,18 * * *"
   workflow_dispatch: {}
+  push:
+    branches:
+      - "claude/**"
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update-data.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: update-data
+  group: update-data-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -34,7 +40,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ -n "$(git status --porcelain data)" ]; then
             git add data
-            git commit -m "chore: aktüel verileri otomatik güncelle"
+            git commit -m "chore: aktüel verileri otomatik güncelle [skip ci]"
             git push
           else
             echo "Değişiklik yok."

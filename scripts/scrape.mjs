@@ -1,265 +1,200 @@
 // Aktüel Radar — veri toplayıcı
-// GitHub Actions üzerinde çalışır, data/*.json dosyalarını günceller.
-// Bağımlılık YOK: Node 20+ yerleşik fetch + regex/JSON tabanlı çözümleme.
+// GitHub Actions üzerinde çalışır, data/*.json dosyalarını gerçek verilerle günceller.
+//
+// Kaynak: Ticaret Bakanlığı Market Fiyatı API'si (api.marketfiyati.org.tr).
+// BİM · A101 · ŞOK ürünlerinin gerçek fiyatlarını tek uçtan verir.
+// Bağımlılık YOK: Node 20+ yerleşik fetch.
+//
+// Akış:
+//   1) POST /api/v2/nearest   → konuma en yakın market depolarını (id) bul
+//   2) POST /api/v2/search    → o depolarda anahtar kelimelerle ürün ara
+//   3) Ürünleri markete göre grupla, data/<market>.json yaz
 
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 
-const UA =
-  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
+const BASE = "https://api.marketfiyati.org.tr";
+
+// İstanbul merkez — yoğun bölge, tüm zincirlerin depoları burada bulunur.
+const LOCATION = { latitude: 41.0082, longitude: 28.9784 };
+const DISTANCE_KM = 5;
+const DEPOTS_PER_MARKET = 6; // her market için taranacak depo sayısı
+
+// Frontend sekmeleriyle eşleşen hedef marketler.
+const TARGETS = {
+  bim: "BİM",
+  a101: "A101",
+  sok: "ŞOK",
+};
+
+// Geniş ürün yelpazesi için popüler market kalemleri.
+const KEYWORDS = [
+  "süt", "yumurta", "ekmek", "peynir", "yoğurt", "tereyağı", "kaşar",
+  "çay", "kahve", "nescafe", "makarna", "pirinç", "bulgur", "mercimek",
+  "ayçiçek yağ", "zeytinyağı", "şeker", "un", "salça", "bal", "zeytin",
+  "çikolata", "bisküvi", "cips", "gofret", "kola", "su", "meyve suyu",
+  "deterjan", "yumuşatıcı", "şampuan", "diş macunu", "sabun",
+  "tuvalet kağıdı", "peçete", "bebek bezi", "islak mendil",
+  "kedi maması", "köpek maması", "çamaşır suyu", "bulaşık deterjanı",
+];
 
 const now = () => new Date().toISOString();
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function get(url) {
-  const res = await fetch(url, {
-    headers: {
-      "User-Agent": UA,
-      "Accept-Language": "tr-TR,tr;q=0.9",
-      Accept: "text/html,application/json;q=0.9,*/*;q=0.8",
-    },
-    redirect: "follow",
-  });
-  if (!res.ok) throw new Error(`${url} -> HTTP ${res.status}`);
-  return res.text();
-}
+const HEADERS = {
+  "Content-Type": "application/json",
+  Accept: "application/json",
+  "User-Agent":
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+  Origin: "https://marketfiyati.org.tr",
+  Referer: "https://marketfiyati.org.tr/",
+};
 
-const decode = (s) =>
-  s
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/\s+/g, " ")
-    .trim();
-
-// "315, 00 ₺" / "39,50 ₺" / "425 ₺" -> 315.00
-function parsePrice(text) {
-  if (!text) return null;
-  const m = text.match(/(\d{1,3}(?:\.\d{3})*)\s*,\s*(\d{2})/);
-  if (m) return parseFloat(m[1].replace(/\./g, "") + "." + m[2]);
-  const p = text.match(/(\d{2,6})\s*₺/);
-  return p ? parseFloat(p[1]) : null;
-}
-
-// ---------------------------------------------------------------- BİM
-// Sayfa sunucu tarafında render ediliyor; sınıf adlarına bağlı kalmadan
-// ürün detay linklerine (/aktuel-urunler/<slug>/aktuel.aspx) göre bölüyoruz.
-async function scrapeBim() {
-  const html = await get("https://www.bim.com.tr/categories/100/aktuel-urunler.aspx");
-
-  // Katalog tarihleri (sağdaki sekmeler)
-  const catalogs = [];
-  const catRe =
-    /href="[^"]*aktuel-urunler\.aspx\?(?:top=1&)?Bim_AktuelTarihKey=(\d+)"[^>]*>([^<]{3,40})</g;
-  const seenCat = new Set();
-  let cm;
-  while ((cm = catRe.exec(html))) {
-    const label = decode(cm[2]);
-    if (!label || seenCat.has(label)) continue;
-    seenCat.add(label);
-    catalogs.push({
-      label,
-      url: `https://www.bim.com.tr/categories/100/aktuel-urunler.aspx?Bim_AktuelTarihKey=${cm[1]}`,
-    });
+async function post(path, body, tries = 3) {
+  let lastErr;
+  for (let i = 0; i < tries; i++) {
+    try {
+      const res = await fetch(BASE + path, {
+        method: "POST",
+        headers: HEADERS,
+        body: JSON.stringify(body),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.json();
+    } catch (e) {
+      lastErr = e;
+      await sleep(400 * (i + 1));
+    }
   }
+  throw lastErr;
+}
 
-  // Ürün blokları
-  const parts = html.split(/href="\/aktuel-urunler\//).slice(1);
-  const products = [];
-  const seen = new Set();
-  for (const part of parts) {
-    const chunk = part.slice(0, 2500);
-    const slug = chunk.match(/^([^"/]+)\//)?.[1];
-    const h2s = [...chunk.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/g)].map((x) =>
-      decode(x[1].replace(/<[^>]+>/g, ""))
-    );
-    if (!h2s.length) continue;
-    const brand = h2s.length > 1 ? h2s[0] : "";
-    const name = h2s.length > 1 ? h2s[1] : h2s[0];
-    const unit = decode(chunk.match(/•\s*([^<•]{1,60})/)?.[1] || "");
-    const price = parsePrice(chunk);
-    if (!name || price === null) continue;
-    const key = `${brand}|${name}|${price}`;
+// marketAdi / marketName -> hedef anahtarımız (bim | a101 | sok | null)
+function normalizeMarket(name) {
+  if (!name) return null;
+  const s = name.toString().toLocaleLowerCase("tr-TR").replace(/ş/g, "s").trim();
+  if (s.includes("bim")) return "bim";
+  if (s.includes("a101") || s.includes("a-101")) return "a101";
+  if (s.includes("sok")) return "sok"; // "şok" -> "sok"
+  return null;
+}
+
+// 1) En yakın depoları bul, hedef marketler için depo id'lerini topla.
+async function collectDepots() {
+  const data = await post("/api/v2/nearest", {
+    latitude: LOCATION.latitude,
+    longitude: LOCATION.longitude,
+    distance: DISTANCE_KM,
+  });
+  const list = Array.isArray(data) ? data : data?.content || [];
+  const byMarket = { bim: [], a101: [], sok: [] };
+  for (const d of list) {
+    const m = normalizeMarket(d.marketName || d.marketAdi);
+    if (m && byMarket[m] && byMarket[m].length < DEPOTS_PER_MARKET) {
+      byMarket[m].push(d.id);
+    }
+  }
+  const depotIds = [...byMarket.bim, ...byMarket.a101, ...byMarket.sok];
+  console.log(
+    `Depolar → BİM:${byMarket.bim.length} A101:${byMarket.a101.length} ŞOK:${byMarket.sok.length} (toplam ${depotIds.length})`
+  );
+  return depotIds;
+}
+
+// 2) Bir anahtar kelime için ürünleri ara.
+async function searchKeyword(keyword, depots) {
+  const data = await post("/api/v2/search", {
+    keywords: keyword,
+    pages: 0,
+    size: 100,
+    latitude: LOCATION.latitude,
+    longitude: LOCATION.longitude,
+    distance: DISTANCE_KM,
+    depots,
+  });
+  return data?.content || [];
+}
+
+// 3) Ürünleri markete göre grupla.
+function foldProduct(product, buckets, seen) {
+  const infos = product.productDepotInfoList || [];
+  // Her market için o markette geçerli en düşük fiyatı seç.
+  const best = {}; // market -> { price, unitPrice, percentage }
+  for (const info of infos) {
+    const m = normalizeMarket(info.marketAdi);
+    if (!m || typeof info.price !== "number") continue;
+    if (!best[m] || info.price < best[m].price) {
+      best[m] = {
+        price: info.price,
+        unitPrice: info.unitPrice || "",
+        percentage: typeof info.percentage === "number" ? info.percentage : 0,
+      };
+    }
+  }
+  const unit = product.refinedVolumeOrWeight || product.refinedQuantityUnit || "";
+  for (const [m, b] of Object.entries(best)) {
+    const key = `${m}|${product.id}`;
     if (seen.has(key)) continue;
     seen.add(key);
-    products.push({
-      brand,
-      name,
+    buckets[m].push({
+      name: (product.title || "").trim(),
+      brand: (product.brand || "").trim(),
+      price: b.price,
       unit,
-      price,
-      image: null,
-      url: slug ? `https://www.bim.com.tr/aktuel-urunler/${slug}/aktuel.aspx` : null,
+      unitPrice: b.unitPrice,
+      discount: Math.round(b.percentage) || 0,
+      image: product.imageUrl || "",
+      url: null,
     });
   }
-  return { market: "bim", updatedAt: now(), catalogs, products };
 }
 
-// ------------------------------------------------- A101 & ŞOK (Next.js)
-// Her iki site de Next.js tabanlı: __NEXT_DATA__ ya da self.__next_f
-// içindeki JSON'da ürün nesnelerini genel bir tarama ile buluyoruz.
-function extractJsonBlobs(html) {
-  const blobs = [];
-  const nd = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
-  if (nd) {
-    try {
-      blobs.push(JSON.parse(nd[1]));
-    } catch {}
-  }
-  // App Router flight verisi: self.__next_f.push([1,"..."])
-  const flight = [...html.matchAll(/self\.__next_f\.push\(\[1,\s*"([\s\S]*?)"\]\)/g)];
-  if (flight.length) {
-    const joined = flight.map((m) => m[1]).join("");
-    let text;
-    try {
-      text = JSON.parse(`"${joined.replace(/"/g, '\\"').replace(/\\\\"/g, '\\"')}"`);
-    } catch {
-      text = joined.replace(/\\"/g, '"').replace(/\\n/g, "\n");
-    }
-    // Metin içindeki JSON dizi/nesnelerini kabaca yakala
-    for (const m of text.matchAll(/\{"[^"]{2,40}":[\s\S]*?\}(?=[,\]\}])/g)) {
-      try {
-        blobs.push(JSON.parse(m[0]));
-      } catch {}
-    }
-  }
-  return blobs;
-}
-
-function walkForProducts(root, opts = {}) {
-  const out = [];
-  const seen = new Set();
-  const stack = [root];
-  let guard = 0;
-  while (stack.length && guard++ < 500000) {
-    const node = stack.pop();
-    if (!node || typeof node !== "object") continue;
-    if (Array.isArray(node)) {
-      for (const v of node) stack.push(v);
-      continue;
-    }
-    const name =
-      typeof node.name === "string"
-        ? node.name
-        : typeof node.title === "string"
-          ? node.title
-          : typeof node.attributes?.name === "string"
-            ? node.attributes.name
-            : null;
-
-    // Fiyat: nesnenin herhangi bir yerinde "39,50 ₺" biçimli metin
-    // ya da price/discounted alanları
-    let price = null;
-    const flat = JSON.stringify(node).slice(0, 4000);
-    const priceText = flat.match(/(\d{1,3}(?:\.\d{3})*,\d{2})\s*(?:₺|TL)/);
-    if (priceText) price = parsePrice(priceText[1] + " ₺");
-    if (price === null) {
-      const cand =
-        node.prices?.discounted?.value ??
-        node.prices?.normal?.value ??
-        node.discounted_price ??
-        node.discountedPrice ??
-        node.price;
-      if (typeof cand === "number" && cand > 0) {
-        // ŞOK API'si kuruş cinsinden tam sayı döndürür
-        price = opts.kurus && Number.isInteger(cand) && cand >= 500 ? cand / 100 : cand;
-      }
-    }
-
-    if (name && name.length > 2 && name.length < 120 && price !== null && price > 0.5) {
-      const brand =
-        (typeof node.brand === "string" ? node.brand : node.brand?.name) ||
-        node.attributes?.brand ||
-        "";
-      const image =
-        node.image_url ||
-        node.imageUrl ||
-        (Array.isArray(node.images)
-          ? typeof node.images[0] === "string"
-            ? node.images[0]
-            : node.images[0]?.url
-          : null) ||
-        node.image ||
-        null;
-      const key = `${name}|${price}`;
-      if (!seen.has(key)) {
-        seen.add(key);
-        out.push({
-          brand: typeof brand === "string" ? brand : "",
-          name: decode(name),
-          unit: "",
-          price,
-          image: typeof image === "string" ? image : null,
-          url: null,
-        });
-      }
-    }
-    for (const v of Object.values(node)) stack.push(v);
-  }
-  return out;
-}
-
-async function scrapeNextSite(market, urls, opts = {}) {
-  let products = [];
-  for (const url of urls) {
-    try {
-      const html = await get(url);
-      for (const blob of extractJsonBlobs(html)) {
-        products = products.concat(walkForProducts(blob, opts));
-      }
-      if (products.length >= 20) break;
-    } catch (e) {
-      console.warn(`[${market}] ${url}: ${e.message}`);
-    }
-  }
-  // Tekilleştir
-  const seen = new Set();
-  products = products.filter((p) => {
-    const k = `${p.name}|${p.price}`;
-    if (seen.has(k)) return false;
-    seen.add(k);
-    return true;
-  });
-  return { market, updatedAt: now(), catalogs: [], products: products.slice(0, 300) };
-}
-
-const scrapeA101 = () =>
-  scrapeNextSite("a101", [
-    "https://www.a101.com.tr/kapida/haftanin-yildizlari",
-    "https://www.a101.com.tr/kapida/aldin-aldin",
-    "https://www.a101.com.tr/aktuel-urunler",
-    "https://www.a101.com.tr/",
-  ]);
-
-const scrapeSok = () =>
-  scrapeNextSite(
-    "sok",
-    [
-      "https://www.sokmarket.com.tr/kampanyalar",
-      "https://www.sokmarket.com.tr/indirimli-urunler",
-      "https://www.sokmarket.com.tr/",
-    ],
-    { kurus: true }
-  );
-
-// ----------------------------------------------------------------- main
-function save(result) {
-  const path = `data/${result.market}.json`;
-  const min = 3; // bundan az ürün geldiyse eski veriyi koru
-  if (result.products.length < min && existsSync(path)) {
+function save(market, products) {
+  if (!existsSync("data")) mkdirSync("data", { recursive: true });
+  const path = `data/${market}.json`;
+  const MIN = 5; // bundan az ürün geldiyse mevcut veriyi koru
+  if (products.length < MIN && existsSync(path)) {
     const old = JSON.parse(readFileSync(path, "utf8"));
-    if ((old.products?.length || 0) >= min) {
-      console.log(`[${result.market}] yeni veri yetersiz (${result.products.length}), eski veri korunuyor`);
+    if ((old.products?.length || 0) >= MIN) {
+      console.log(`[${market}] yetersiz veri (${products.length}) — eski veri korunuyor`);
       return;
     }
   }
-  writeFileSync(path, JSON.stringify(result, null, 2));
-  console.log(`[${result.market}] ${result.products.length} ürün yazıldı`);
+  // İndirim yüzdesi (varsa) sonra fiyat artan sırada.
+  products.sort((a, b) => b.discount - a.discount || a.price - b.price);
+  const payload = {
+    market,
+    label: TARGETS[market],
+    updatedAt: now(),
+    source: "https://marketfiyati.org.tr",
+    count: products.length,
+    products: products.slice(0, 300),
+  };
+  writeFileSync(path, JSON.stringify(payload, null, 2) + "\n");
+  console.log(`[${market}] ${payload.products.length} ürün yazıldı`);
 }
 
-for (const job of [scrapeBim, scrapeA101, scrapeSok]) {
-  try {
-    save(await job());
-  } catch (e) {
-    console.error(`HATA: ${e.message} (mevcut veri korunuyor)`);
+async function main() {
+  const depots = await collectDepots();
+  if (!depots.length) throw new Error("Hedef marketler için depo bulunamadı");
+
+  const buckets = { bim: [], a101: [], sok: [] };
+  const seen = new Set();
+
+  for (const kw of KEYWORDS) {
+    try {
+      const content = await searchKeyword(kw, depots);
+      for (const p of content) foldProduct(p, buckets, seen);
+      console.log(`"${kw}" → ${content.length} sonuç`);
+    } catch (e) {
+      console.warn(`"${kw}" hata: ${e.message}`);
+    }
+    await sleep(150);
   }
+
+  for (const m of Object.keys(buckets)) save(m, buckets[m]);
 }
+
+main().catch((e) => {
+  console.error("HATA:", e.message);
+  process.exit(1);
+});

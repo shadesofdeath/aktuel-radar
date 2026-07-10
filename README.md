@@ -1,46 +1,49 @@
 # Aktüel Radar
 
-**BİM · A101 · ŞOK** aktüel ürünlerini ve indirimlerini tek ekranda takip eden statik web sitesi.
+**BİM · A101 · ŞOK** marketlerinin **gerçek ürün fiyatlarını** tek ekranda karşılaştıran statik web sitesi.
 
-Haftalık kataloglar, fiyatlar, market filtresi ve arama — hepsi tek sayfada. Karanlık mod destekli, mobil öncelikli tasarım.
+Günlük güncellenen fiyatlar, birim fiyat, indirim yüzdesi, market filtresi ve arama — hepsi tek sayfada. Karanlık mod destekli, mobil öncelikli tasarım.
 
 ## Nasıl çalışır?
 
-- **`index.html`** — Tüm arayüz. `data/*.json` dosyalarını okuyup ürünleri listeler. Ekstra derleme adımı yoktur, doğrudan tarayıcıda açılır.
+- **`index.html`** — Tüm arayüz. `data/*.json` dosyalarını okuyup ürünleri listeler. Derleme adımı yok, doğrudan tarayıcıda açılır.
 - **`data/bim.json`, `data/a101.json`, `data/sok.json`** — Her market için ürün verisi. Şema:
   ```json
   {
     "market": "bim",
     "updatedAt": "2026-07-10T06:00:00.000Z",
-    "source": "https://...",
+    "source": "https://marketfiyati.org.tr",
+    "count": 240,
     "products": [
-      { "name": "Ürün adı", "brand": "Marka", "price": 599.0, "unit": "1 adet", "image": "", "url": "https://..." }
+      {
+        "name": "Ürün adı", "brand": "Marka", "price": 39.5,
+        "unit": "1 L", "unitPrice": "39,50 ₺/L", "discount": 12, "image": "https://…", "url": null
+      }
     ]
   }
   ```
-- **`scripts/scrape.mjs`** — Marketlerin sitelerinden ürünleri derleyip `data/*.json` dosyalarını üretir (Node 20+, harici bağımlılık yok). Bir market'ten veri çekilemezse mevcut dosya korunur.
-- **`.github/workflows/update-data.yml`** — Günde iki kez (06:00 / 18:00 UTC) toplayıcıyı çalıştırır, değişiklik varsa otomatik commit eder. Elle tetiklemek için Actions sekmesinden **Run workflow** kullanılabilir.
+- **`scripts/scrape.mjs`** — Veriyi **T.C. Ticaret Bakanlığı Market Fiyatı API'sinden** (`api.marketfiyati.org.tr`) çeker. Bu servis BİM/A101/ŞOK gerçek fiyatlarını tek uçtan sunar. Node 20+, harici bağımlılık yok. Akış:
+  1. `POST /api/v2/nearest` — konuma en yakın market depolarını bulur
+  2. `POST /api/v2/search` — o depolarda popüler ürünleri arar
+  3. Ürünleri markete göre gruplayıp `data/<market>.json` yazar
+
+  Veri yetersizse (< 5 ürün) mevcut dosya korunur; site boş kalmaz.
+- **`.github/workflows/update-data.yml`** — Günde iki kez (06:00 / 18:00 UTC) toplayıcıyı çalıştırır, değişiklik varsa otomatik commit eder. **Actions** sekmesinden **Run workflow** ile elle de tetiklenebilir.
 
 ## Yerelde çalıştırma
 
 ```bash
-# Verileri güncelle (opsiyonel)
-node scripts/scrape.mjs
-
-# Siteyi servis et
-python3 -m http.server 8080
-# → http://localhost:8080
+node scripts/scrape.mjs        # verileri güncelle
+python3 -m http.server 8080    # siteyi servis et → http://localhost:8080
 ```
-
-> `data/*.json` içindeki örnek ürünler yer tutucudur. GitHub Actions ilk kez çalıştığında gerçek veriyle değiştirilir.
 
 ## GitHub Pages ile yayınlama
 
-Repo ayarlarından **Settings → Pages → Source: `main` / root** seçin. Site `https://<kullanıcı>.github.io/aktuel-radar/` adresinde yayınlanır.
+**Settings → Pages → Source: `main` / root**. Site `https://<kullanıcı>.github.io/aktuel-radar/` adresinde yayınlanır.
 
 ## Not
 
-Veriler marketlerin resmi sitelerinden bilgilendirme amacıyla derlenir. Fiyat farkı olursa mağaza fiyatı geçerlidir. Market sayfa yapıları değişirse `scripts/scrape.mjs` içindeki ayrıştırıcıların güncellenmesi gerekebilir.
+Fiyatlar bilgilendirme amaçlıdır; fiyat farkı olursa mağaza fiyatı geçerlidir. Konum İstanbul merkez olarak alınır (`scripts/scrape.mjs` içindeki `LOCATION` ile değiştirilebilir).
 
 ## Lisans
 

@@ -1,31 +1,7 @@
 {
   "market": "a101",
-  "updatedAt": "2026-07-10T06:00:00.000Z",
-  "source": "https://www.a101.com.tr",
-  "products": [
-    {
-      "name": "Robot Süpürge",
-      "brand": "HomeTech",
-      "price": 3299.00,
-      "unit": "1 adet",
-      "image": "",
-      "url": "https://www.a101.com.tr"
-    },
-    {
-      "name": "Bluetooth Hoparlör",
-      "brand": "SoundGo",
-      "price": 749.00,
-      "unit": "1 adet",
-      "image": "",
-      "url": "https://www.a101.com.tr"
-    },
-    {
-      "name": "Çelik Tencere Seti",
-      "brand": "",
-      "price": 1299.00,
-      "unit": "7 parça",
-      "image": "",
-      "url": "https://www.a101.com.tr"
-    }
-  ]
+  "updatedAt": null,
+  "source": "https://marketfiyati.org.tr",
+  "count": 0,
+  "products": []
 }
