@@ -1,57 +1,16 @@
 {
   "market": "bim",
   "label": "BİM",
-  "updatedAt": "2026-07-10T14:24:06.011Z",
+  "updatedAt": "2026-07-10T17:14:12.207Z",
   "source": "https://marketfiyati.org.tr",
   "count": 317,
   "products": [
-    {
-      "name": "Sek Çilekli Süt 180 Ml",
-      "brand": "Sek",
-      "price": 19,
-      "unit": "180 ML",
-      "unitPrice": "105,56 ₺/Lt",
-      "discount": 27,
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/201407.png",
-      "url": null
-    },
-    {
-      "name": "Sek Kakaolu Süt 180 Ml",
-      "brand": "Sek",
-      "price": 19,
-      "unit": "180 ML",
-      "unitPrice": "105,56 ₺/Lt",
-      "discount": 27,
-      "image": "https://cdn.marketfiyati.org.tr/a101images/12002821.png",
-      "url": null
-    },
-    {
-      "name": "Wasa Sade Gevrek Ekmek 275 Gr",
-      "brand": "Wasa",
-      "price": 95,
-      "unit": "275 GR",
-      "unitPrice": "345,45 ₺/Kg",
-      "discount": 7,
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Türkşeker Toz Şeker 5 Kg",
-      "brand": "Türkşeker",
-      "price": 209,
-      "unit": "5 KG",
-      "unitPrice": "41,80 ₺/Kg",
-      "discount": 5,
-      "image": "https://cdn.marketfiyati.org.tr/sok/92164.jpg",
-      "url": null
-    },
     {
       "name": "Vip 3ü 1 Arada Hazır Kahve 18 Gr",
       "brand": "VIP",
       "price": 4.5,
       "unit": "18 GR",
       "unitPrice": "250,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/300208.png",
       "url": null
     },
@@ -61,7 +20,6 @@
       "price": 4.5,
       "unit": "12 GR",
       "unitPrice": "375,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/300851.jpg",
       "url": null
     },
@@ -71,7 +29,6 @@
       "price": 4.5,
       "unit": "18 GR",
       "unitPrice": "250,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/300492.png",
       "url": null
     },
@@ -81,7 +38,6 @@
       "price": 5,
       "unit": "60 ML",
       "unitPrice": "83,33 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -91,7 +47,6 @@
       "price": 5.5,
       "unit": "17 GR",
       "unitPrice": "323,53 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/301330.jpg",
       "url": null
     },
@@ -101,7 +56,6 @@
       "price": 6.75,
       "unit": "500 ML",
       "unitPrice": "13,50 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/13001086.png",
       "url": null
     },
@@ -111,7 +65,6 @@
       "price": 8.75,
       "unit": "840 GR",
       "unitPrice": "10,42 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -121,7 +74,6 @@
       "price": 9,
       "unit": "36 GR",
       "unitPrice": "250,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/centro-cikolatali-gofret-36-g.jpg",
       "url": null
     },
@@ -131,7 +83,6 @@
       "price": 9.75,
       "unit": "180 ML",
       "unitPrice": "54,17 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1708401.png",
       "url": null
     },
@@ -141,7 +92,6 @@
       "price": 9.75,
       "unit": "23 GR",
       "unitPrice": "423,91 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -151,7 +101,6 @@
       "price": 10,
       "unit": "40 GR",
       "unitPrice": "250,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/centro-hindistan-cevizli-gofret-40-g.jpg",
       "url": null
     },
@@ -161,7 +110,6 @@
       "price": 11.5,
       "unit": "28 GR",
       "unitPrice": "410,71 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -171,7 +119,6 @@
       "price": 12,
       "unit": "35 GR",
       "unitPrice": "342,86 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/702754.jpg",
       "url": null
     },
@@ -181,7 +128,6 @@
       "price": 12,
       "unit": "500 ML",
       "unitPrice": "24,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/13002308.png",
       "url": null
     },
@@ -191,7 +137,6 @@
       "price": 12.25,
       "unit": "1.5 LT",
       "unitPrice": "8,17 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/13000091.png",
       "url": null
     },
@@ -201,7 +146,6 @@
       "price": 13,
       "unit": "70 ML",
       "unitPrice": "185,71 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -211,7 +155,6 @@
       "price": 13,
       "unit": "26.7 GR",
       "unitPrice": "486,89 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101/17002679.jpg",
       "url": null
     },
@@ -221,7 +164,6 @@
       "price": 14,
       "unit": "114 GR",
       "unitPrice": "122,81 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/702995.jpg",
       "url": null
     },
@@ -231,7 +173,6 @@
       "price": 15,
       "unit": "17.5 GR",
       "unitPrice": "857,14 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/301635.png",
       "url": null
     },
@@ -241,7 +182,6 @@
       "price": 15,
       "unit": "48 GR",
       "unitPrice": "312,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/500582.jpg",
       "url": null
     },
@@ -251,7 +191,6 @@
       "price": 15.5,
       "unit": "200 ML",
       "unitPrice": "77,50 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/200422.png",
       "url": null
     },
@@ -261,7 +200,6 @@
       "price": 16.5,
       "unit": "100 GR",
       "unitPrice": "165,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/702730.jpg",
       "url": null
     },
@@ -271,7 +209,6 @@
       "price": 16.75,
       "unit": "500 GR",
       "unitPrice": "33,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1711958.jpg",
       "url": null
     },
@@ -281,7 +218,6 @@
       "price": 17,
       "unit": "500 GR",
       "unitPrice": "34,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/401466.png",
       "url": null
     },
@@ -291,7 +227,6 @@
       "price": 17,
       "unit": "500 GR",
       "unitPrice": "34,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -301,7 +236,6 @@
       "price": 17,
       "unit": "500 GR",
       "unitPrice": "34,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/401468.jpg",
       "url": null
     },
@@ -311,7 +245,6 @@
       "price": 17.25,
       "unit": "500 GR",
       "unitPrice": "34,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/130506.jpg",
       "url": null
     },
@@ -321,7 +254,6 @@
       "price": 17.25,
       "unit": "500 GR",
       "unitPrice": "34,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101/14002548.jpg",
       "url": null
     },
@@ -331,8 +263,25 @@
       "price": 17.5,
       "unit": "34 GR",
       "unitPrice": "514,71 ₺/Kg",
-      "discount": 0,
       "image": "",
+      "url": null
+    },
+    {
+      "name": "Sek Çilekli Süt 180 Ml",
+      "brand": "Sek",
+      "price": 19,
+      "unit": "180 ML",
+      "unitPrice": "105,56 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/201407.png",
+      "url": null
+    },
+    {
+      "name": "Sek Kakaolu Süt 180 Ml",
+      "brand": "Sek",
+      "price": 19,
+      "unit": "180 ML",
+      "unitPrice": "105,56 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/12002821.png",
       "url": null
     },
     {
@@ -341,7 +290,6 @@
       "price": 19.5,
       "unit": "500 GR",
       "unitPrice": "39,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1713142.jpg",
       "url": null
     },
@@ -351,7 +299,6 @@
       "price": 19.5,
       "unit": "20 Adet",
       "unitPrice": "0,98 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1703290.png",
       "url": null
     },
@@ -361,7 +308,6 @@
       "price": 19.75,
       "unit": "350 GR",
       "unitPrice": "56,43 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1712481.jpg",
       "url": null
     },
@@ -371,7 +317,6 @@
       "price": 20.5,
       "unit": "180 ML",
       "unitPrice": "113,89 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/201796.jpg",
       "url": null
     },
@@ -381,7 +326,6 @@
       "price": 20.5,
       "unit": "180 ML",
       "unitPrice": "113,89 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/201420.png",
       "url": null
     },
@@ -391,7 +335,6 @@
       "price": 21,
       "unit": "500 GR",
       "unitPrice": "42,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/402207.png",
       "url": null
     },
@@ -401,7 +344,6 @@
       "price": 21.5,
       "unit": "180 ML",
       "unitPrice": "119,44 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/12002384.png",
       "url": null
     },
@@ -411,7 +353,6 @@
       "price": 24.5,
       "unit": "500 GR",
       "unitPrice": "49,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -421,7 +362,6 @@
       "price": 24.5,
       "unit": "36 GR",
       "unitPrice": "690,14 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/27002270.png",
       "url": null
     },
@@ -431,7 +371,6 @@
       "price": 25.75,
       "unit": "1 KG",
       "unitPrice": "25,75 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -441,7 +380,6 @@
       "price": 27,
       "unit": "200 Adet",
       "unitPrice": "0,14 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1300169.jpg",
       "url": null
     },
@@ -451,7 +389,6 @@
       "price": 29,
       "unit": "120 GR",
       "unitPrice": "241,67 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1711107.jpg",
       "url": null
     },
@@ -461,7 +398,6 @@
       "price": 29.5,
       "unit": "250 GR",
       "unitPrice": "118,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/402224.png",
       "url": null
     },
@@ -471,7 +407,6 @@
       "price": 29.5,
       "unit": "50 GR",
       "unitPrice": "590,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -481,7 +416,6 @@
       "price": 29.5,
       "unit": "100 Adet",
       "unitPrice": "0,29 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1300471.png",
       "url": null
     },
@@ -491,7 +425,6 @@
       "price": 30,
       "unit": "1 LT",
       "unitPrice": "30,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/301286.jpg",
       "url": null
     },
@@ -501,7 +434,6 @@
       "price": 32.5,
       "unit": "125 GR",
       "unitPrice": "260,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/201176.jpg",
       "url": null
     },
@@ -511,7 +443,6 @@
       "price": 33,
       "unit": "34 GR",
       "unitPrice": "970,59 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/702596.png",
       "url": null
     },
@@ -521,7 +452,6 @@
       "price": 34,
       "unit": "1 KG",
       "unitPrice": "34,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/400249.png",
       "url": null
     },
@@ -531,7 +461,6 @@
       "price": 34,
       "unit": "1 KG",
       "unitPrice": "34,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/400250.png",
       "url": null
     },
@@ -541,7 +470,6 @@
       "price": 34.5,
       "unit": "1 LT",
       "unitPrice": "34,50 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/migrosimages/11010217.png",
       "url": null
     },
@@ -551,7 +479,6 @@
       "price": 34.5,
       "unit": "1 KG",
       "unitPrice": "34,50 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -561,7 +488,6 @@
       "price": 35,
       "unit": "1 KG",
       "unitPrice": "35,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -571,7 +497,6 @@
       "price": 35,
       "unit": "8 Adet",
       "unitPrice": "4,38 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1300709.png",
       "url": null
     },
@@ -581,7 +506,6 @@
       "price": 36,
       "unit": "43 GR",
       "unitPrice": "837,21 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -591,7 +515,6 @@
       "price": 36,
       "unit": "5 LT",
       "unitPrice": "7,20 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/13000090.png",
       "url": null
     },
@@ -601,7 +524,6 @@
       "price": 36.5,
       "unit": "130 GR",
       "unitPrice": "280,77 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/801452.png",
       "url": null
     },
@@ -611,7 +533,6 @@
       "price": 36.5,
       "unit": "130 GR",
       "unitPrice": "280,77 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -621,7 +542,6 @@
       "price": 37.5,
       "unit": "400 GR",
       "unitPrice": "93,75 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/402206.png",
       "url": null
     },
@@ -631,7 +551,6 @@
       "price": 38.5,
       "unit": "450 GR",
       "unitPrice": "85,56 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/702742.png",
       "url": null
     },
@@ -641,7 +560,6 @@
       "price": 39,
       "unit": "67 GR",
       "unitPrice": "582,09 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/200973.png",
       "url": null
     },
@@ -651,7 +569,6 @@
       "price": 39,
       "unit": "90 GR",
       "unitPrice": "433,33 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/500708.jpg",
       "url": null
     },
@@ -661,7 +578,6 @@
       "price": 39,
       "unit": "142 GR",
       "unitPrice": "274,65 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/703108.png",
       "url": null
     },
@@ -671,7 +587,6 @@
       "price": 39.5,
       "unit": "180 GR",
       "unitPrice": "219,44 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -681,7 +596,6 @@
       "price": 39.5,
       "unit": "200 GR",
       "unitPrice": "197,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/500144.png",
       "url": null
     },
@@ -691,7 +605,6 @@
       "price": 39.5,
       "unit": "20 Adet",
       "unitPrice": "1,98 ₺/Adet",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -701,7 +614,6 @@
       "price": 39.5,
       "unit": "20 Adet",
       "unitPrice": "1,98 ₺/Adet",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -711,7 +623,6 @@
       "price": 39.5,
       "unit": "20 Adet",
       "unitPrice": "1,98 ₺/Adet",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -721,7 +632,6 @@
       "price": 39.5,
       "unit": "20 Adet",
       "unitPrice": "1,98 ₺/Adet",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -731,7 +641,6 @@
       "price": 39.75,
       "unit": "1 LT",
       "unitPrice": "39,75 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1708539.png",
       "url": null
     },
@@ -741,7 +650,6 @@
       "price": 40,
       "unit": "125 ML",
       "unitPrice": "320,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/1402156.jpg",
       "url": null
     },
@@ -751,7 +659,6 @@
       "price": 42.5,
       "unit": "200 Adet",
       "unitPrice": "0,21 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1704659.png",
       "url": null
     },
@@ -761,7 +668,6 @@
       "price": 43.5,
       "unit": "20 GR",
       "unitPrice": "2.175,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/702253.png",
       "url": null
     },
@@ -771,7 +677,6 @@
       "price": 44,
       "unit": "20 GR",
       "unitPrice": "2.200,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -781,7 +686,6 @@
       "price": 45,
       "unit": "2.5 LT",
       "unitPrice": "18,00 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -791,7 +695,6 @@
       "price": 45,
       "unit": "150 GR",
       "unitPrice": "300,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -801,7 +704,6 @@
       "price": 45,
       "unit": "1 LT",
       "unitPrice": "45,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/13001222.png",
       "url": null
     },
@@ -811,7 +713,6 @@
       "price": 46,
       "unit": "1 KG",
       "unitPrice": "46,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/401342.png",
       "url": null
     },
@@ -821,7 +722,6 @@
       "price": 47.5,
       "unit": "40 GR",
       "unitPrice": "1.187,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/701594.png",
       "url": null
     },
@@ -831,7 +731,6 @@
       "price": 47.5,
       "unit": "200 GR",
       "unitPrice": "237,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/300367.png",
       "url": null
     },
@@ -841,7 +740,6 @@
       "price": 47.5,
       "unit": "330 ML",
       "unitPrice": "143,94 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/13001718.png",
       "url": null
     },
@@ -851,7 +749,6 @@
       "price": 47.5,
       "unit": "75 ML",
       "unitPrice": "633,33 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/1402155.jpg",
       "url": null
     },
@@ -861,7 +758,6 @@
       "price": 48,
       "unit": "750 ML",
       "unitPrice": "64,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1401982.jpg",
       "url": null
     },
@@ -871,7 +767,6 @@
       "price": 48.75,
       "unit": "830 GR",
       "unitPrice": "58,73 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/800270.png",
       "url": null
     },
@@ -881,7 +776,6 @@
       "price": 49,
       "unit": "9 GR",
       "unitPrice": "5.444,44 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -891,7 +785,6 @@
       "price": 49,
       "unit": "393 GR",
       "unitPrice": "124,68 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/703996.jpg",
       "url": null
     },
@@ -901,7 +794,6 @@
       "price": 49,
       "unit": "50 Adet",
       "unitPrice": "0,98 ₺/Adet",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -911,7 +803,6 @@
       "price": 49.5,
       "unit": "1 LT",
       "unitPrice": "49,50 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -921,7 +812,6 @@
       "price": 49.5,
       "unit": "400 GR",
       "unitPrice": "123,75 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -931,7 +821,6 @@
       "price": 49.5,
       "unit": "350 GR",
       "unitPrice": "141,43 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/702885.png",
       "url": null
     },
@@ -941,7 +830,6 @@
       "price": 49.75,
       "unit": "1 KG",
       "unitPrice": "49,75 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/14002118.png",
       "url": null
     },
@@ -951,7 +839,6 @@
       "price": 49.75,
       "unit": "1 KG",
       "unitPrice": "49,75 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1710739.jpg",
       "url": null
     },
@@ -961,7 +848,6 @@
       "price": 49.75,
       "unit": "1 KG",
       "unitPrice": "49,75 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1711536.jpg",
       "url": null
     },
@@ -971,7 +857,6 @@
       "price": 50,
       "unit": "40 Adet",
       "unitPrice": "1,25 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/1300424.jpg",
       "url": null
     },
@@ -981,7 +866,6 @@
       "price": 52,
       "unit": "200 GR",
       "unitPrice": "260,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/500772.jpg",
       "url": null
     },
@@ -991,7 +875,6 @@
       "price": 52,
       "unit": "750 ML",
       "unitPrice": "69,33 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1201458.png",
       "url": null
     },
@@ -1001,7 +884,6 @@
       "price": 52.5,
       "unit": "1 KG",
       "unitPrice": "52,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101/14002032.jpg",
       "url": null
     },
@@ -1011,7 +893,6 @@
       "price": 52.5,
       "unit": "1 KG",
       "unitPrice": "52,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/401976.png",
       "url": null
     },
@@ -1021,7 +902,6 @@
       "price": 52.5,
       "unit": "80 GR",
       "unitPrice": "656,25 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/700648.jpg",
       "url": null
     },
@@ -1031,7 +911,6 @@
       "price": 52.5,
       "unit": "100 GR",
       "unitPrice": "525,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1041,7 +920,6 @@
       "price": 53,
       "unit": "110 GR",
       "unitPrice": "481,82 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1709142.jpg",
       "url": null
     },
@@ -1051,7 +929,6 @@
       "price": 54,
       "unit": "37.5 GR",
       "unitPrice": "1.440,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1061,7 +938,6 @@
       "price": 55,
       "unit": "1 LT",
       "unitPrice": "55,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/200607.png",
       "url": null
     },
@@ -1071,7 +947,6 @@
       "price": 55,
       "unit": "700 GR",
       "unitPrice": "78,57 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/801644.png",
       "url": null
     },
@@ -1081,7 +956,6 @@
       "price": 56,
       "unit": "60 GR",
       "unitPrice": "933,33 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/sok/96608.jpg",
       "url": null
     },
@@ -1091,7 +965,6 @@
       "price": 56,
       "unit": "1 LT",
       "unitPrice": "56,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/302255.jpg",
       "url": null
     },
@@ -1101,7 +974,6 @@
       "price": 57.5,
       "unit": "1 KG",
       "unitPrice": "57,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/401456.png",
       "url": null
     },
@@ -1111,7 +983,6 @@
       "price": 57.5,
       "unit": "1 KG",
       "unitPrice": "57,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/400253.png",
       "url": null
     },
@@ -1121,7 +992,6 @@
       "price": 57.5,
       "unit": "375 GR",
       "unitPrice": "153,33 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/703764.png",
       "url": null
     },
@@ -1131,7 +1001,6 @@
       "price": 58.5,
       "unit": "250 GR",
       "unitPrice": "234,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1141,7 +1010,6 @@
       "price": 59,
       "unit": "1 LT",
       "unitPrice": "59,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/201224.jpg",
       "url": null
     },
@@ -1151,7 +1019,6 @@
       "price": 59,
       "unit": "240 GR",
       "unitPrice": "245,83 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1705218.png",
       "url": null
     },
@@ -1161,7 +1028,6 @@
       "price": 59,
       "unit": "20 Adet",
       "unitPrice": "2,95 ₺/Adet",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1171,7 +1037,6 @@
       "price": 59.5,
       "unit": "540 GR",
       "unitPrice": "110,19 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1181,7 +1046,6 @@
       "price": 59.5,
       "unit": "720 GR",
       "unitPrice": "82,64 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1191,7 +1055,6 @@
       "price": 59.5,
       "unit": "830 GR",
       "unitPrice": "71,69 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/carrefour/30099427.jpg",
       "url": null
     },
@@ -1201,7 +1064,6 @@
       "price": 60,
       "unit": "2 KG",
       "unitPrice": "30,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/400022.png",
       "url": null
     },
@@ -1211,7 +1073,6 @@
       "price": 62,
       "unit": "130 GR",
       "unitPrice": "476,92 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1221,7 +1082,6 @@
       "price": 62.5,
       "unit": "200 GR",
       "unitPrice": "312,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/kerem-krem-surulebilir-taze-peynir-200-g.jpg",
       "url": null
     },
@@ -1231,7 +1091,6 @@
       "price": 63,
       "unit": "250 GR",
       "unitPrice": "252,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/601884.jpg",
       "url": null
     },
@@ -1241,7 +1100,6 @@
       "price": 63,
       "unit": "200 GR",
       "unitPrice": "315,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/601599.jpg",
       "url": null
     },
@@ -1251,7 +1109,6 @@
       "price": 63.25,
       "unit": "3 LT",
       "unitPrice": "21,08 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/301422.png",
       "url": null
     },
@@ -1261,7 +1118,6 @@
       "price": 64,
       "unit": "500 ML",
       "unitPrice": "128,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1402654.jpg",
       "url": null
     },
@@ -1271,7 +1127,6 @@
       "price": 64.5,
       "unit": "125 GR",
       "unitPrice": "516,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/501016.jpg",
       "url": null
     },
@@ -1281,7 +1136,6 @@
       "price": 64.5,
       "unit": "90 GR",
       "unitPrice": "716,67 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1291,7 +1145,6 @@
       "price": 64.5,
       "unit": "2.5 LT",
       "unitPrice": "25,80 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/1201145.jpg",
       "url": null
     },
@@ -1301,7 +1154,6 @@
       "price": 65,
       "unit": "6 Adet",
       "unitPrice": "10,83 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/101741.png",
       "url": null
     },
@@ -1311,7 +1163,6 @@
       "price": 65,
       "unit": "2 KG",
       "unitPrice": "32,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1700736.jpg",
       "url": null
     },
@@ -1321,7 +1172,6 @@
       "price": 65,
       "unit": "2.5 LT",
       "unitPrice": "26,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/13002672.png",
       "url": null
     },
@@ -1331,7 +1181,6 @@
       "price": 65.5,
       "unit": "1.25 LT",
       "unitPrice": "52,40 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1201078.jpg",
       "url": null
     },
@@ -1341,7 +1190,6 @@
       "price": 66.5,
       "unit": "1 KG",
       "unitPrice": "66,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/401457.jpg",
       "url": null
     },
@@ -1351,7 +1199,6 @@
       "price": 66.75,
       "unit": "3.96 LT",
       "unitPrice": "16,86 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1361,7 +1208,6 @@
       "price": 69,
       "unit": "60 GR",
       "unitPrice": "1.150,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/702985.png",
       "url": null
     },
@@ -1371,7 +1217,6 @@
       "price": 69,
       "unit": "700 GR",
       "unitPrice": "98,57 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1702539.png",
       "url": null
     },
@@ -1381,7 +1226,6 @@
       "price": 69,
       "unit": "270 GR",
       "unitPrice": "255,56 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/703994.png",
       "url": null
     },
@@ -1391,7 +1235,6 @@
       "price": 69,
       "unit": "12 Adet",
       "unitPrice": "5,75 ₺/Adet",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1401,7 +1244,6 @@
       "price": 69,
       "unit": "156 Adet",
       "unitPrice": "0,44 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1710562.jpg",
       "url": null
     },
@@ -1411,7 +1253,6 @@
       "price": 69.5,
       "unit": "1.08 LT",
       "unitPrice": "64,35 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1705076.png",
       "url": null
     },
@@ -1421,7 +1262,6 @@
       "price": 69.5,
       "unit": "1.08 LT",
       "unitPrice": "64,35 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1705075.png",
       "url": null
     },
@@ -1431,7 +1271,6 @@
       "price": 70,
       "unit": "2.5 KG",
       "unitPrice": "28,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1441,7 +1280,6 @@
       "price": 70,
       "unit": "2.5 KG",
       "unitPrice": "28,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1700039.png",
       "url": null
     },
@@ -1451,7 +1289,6 @@
       "price": 70,
       "unit": "375 GR",
       "unitPrice": "186,67 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/1401983.jpg",
       "url": null
     },
@@ -1461,7 +1298,6 @@
       "price": 72.5,
       "unit": "300 GR",
       "unitPrice": "241,67 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1471,7 +1307,6 @@
       "price": 72.5,
       "unit": "650 GR",
       "unitPrice": "111,54 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/yurdum-aci-biber-salcasi-650-g.jpg",
       "url": null
     },
@@ -1481,7 +1316,6 @@
       "price": 72.5,
       "unit": "650 GR",
       "unitPrice": "111,54 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/801931.jpg",
       "url": null
     },
@@ -1491,7 +1325,6 @@
       "price": 73.5,
       "unit": "250 GR",
       "unitPrice": "294,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/900003.jpg",
       "url": null
     },
@@ -1501,7 +1334,6 @@
       "price": 75,
       "unit": "15 Adet",
       "unitPrice": "5,00 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/101381.png",
       "url": null
     },
@@ -1511,7 +1343,6 @@
       "price": 75,
       "unit": "100 GR",
       "unitPrice": "750,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/702471.png",
       "url": null
     },
@@ -1521,7 +1352,6 @@
       "price": 75,
       "unit": "12 Adet",
       "unitPrice": "6,25 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30424703.png",
       "url": null
     },
@@ -1531,7 +1361,6 @@
       "price": 75,
       "unit": "1.1 LT",
       "unitPrice": "68,18 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1541,7 +1370,6 @@
       "price": 77,
       "unit": "500 GR",
       "unitPrice": "154,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/601698.jpg",
       "url": null
     },
@@ -1551,7 +1379,6 @@
       "price": 79,
       "unit": "400 GR",
       "unitPrice": "197,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/27001225.png",
       "url": null
     },
@@ -1561,7 +1388,6 @@
       "price": 79,
       "unit": "375 GR",
       "unitPrice": "210,67 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1705230.jpg",
       "url": null
     },
@@ -1571,7 +1397,6 @@
       "price": 79,
       "unit": "400 GR",
       "unitPrice": "197,50 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1581,7 +1406,6 @@
       "price": 79,
       "unit": "75 GR",
       "unitPrice": "1.053,33 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1591,7 +1415,6 @@
       "price": 79,
       "unit": "600 ML",
       "unitPrice": "131,67 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/1402209.jpg",
       "url": null
     },
@@ -1601,7 +1424,6 @@
       "price": 79,
       "unit": "4 LT",
       "unitPrice": "19,75 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1703243.png",
       "url": null
     },
@@ -1611,7 +1433,6 @@
       "price": 79.5,
       "unit": "1.08 LT",
       "unitPrice": "73,61 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/carrefour/30161607.jpg",
       "url": null
     },
@@ -1621,7 +1442,6 @@
       "price": 79.5,
       "unit": "1.08 LT",
       "unitPrice": "73,61 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1707116.png",
       "url": null
     },
@@ -1631,7 +1451,6 @@
       "price": 83.5,
       "unit": "1 KG",
       "unitPrice": "83,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/401458.png",
       "url": null
     },
@@ -1641,7 +1460,6 @@
       "price": 84.5,
       "unit": "400 GR",
       "unitPrice": "211,25 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/601882.jpg",
       "url": null
     },
@@ -1651,7 +1469,6 @@
       "price": 85,
       "unit": "200 GR",
       "unitPrice": "425,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1712858.jpg",
       "url": null
     },
@@ -1661,7 +1478,6 @@
       "price": 85,
       "unit": "1.44 LT",
       "unitPrice": "59,03 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1701755.jpg",
       "url": null
     },
@@ -1671,7 +1487,6 @@
       "price": 85,
       "unit": "50 ML",
       "unitPrice": "1.700,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1400642.jpg",
       "url": null
     },
@@ -1681,7 +1496,6 @@
       "price": 87.5,
       "unit": "10 Adet",
       "unitPrice": "8,75 ₺/Adet",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1691,7 +1505,6 @@
       "price": 89,
       "unit": "350 GR",
       "unitPrice": "254,29 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1705226.png",
       "url": null
     },
@@ -1701,7 +1514,6 @@
       "price": 89,
       "unit": "1 KG",
       "unitPrice": "89,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/susse-petibor-biskuvi-1000-g.jpg",
       "url": null
     },
@@ -1711,7 +1523,6 @@
       "price": 89,
       "unit": "3.73 LT",
       "unitPrice": "23,86 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1704794.png",
       "url": null
     },
@@ -1721,7 +1532,6 @@
       "price": 89.5,
       "unit": "1 KG",
       "unitPrice": "89,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/401744.png",
       "url": null
     },
@@ -1731,8 +1541,16 @@
       "price": 92.5,
       "unit": "400 GR",
       "unitPrice": "231,25 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/601609.png",
+      "url": null
+    },
+    {
+      "name": "Wasa Sade Gevrek Ekmek 275 Gr",
+      "brand": "Wasa",
+      "price": 95,
+      "unit": "275 GR",
+      "unitPrice": "345,45 ₺/Kg",
+      "image": "",
       "url": null
     },
     {
@@ -1741,7 +1559,6 @@
       "price": 97,
       "unit": "1.5 KG",
       "unitPrice": "64,67 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1751,7 +1568,6 @@
       "price": 97.5,
       "unit": "3 KG",
       "unitPrice": "32,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/1201581.jpg",
       "url": null
     },
@@ -1761,7 +1577,6 @@
       "price": 99,
       "unit": "16 Adet",
       "unitPrice": "6,19 ₺/Adet",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1771,7 +1586,6 @@
       "price": 99,
       "unit": "500 GR",
       "unitPrice": "198,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/inci-siyah-zeytin-231-290-boy-500-g.jpg",
       "url": null
     },
@@ -1781,7 +1595,6 @@
       "price": 99,
       "unit": "250 GR",
       "unitPrice": "396,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1705289.png",
       "url": null
     },
@@ -1791,7 +1604,6 @@
       "price": 99,
       "unit": "435 GR",
       "unitPrice": "227,59 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101/17003285.jpg",
       "url": null
     },
@@ -1801,7 +1613,6 @@
       "price": 99,
       "unit": "4 LT",
       "unitPrice": "24,75 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1708944.jpg",
       "url": null
     },
@@ -1811,7 +1622,6 @@
       "price": 100,
       "unit": "100 GR",
       "unitPrice": "1.000,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1706969.png",
       "url": null
     },
@@ -1821,7 +1631,6 @@
       "price": 105,
       "unit": "100 GR",
       "unitPrice": "1.050,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/300078.jpg",
       "url": null
     },
@@ -1831,7 +1640,6 @@
       "price": 105,
       "unit": "5 KG",
       "unitPrice": "21,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1711750.jpg",
       "url": null
     },
@@ -1841,7 +1649,6 @@
       "price": 105,
       "unit": "2.5 LT",
       "unitPrice": "42,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/1401987.jpg",
       "url": null
     },
@@ -1851,7 +1658,6 @@
       "price": 109,
       "unit": "225 GR",
       "unitPrice": "484,44 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/200689.png",
       "url": null
     },
@@ -1861,7 +1667,6 @@
       "price": 109,
       "unit": "100 GR",
       "unitPrice": "1.090,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/300079.png",
       "url": null
     },
@@ -1871,7 +1676,6 @@
       "price": 109,
       "unit": "5 KG",
       "unitPrice": "21,80 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1881,7 +1685,6 @@
       "price": 109,
       "unit": "5 LT",
       "unitPrice": "21,80 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1712343.jpg",
       "url": null
     },
@@ -1891,7 +1694,6 @@
       "price": 109,
       "unit": "75 ML",
       "unitPrice": "1.453,33 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/24002942.png",
       "url": null
     },
@@ -1901,7 +1703,6 @@
       "price": 109,
       "unit": "800 GR",
       "unitPrice": "136,25 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/1401985.jpg",
       "url": null
     },
@@ -1911,7 +1712,6 @@
       "price": 109,
       "unit": "4 KG",
       "unitPrice": "27,25 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1711138.jpg",
       "url": null
     },
@@ -1921,7 +1721,6 @@
       "price": 109.5,
       "unit": "16 Adet",
       "unitPrice": "6,84 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1300394.jpg",
       "url": null
     },
@@ -1931,7 +1730,6 @@
       "price": 110,
       "unit": "2.5 KG",
       "unitPrice": "44,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1700038.png",
       "url": null
     },
@@ -1941,7 +1739,6 @@
       "price": 113,
       "unit": "460 GR",
       "unitPrice": "245,65 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/601625.png",
       "url": null
     },
@@ -1951,7 +1748,6 @@
       "price": 115,
       "unit": "5 LT",
       "unitPrice": "23,00 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1961,7 +1757,6 @@
       "price": 119,
       "unit": "1 LT",
       "unitPrice": "119,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/900308.png",
       "url": null
     },
@@ -1971,7 +1766,6 @@
       "price": 119,
       "unit": "325 GR",
       "unitPrice": "366,15 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/601888.jpg",
       "url": null
     },
@@ -1981,7 +1775,6 @@
       "price": 119,
       "unit": "4 LT",
       "unitPrice": "29,75 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -1991,7 +1784,6 @@
       "price": 120,
       "unit": "500 GR",
       "unitPrice": "240,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/300384.png",
       "url": null
     },
@@ -2001,7 +1793,6 @@
       "price": 120,
       "unit": "3 LT",
       "unitPrice": "40,00 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2011,7 +1802,6 @@
       "price": 120,
       "unit": "3 LT",
       "unitPrice": "40,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1201592.jpg",
       "url": null
     },
@@ -2021,7 +1811,6 @@
       "price": 122,
       "unit": "650 ML",
       "unitPrice": "187,69 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1201435.png",
       "url": null
     },
@@ -2031,7 +1820,6 @@
       "price": 125,
       "unit": "250 GR",
       "unitPrice": "500,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/201127.png",
       "url": null
     },
@@ -2041,7 +1829,6 @@
       "price": 125,
       "unit": "48 Adet",
       "unitPrice": "2,60 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/302157.png",
       "url": null
     },
@@ -2051,7 +1838,6 @@
       "price": 125,
       "unit": "5 LT",
       "unitPrice": "25,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/22002437.png",
       "url": null
     },
@@ -2061,7 +1847,6 @@
       "price": 129,
       "unit": "30 Adet",
       "unitPrice": "4,30 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/101248.png",
       "url": null
     },
@@ -2071,7 +1856,6 @@
       "price": 129,
       "unit": "3 KG",
       "unitPrice": "43,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2081,7 +1865,6 @@
       "price": 129,
       "unit": "10 Adet",
       "unitPrice": "12,90 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/301586.png",
       "url": null
     },
@@ -2091,7 +1874,6 @@
       "price": 129,
       "unit": "1.65 KG",
       "unitPrice": "78,18 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1704798.png",
       "url": null
     },
@@ -2101,7 +1883,6 @@
       "price": 129,
       "unit": "1.5 KG",
       "unitPrice": "86,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2111,7 +1892,6 @@
       "price": 129,
       "unit": "1.98 LT",
       "unitPrice": "65,15 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1712497.jpg",
       "url": null
     },
@@ -2121,7 +1901,6 @@
       "price": 132.5,
       "unit": "2.5 KG",
       "unitPrice": "53,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/401341.png",
       "url": null
     },
@@ -2131,7 +1910,6 @@
       "price": 135,
       "unit": "2.5 KG",
       "unitPrice": "54,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/400286.jpg",
       "url": null
     },
@@ -2141,7 +1919,6 @@
       "price": 135,
       "unit": "5 KG",
       "unitPrice": "27,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/401428.png",
       "url": null
     },
@@ -2151,7 +1928,6 @@
       "price": 139,
       "unit": "1.5 KG",
       "unitPrice": "92,67 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30393338.png",
       "url": null
     },
@@ -2161,7 +1937,6 @@
       "price": 139,
       "unit": "1.44 LT",
       "unitPrice": "96,53 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1712952.jpg",
       "url": null
     },
@@ -2171,7 +1946,6 @@
       "price": 139,
       "unit": "4 LT",
       "unitPrice": "34,75 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/1201548.jpg",
       "url": null
     },
@@ -2181,7 +1955,6 @@
       "price": 143,
       "unit": "12 Adet",
       "unitPrice": "11,92 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1300388.jpg",
       "url": null
     },
@@ -2191,7 +1964,6 @@
       "price": 145,
       "unit": "5 KG",
       "unitPrice": "29,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/401916.png",
       "url": null
     },
@@ -2201,7 +1973,6 @@
       "price": 145,
       "unit": "5 KG",
       "unitPrice": "29,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/401848.png",
       "url": null
     },
@@ -2211,7 +1982,6 @@
       "price": 145,
       "unit": "1 KG",
       "unitPrice": "145,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/703472.png",
       "url": null
     },
@@ -2221,7 +1991,6 @@
       "price": 145,
       "unit": "750 ML",
       "unitPrice": "193,33 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1401984.jpg",
       "url": null
     },
@@ -2231,7 +2000,6 @@
       "price": 149,
       "unit": "500 GR",
       "unitPrice": "298,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1713104.jpg",
       "url": null
     },
@@ -2241,7 +2009,6 @@
       "price": 155,
       "unit": "900 GR",
       "unitPrice": "172,22 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1401993.png",
       "url": null
     },
@@ -2251,7 +2018,6 @@
       "price": 155,
       "unit": "4 LT",
       "unitPrice": "38,75 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2261,7 +2027,6 @@
       "price": 155,
       "unit": "4 LT",
       "unitPrice": "38,75 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2271,7 +2036,6 @@
       "price": 159,
       "unit": "150 GR",
       "unitPrice": "1.060,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2281,7 +2045,6 @@
       "price": 159,
       "unit": "4 LT",
       "unitPrice": "39,75 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1710812.jpg",
       "url": null
     },
@@ -2291,7 +2054,6 @@
       "price": 159,
       "unit": "5 KG",
       "unitPrice": "31,80 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2301,7 +2063,6 @@
       "price": 159,
       "unit": "4 KG",
       "unitPrice": "39,75 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/carrefour/30211580.jpg",
       "url": null
     },
@@ -2311,7 +2072,6 @@
       "price": 167,
       "unit": "1.25 LT",
       "unitPrice": "133,60 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1201400.png",
       "url": null
     },
@@ -2321,7 +2081,6 @@
       "price": 169,
       "unit": "1 KG",
       "unitPrice": "169,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/601363.png",
       "url": null
     },
@@ -2331,7 +2090,6 @@
       "price": 169,
       "unit": "350 GR",
       "unitPrice": "482,86 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1705227.png",
       "url": null
     },
@@ -2341,7 +2099,6 @@
       "price": 170,
       "unit": "250 GR",
       "unitPrice": "680,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1713271.jpg",
       "url": null
     },
@@ -2351,7 +2108,6 @@
       "price": 175,
       "unit": "250 GR",
       "unitPrice": "700,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1712766.jpg",
       "url": null
     },
@@ -2361,7 +2117,6 @@
       "price": 175,
       "unit": "5 KG",
       "unitPrice": "35,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1701131.png",
       "url": null
     },
@@ -2371,7 +2126,6 @@
       "price": 175,
       "unit": "500 ML",
       "unitPrice": "350,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1402455.jpg",
       "url": null
     },
@@ -2381,7 +2135,6 @@
       "price": 178.5,
       "unit": "100 ML",
       "unitPrice": "1.785,00 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2391,7 +2144,6 @@
       "price": 179,
       "unit": "3 KG",
       "unitPrice": "59,67 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2401,7 +2153,6 @@
       "price": 179,
       "unit": "2.5 KG",
       "unitPrice": "71,60 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/401741.png",
       "url": null
     },
@@ -2411,7 +2162,6 @@
       "price": 185,
       "unit": "500 GR",
       "unitPrice": "370,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30062995.png",
       "url": null
     },
@@ -2421,7 +2171,6 @@
       "price": 185,
       "unit": "1 KG",
       "unitPrice": "185,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2431,7 +2180,6 @@
       "price": 189,
       "unit": "540 GR",
       "unitPrice": "350,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1704858.png",
       "url": null
     },
@@ -2441,7 +2189,6 @@
       "price": 189,
       "unit": "2.5 KG",
       "unitPrice": "75,60 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/400285.png",
       "url": null
     },
@@ -2451,7 +2198,6 @@
       "price": 189,
       "unit": "3 LT",
       "unitPrice": "63,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/22002454.png",
       "url": null
     },
@@ -2461,7 +2207,6 @@
       "price": 195,
       "unit": "5 LT",
       "unitPrice": "39,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30006466.png",
       "url": null
     },
@@ -2471,7 +2216,6 @@
       "price": 195,
       "unit": "5 LT",
       "unitPrice": "39,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30005353.png",
       "url": null
     },
@@ -2481,7 +2225,6 @@
       "price": 195,
       "unit": "600 GR",
       "unitPrice": "325,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2491,7 +2234,6 @@
       "price": 198,
       "unit": "5 KG",
       "unitPrice": "39,60 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/400931.png",
       "url": null
     },
@@ -2501,7 +2243,6 @@
       "price": 199,
       "unit": "1 KG",
       "unitPrice": "199,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1706949.png",
       "url": null
     },
@@ -2511,7 +2252,6 @@
       "price": 199,
       "unit": "500 GR",
       "unitPrice": "398,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/200526.png",
       "url": null
     },
@@ -2521,7 +2261,6 @@
       "price": 199,
       "unit": "100 GR",
       "unitPrice": "1.990,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/300199.png",
       "url": null
     },
@@ -2531,7 +2270,6 @@
       "price": 199,
       "unit": "800 GR",
       "unitPrice": "248,75 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2541,7 +2279,6 @@
       "price": 199,
       "unit": "400 ML",
       "unitPrice": "497,50 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2551,7 +2288,6 @@
       "price": 199,
       "unit": "330 ML",
       "unitPrice": "603,03 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1402867.jpg",
       "url": null
     },
@@ -2561,7 +2297,6 @@
       "price": 199,
       "unit": "400 ML",
       "unitPrice": "497,50 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/128444.jpg",
       "url": null
     },
@@ -2571,7 +2306,6 @@
       "price": 203.5,
       "unit": "5 KG",
       "unitPrice": "40,70 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/bill-matik-renkliler-icin-toz-camasir-deterjani-5-kg.jpg",
       "url": null
     },
@@ -2581,8 +2315,16 @@
       "price": 205,
       "unit": "750 GR",
       "unitPrice": "273,33 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/200942.png",
+      "url": null
+    },
+    {
+      "name": "Türkşeker Toz Şeker 5 Kg",
+      "brand": "Türkşeker",
+      "price": 209,
+      "unit": "5 KG",
+      "unitPrice": "41,80 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sok/92164.jpg",
       "url": null
     },
     {
@@ -2591,7 +2333,6 @@
       "price": 209,
       "unit": "5 KG",
       "unitPrice": "41,80 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1705631.png",
       "url": null
     },
@@ -2601,7 +2342,6 @@
       "price": 219,
       "unit": "350 GR",
       "unitPrice": "625,71 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/201003.png",
       "url": null
     },
@@ -2611,7 +2351,6 @@
       "price": 219,
       "unit": "300 GR",
       "unitPrice": "730,00 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2621,7 +2360,6 @@
       "price": 219,
       "unit": "2 KG",
       "unitPrice": "109,50 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2631,7 +2369,6 @@
       "price": 224,
       "unit": "750 GR",
       "unitPrice": "298,67 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/201661.png",
       "url": null
     },
@@ -2641,7 +2378,6 @@
       "price": 225,
       "unit": "2 LT",
       "unitPrice": "112,50 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/900313.jpg",
       "url": null
     },
@@ -2651,7 +2387,6 @@
       "price": 227,
       "unit": "5 KG",
       "unitPrice": "45,40 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1200927.png",
       "url": null
     },
@@ -2661,7 +2396,6 @@
       "price": 229,
       "unit": "350 ML",
       "unitPrice": "654,29 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2671,7 +2405,6 @@
       "price": 230,
       "unit": "1 KG",
       "unitPrice": "230,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/301619.png",
       "url": null
     },
@@ -2681,7 +2414,6 @@
       "price": 235,
       "unit": "1 LT",
       "unitPrice": "235,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101/19001054.jpg",
       "url": null
     },
@@ -2691,7 +2423,6 @@
       "price": 235,
       "unit": "1.5 KG",
       "unitPrice": "156,67 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2701,7 +2432,6 @@
       "price": 235,
       "unit": "100 Adet",
       "unitPrice": "2,35 ₺/Adet",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2711,7 +2441,6 @@
       "price": 249,
       "unit": "2 KG",
       "unitPrice": "124,50 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/601345.png",
       "url": null
     },
@@ -2721,7 +2450,6 @@
       "price": 269,
       "unit": "600 GR",
       "unitPrice": "448,33 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/200375.png",
       "url": null
     },
@@ -2731,7 +2459,6 @@
       "price": 275,
       "unit": "5 KG",
       "unitPrice": "55,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1700037.png",
       "url": null
     },
@@ -2741,7 +2468,6 @@
       "price": 279,
       "unit": "1 LT",
       "unitPrice": "279,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/900354.jpg",
       "url": null
     },
@@ -2751,7 +2477,6 @@
       "price": 279,
       "unit": "850 GR",
       "unitPrice": "328,24 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2761,7 +2486,6 @@
       "price": 279,
       "unit": "850 GR",
       "unitPrice": "328,24 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/601875.jpg",
       "url": null
     },
@@ -2771,7 +2495,6 @@
       "price": 279,
       "unit": "850 GR",
       "unitPrice": "328,24 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101/16002284.jpg",
       "url": null
     },
@@ -2781,7 +2504,6 @@
       "price": 279,
       "unit": "850 GR",
       "unitPrice": "328,24 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/601874.jpg",
       "url": null
     },
@@ -2791,7 +2513,6 @@
       "price": 279,
       "unit": "900 GR",
       "unitPrice": "310,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/601434.png",
       "url": null
     },
@@ -2801,7 +2522,6 @@
       "price": 279,
       "unit": "40 Adet",
       "unitPrice": "6,97 ₺/Adet",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2811,7 +2531,6 @@
       "price": 285,
       "unit": "1 LT",
       "unitPrice": "285,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1711377.jpg",
       "url": null
     },
@@ -2821,7 +2540,6 @@
       "price": 285,
       "unit": "1 LT",
       "unitPrice": "285,00 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2831,7 +2549,6 @@
       "price": 290,
       "unit": "1 LT",
       "unitPrice": "290,00 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/900430.jpg",
       "url": null
     },
@@ -2841,7 +2558,6 @@
       "price": 295,
       "unit": "3.24 LT",
       "unitPrice": "91,05 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/a101images/22002024.png",
       "url": null
     },
@@ -2851,7 +2567,6 @@
       "price": 305,
       "unit": "8 KG",
       "unitPrice": "38,12 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimages/1201506.jpg",
       "url": null
     },
@@ -2861,7 +2576,6 @@
       "price": 309,
       "unit": "700 GR",
       "unitPrice": "441,43 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/200056.jpg",
       "url": null
     },
@@ -2871,7 +2585,6 @@
       "price": 325,
       "unit": "460 GR",
       "unitPrice": "706,52 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/601556.png",
       "url": null
     },
@@ -2881,7 +2594,6 @@
       "price": 325,
       "unit": "12 KG",
       "unitPrice": "27,08 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2891,7 +2603,6 @@
       "price": 339,
       "unit": "1 KG",
       "unitPrice": "339,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/200613.png",
       "url": null
     },
@@ -2901,7 +2612,6 @@
       "price": 339,
       "unit": "5 KG",
       "unitPrice": "67,80 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1701441.png",
       "url": null
     },
@@ -2911,7 +2621,6 @@
       "price": 340,
       "unit": "700 GR",
       "unitPrice": "485,71 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/201674.png",
       "url": null
     },
@@ -2921,7 +2630,6 @@
       "price": 349,
       "unit": "1 KG",
       "unitPrice": "349,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1710349.jpg",
       "url": null
     },
@@ -2931,7 +2639,6 @@
       "price": 349,
       "unit": "48 Adet",
       "unitPrice": "7,27 ₺/Adet",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2941,7 +2648,6 @@
       "price": 359,
       "unit": "1 LT",
       "unitPrice": "359,00 ₺/Lt",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2951,7 +2657,6 @@
       "price": 369,
       "unit": "5 KG",
       "unitPrice": "73,80 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -2961,7 +2666,6 @@
       "price": 369,
       "unit": "48 Adet",
       "unitPrice": "7,69 ₺/Adet",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1712965.jpg",
       "url": null
     },
@@ -2971,7 +2675,6 @@
       "price": 379,
       "unit": "700 GR",
       "unitPrice": "541,43 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bimimages/201428.png",
       "url": null
     },
@@ -2981,7 +2684,6 @@
       "price": 380,
       "unit": "500 GR",
       "unitPrice": "760,00 ₺/Kg",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/migros/3240026.jpg",
       "url": null
     },
@@ -2991,7 +2693,6 @@
       "price": 385,
       "unit": "460 GR",
       "unitPrice": "836,96 ₺/Kg",
-      "discount": 0,
       "image": "",
       "url": null
     },
@@ -3001,7 +2702,6 @@
       "price": 389,
       "unit": "5 LT",
       "unitPrice": "77,80 ₺/Lt",
-      "discount": 0,
       "image": "https://cdn.marketfiyati.org.tr/bim/1711399.jpg",
       "url": null
     }
