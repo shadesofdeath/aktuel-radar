@@ -2,10 +2,19 @@
   "market": "a101",
   "label": "A101",
   "color": "#00A0DF",
-  "updatedAt": "2026-07-13T19:11:20.568Z",
+  "updatedAt": "2026-07-14T07:46:34.287Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 221,
+  "count": 220,
   "products": [
+    {
+      "name": "Cafex 2'si 1 Arada Hazır Kahve 12 Gr",
+      "brand": "Cafex",
+      "price": 4.5,
+      "unit": "12 GR",
+      "unitPrice": "375,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101/13000991.jpg",
+      "url": null
+    },
     {
       "name": "Cafex Instant Mocha Kahve 18 Gr",
       "brand": "Cafex",
@@ -76,15 +85,6 @@
       "unit": "180 ML",
       "unitPrice": "83,33 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/bimimages/201407.png",
-      "url": null
-    },
-    {
-      "name": "Sek Kakaolu Süt 180 Ml",
-      "brand": "Sek",
-      "price": 15,
-      "unit": "180 ML",
-      "unitPrice": "83,33 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/12002821.png",
       "url": null
     },
     {
@@ -170,7 +170,7 @@
     },
     {
       "name": "Ekmek 1 Adet",
-      "brand": "Açık",
+      "brand": "Markasız",
       "price": 17.5,
       "unit": "1 Adet",
       "unitPrice": "17,50 ₺/Adet",
@@ -211,6 +211,15 @@
       "unit": "36 GR",
       "unitPrice": "500,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101/17002361.jpg",
+      "url": null
+    },
+    {
+      "name": "Sütaş Hüptrik Çilekli Yoğurt 105 Gr",
+      "brand": "Sütaş",
+      "price": 18.95,
+      "unit": "105 GR",
+      "unitPrice": "180,48 ₺/Kg",
+      "image": "",
       "url": null
     },
     {
@@ -343,7 +352,7 @@
       "name": "Simit Ekmek 1 Adet",
       "brand": "Markasız",
       "price": 29.9,
-      "unit": "300 GR",
+      "unit": "1 Adet",
       "unitPrice": "29,90 ₺/Adet",
       "image": "",
       "url": null
@@ -382,15 +391,6 @@
       "unit": "1 Adet",
       "unitPrice": "34,90 ₺/Adet",
       "image": "",
-      "url": null
-    },
-    {
-      "name": "Şeker Domates Adet.",
-      "brand": "Markasız",
-      "price": 34.9,
-      "unit": "250 GR",
-      "unitPrice": "139,60 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/20001227.png",
       "url": null
     },
     {
@@ -625,15 +625,6 @@
       "unit": "1 LT",
       "unitPrice": "55,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/12000005.png",
-      "url": null
-    },
-    {
-      "name": "İçim Yağlı Süt 1 Lt",
-      "brand": "İçim",
-      "price": 55,
-      "unit": "1 LT",
-      "unitPrice": "55,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/12000233.png",
       "url": null
     },
     {
@@ -898,15 +889,6 @@
       "url": null
     },
     {
-      "name": "Sütaş Çikolatalı Süt 1.08 Lt",
-      "brand": "Sütaş",
-      "price": 79.5,
-      "unit": "1.08 LT",
-      "unitPrice": "73,61 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/12002638.png",
-      "url": null
-    },
-    {
       "name": "İçim Laktozsuz Yoğurt 750 Gr",
       "brand": "İçim",
       "price": 79.5,
@@ -1087,15 +1069,6 @@
       "url": null
     },
     {
-      "name": "İpek Dökülen Saçlar Şampuan 480 Ml",
-      "brand": "İpek",
-      "price": 99.5,
-      "unit": "480 ML",
-      "unitPrice": "207,29 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101/24006201.jpg",
-      "url": null
-    },
-    {
       "name": "Domestos Ultra Çamaşır Suyu 1.85 Lt",
       "brand": "Domestos",
       "price": 99.5,
@@ -1168,7 +1141,7 @@
       "url": null
     },
     {
-      "name": "Signal Whıte System Diş Macunu 75 Ml",
+      "name": "Signal White System Diş Macunu 75 Ml",
       "brand": "Signal",
       "price": 119,
       "unit": "75 ML",
@@ -1210,6 +1183,15 @@
       "unit": "650 ML",
       "unitPrice": "187,69 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101/22001725.jpg",
+      "url": null
+    },
+    {
+      "name": "Cafex 2'si 1 Arada Hazır Kahve 400 Gr",
+      "brand": "Cafex",
+      "price": 123.5,
+      "unit": "400 GR",
+      "unitPrice": "308,75 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/30000053.png",
       "url": null
     },
     {
@@ -1276,6 +1258,15 @@
       "url": null
     },
     {
+      "name": "Rummo Penne Makarna 500 Gr",
+      "brand": "Rummo",
+      "price": 139.5,
+      "unit": "500 GR",
+      "unitPrice": "279,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/14000067.png",
+      "url": null
+    },
+    {
       "name": "Rummo Spaghetti Makarna 500 Gr",
       "brand": "Rummo",
       "price": 139.5,
@@ -1339,30 +1330,21 @@
       "url": null
     },
     {
-      "name": "Elidor Anında Onarıcı Şampuan 650 Ml",
-      "brand": "Elidor",
-      "price": 165,
-      "unit": "650 ML",
-      "unitPrice": "253,85 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/24004950.png",
-      "url": null
-    },
-    {
-      "name": "Blendax Şampuan Isırgan Özlü 500 Ml",
-      "brand": "Blendax",
-      "price": 175,
-      "unit": "500 ML",
-      "unitPrice": "350,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migros/34255822.jpg",
-      "url": null
-    },
-    {
       "name": "Blendax Yasemin Şampuan 500 Ml",
       "brand": "Blendax",
       "price": 175,
       "unit": "500 ML",
       "unitPrice": "350,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/24003234.png",
+      "url": null
+    },
+    {
+      "name": "Blendax Isırgan Özlü Şampuan 500 Ml",
+      "brand": "Blendax",
+      "price": 175,
+      "unit": "500 ML",
+      "unitPrice": "350,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/migros/34255822.jpg",
       "url": null
     },
     {
@@ -1390,6 +1372,15 @@
       "unit": "2.5 KG",
       "unitPrice": "71,60 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/14001905.png",
+      "url": null
+    },
+    {
+      "name": "Duru Nem Bombası Güçlü Parlaklık Şampuan 600 Ml",
+      "brand": "Duru",
+      "price": 179,
+      "unit": "600 ML",
+      "unitPrice": "298,33 ₺/Lt",
+      "image": "",
       "url": null
     },
     {
@@ -1453,6 +1444,15 @@
       "unit": "2 LT",
       "unitPrice": "99,50 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101/19000016.jpg",
+      "url": null
+    },
+    {
+      "name": "Pantene Onarım Ve Koruma Şampuan 400 Ml",
+      "brand": "Pantene",
+      "price": 199,
+      "unit": "400 ML",
+      "unitPrice": "497,50 ₺/Lt",
+      "image": "",
       "url": null
     },
     {
@@ -1759,15 +1759,6 @@
       "unit": "8 KG",
       "unitPrice": "38,12 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101/22002701.jpg",
-      "url": null
-    },
-    {
-      "name": "Çiçeğim Beyazlar İçin Toz Deterjan 8 Kg",
-      "brand": "Çiçeğim",
-      "price": 305,
-      "unit": "8 KG",
-      "unitPrice": "38,12 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/22002702.jpg",
       "url": null
     },
     {

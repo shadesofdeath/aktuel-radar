@@ -2,9 +2,9 @@
   "market": "tarimkredi",
   "label": "Tarım Kredi",
   "color": "#0A7D34",
-  "updatedAt": "2026-07-13T19:11:20.568Z",
+  "updatedAt": "2026-07-14T07:46:34.287Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 107,
+  "count": 99,
   "products": [
     {
       "name": "Fuska Su 500 Ml",
@@ -169,21 +169,21 @@
       "url": null
     },
     {
-      "name": "Sarıyer Kola 1 Lt",
-      "brand": "Sarıyer",
-      "price": 32.5,
-      "unit": "1 LT",
-      "unitPrice": "32,50 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/122032.png",
-      "url": null
-    },
-    {
       "name": "Ülker Çikolata Fındık Rüyası 40 Gr",
       "brand": "Ülker",
       "price": 34.9,
       "unit": "40.5 GR",
       "unitPrice": "872,50 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101/27000367.jpg",
+      "url": null
+    },
+    {
+      "name": "Sarıyer Kola 1 Lt",
+      "brand": "Sarıyer",
+      "price": 37.5,
+      "unit": "1 LT",
+      "unitPrice": "37,50 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/122032.png",
       "url": null
     },
     {
@@ -331,15 +331,6 @@
       "url": null
     },
     {
-      "name": "Elidor Anında Onarıcı Şampuan 325 Ml",
-      "brand": "Elidor",
-      "price": 69,
-      "unit": "325 ML",
-      "unitPrice": "212,31 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/128646.jpg",
-      "url": null
-    },
-    {
       "name": "Tarım Kredi Un 2 Kg",
       "brand": "Tarım Kredi",
       "price": 69.9,
@@ -412,30 +403,12 @@
       "url": null
     },
     {
-      "name": "Sütaş Çikolatalı Süt 1.08 Lt",
+      "name": "Sütaş Muzlu Süt 6x180 Ml",
       "brand": "Sütaş",
       "price": 94.5,
       "unit": "1.08 LT",
       "unitPrice": "87,50 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/12002638.png",
-      "url": null
-    },
-    {
-      "name": "Sütaş Sade Süt 6x180 Ml",
-      "brand": "Sütaş",
-      "price": 94.5,
-      "unit": "1.08 LT",
-      "unitPrice": "87,50 ₺/Lt",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Tarım Kredi Gezen Tavuk Yumurta 10 Adet",
-      "brand": "Tarım Kredi",
-      "price": 95,
-      "unit": "10 Adet",
-      "unitPrice": "9,50 ₺/Adet",
-      "image": "",
+      "image": "https://cdn.marketfiyati.org.tr/migrosimages/11010179.png",
       "url": null
     },
     {
@@ -466,6 +439,24 @@
       "url": null
     },
     {
+      "name": "Kumartaşlı Boy Yumurta M Boy 53-63 Gr 30 Adet",
+      "brand": "Kumartaşlı",
+      "price": 99.9,
+      "unit": "30 Adet",
+      "unitPrice": "3,33 ₺/Adet",
+      "image": "",
+      "url": null
+    },
+    {
+      "name": "Keskinoğlu Yumurta M Boy 30 Adet",
+      "brand": "Keskinoğlu",
+      "price": 99.9,
+      "unit": "30 Adet",
+      "unitPrice": "3,33 ₺/Adet",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/107464.jpg",
+      "url": null
+    },
+    {
       "name": "Toblerone Çikolata Sütlü 100 Gr",
       "brand": "Toblerone",
       "price": 99.9,
@@ -484,7 +475,7 @@
       "url": null
     },
     {
-      "name": "Dola Glutensiz Pilavlık Bulgur 400 G",
+      "name": "Dola Glutensiz Pilavlık Bulgur 400 Gr",
       "brand": "Dola",
       "price": 103.9,
       "unit": "400 GR",
@@ -547,33 +538,6 @@
       "url": null
     },
     {
-      "name": "Kumartaşlı Boy Yumurta M Boy 53-63 Gr 30 Adet",
-      "brand": "Kumartaşlı",
-      "price": 129,
-      "unit": "30 Adet",
-      "unitPrice": "4,30 ₺/Adet",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Keskinoğlu Yumurta M Boy 30 Adet",
-      "brand": "Keskinoğlu",
-      "price": 129,
-      "unit": "30 Adet",
-      "unitPrice": "4,30 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/107464.jpg",
-      "url": null
-    },
-    {
-      "name": "Nescafe Sütlü Köpüklü 3ın1 Arada 10'lu Paket",
-      "brand": "Nescafe",
-      "price": 129.5,
-      "unit": "17 GR",
-      "unitPrice": "12,95 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/70934.png",
-      "url": null
-    },
-    {
       "name": "Cem Kırma Yeşil Zeytin 400 Gr",
       "brand": "Cem",
       "price": 129.9,
@@ -601,6 +565,15 @@
       "url": null
     },
     {
+      "name": "Elit Bulaşık Deterjanı 4 Lt",
+      "brand": "Elit",
+      "price": 139.9,
+      "unit": "4 LT",
+      "unitPrice": "34,97 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/103933.jpg",
+      "url": null
+    },
+    {
       "name": "Sarıyer Kola 4x1 Lt",
       "brand": "Sarıyer",
       "price": 145,
@@ -619,21 +592,21 @@
       "url": null
     },
     {
+      "name": "Ben Organic Portakal Suyu 946 Ml",
+      "brand": "Orgbenorganic",
+      "price": 152,
+      "unit": "946 ML",
+      "unitPrice": "160,68 ₺/Lt",
+      "image": "",
+      "url": null
+    },
+    {
       "name": "Agarta Doğal Çocuk Diş Macunu 75 Ml",
       "brand": "Agarta",
       "price": 152.9,
       "unit": "75 ML",
       "unitPrice": "2.038,67 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/101075.jpg",
-      "url": null
-    },
-    {
-      "name": "Elit Bulaşık Deterjanı 4 Lt",
-      "brand": "Elit",
-      "price": 157.9,
-      "unit": "4 LT",
-      "unitPrice": "39,47 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/103933.jpg",
       "url": null
     },
     {
@@ -664,30 +637,21 @@
       "url": null
     },
     {
-      "name": "Bioblas Onarıcı Dolgunlaştırıcı Şampuan 360 Ml",
-      "brand": "Bioblas",
-      "price": 169.9,
-      "unit": "360 ML",
-      "unitPrice": "471,94 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/125791.jpg",
-      "url": null
-    },
-    {
-      "name": "Ben Organic Portakal Suyu 946 Ml",
-      "brand": "Orgbenorganic",
-      "price": 179,
-      "unit": "946 ML",
-      "unitPrice": "189,22 ₺/Lt",
-      "image": "",
-      "url": null
-    },
-    {
       "name": "Dalin Şampuan 700 Ml",
       "brand": "Dalin",
       "price": 179.9,
       "unit": "700 ML",
       "unitPrice": "257,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/24000424.png",
+      "url": null
+    },
+    {
+      "name": "Tarım Kredi Anadolu Ayçiçek Yağı 2 Lt",
+      "brand": "Tarım Kredi",
+      "price": 199,
+      "unit": "2 LT",
+      "unitPrice": "99,50 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/108706.png",
       "url": null
     },
     {
@@ -706,15 +670,6 @@
       "unit": "650 ML",
       "unitPrice": "307,54 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/108817.jpg",
-      "url": null
-    },
-    {
-      "name": "Elidor Anında Onarıcı Şampuan 650 Ml",
-      "brand": "Elidor",
-      "price": 199.9,
-      "unit": "650 ML",
-      "unitPrice": "307,54 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/24004950.png",
       "url": null
     },
     {
@@ -763,30 +718,12 @@
       "url": null
     },
     {
-      "name": "Tarım Kredi Anadolu Ayçiçek Yağı 2 Lt",
-      "brand": "Tarım Kredi",
-      "price": 219,
-      "unit": "2 LT",
-      "unitPrice": "109,50 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/108706.png",
-      "url": null
-    },
-    {
       "name": "Peros Gül Yumuşatıcı 5 Lt",
       "brand": "Peros",
       "price": 219,
       "unit": "5 LT",
       "unitPrice": "43,80 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/22002437.png",
-      "url": null
-    },
-    {
-      "name": "Elit Doğal Zeytinyağlı Şampuan 700 Ml",
-      "brand": "Elit",
-      "price": 219,
-      "unit": "700 ML",
-      "unitPrice": "312,86 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/105572.jpg",
       "url": null
     },
     {
@@ -871,21 +808,21 @@
       "url": null
     },
     {
-      "name": "Aqua Bambulu 3 Katlı Tuvalet Kağıdı 40 Adet",
-      "brand": "Aqua",
-      "price": 289.9,
-      "unit": "40 Adet",
-      "unitPrice": "7,25 ₺/Adet",
-      "image": "",
-      "url": null
-    },
-    {
       "name": "Pril Limonlu Sıvı Bulaşık Deterjanı 4 Kg",
       "brand": "Pril",
       "price": 299.9,
       "unit": "4 KG",
       "unitPrice": "74,97 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/hakmarimages/1006538.png",
+      "url": null
+    },
+    {
+      "name": "Arıvital Yayla Petek Bal 520 Gr",
+      "brand": "Arıvital",
+      "price": 319.9,
+      "unit": "520 GR",
+      "unitPrice": "615,19 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/123190.jpg",
       "url": null
     },
     {
@@ -922,15 +859,6 @@
       "unit": "1 KG",
       "unitPrice": "356,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/13000056.png",
-      "url": null
-    },
-    {
-      "name": "Arıvital Yayla Petek Bal 520 Gr",
-      "brand": "Arıvital",
-      "price": 379.9,
-      "unit": "520 GR",
-      "unitPrice": "730,58 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/123190.jpg",
       "url": null
     },
     {

@@ -2,10 +2,37 @@
   "market": "bim",
   "label": "BİM",
   "color": "#E4001B",
-  "updatedAt": "2026-07-13T19:11:20.568Z",
+  "updatedAt": "2026-07-14T07:46:34.287Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 154,
+  "count": 157,
   "products": [
+    {
+      "name": "Vip 3ü 1 Arada Hazır Kahve 18 Gr",
+      "brand": "VIP",
+      "price": 4.5,
+      "unit": "18 GR",
+      "unitPrice": "250,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/300208.png",
+      "url": null
+    },
+    {
+      "name": "Vip 2'si 1 Arada Hazır Kahve 12 Gr",
+      "brand": "VIP",
+      "price": 4.5,
+      "unit": "12 GR",
+      "unitPrice": "375,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bimages/300851.jpg",
+      "url": null
+    },
+    {
+      "name": "Vip Fındıklı 3ü 1 Arada Hazır Kahve 18 Gr",
+      "brand": "VIP",
+      "price": 4.5,
+      "unit": "18 GR",
+      "unitPrice": "250,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/300492.png",
+      "url": null
+    },
     {
       "name": "Vip Latte Hazır Kahve 17 Gr",
       "brand": "VIP",
@@ -58,15 +85,6 @@
       "unit": "1.5 LT",
       "unitPrice": "8,17 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/13000091.png",
-      "url": null
-    },
-    {
-      "name": "Kidy Kakaolu Süt 70 Ml",
-      "brand": "Kidy",
-      "price": 13,
-      "unit": "70 ML",
-      "unitPrice": "185,71 ₺/Lt",
-      "image": "",
       "url": null
     },
     {
@@ -142,30 +160,12 @@
       "url": null
     },
     {
-      "name": "Sek Kakaolu Süt 180 Ml",
-      "brand": "Sek",
-      "price": 19,
-      "unit": "180 ML",
-      "unitPrice": "105,56 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/12002821.png",
-      "url": null
-    },
-    {
       "name": "Queen Desenli Peçete 20 Adet",
       "brand": "Queen",
       "price": 19.5,
       "unit": "20 Adet",
       "unitPrice": "0,98 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1703290.png",
-      "url": null
-    },
-    {
-      "name": "Torku Çilekli Süt 180 Ml",
-      "brand": "Torku",
-      "price": 20.5,
-      "unit": "180 ML",
-      "unitPrice": "113,89 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/bim/201796.jpg",
       "url": null
     },
     {
@@ -223,30 +223,12 @@
       "url": null
     },
     {
-      "name": "Pepsi Kola 330 Ml",
-      "brand": "Pepsi",
-      "price": 33,
-      "unit": "330 ML",
-      "unitPrice": "100,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/13001718.png",
-      "url": null
-    },
-    {
       "name": "Saban Köftelik Bulgur 1 Kg",
       "brand": "Saban",
       "price": 34,
       "unit": "1 KG",
       "unitPrice": "34,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bimimages/400250.png",
-      "url": null
-    },
-    {
-      "name": "Duru Pilavlık Bulgur 1 Kg",
-      "brand": "Duru",
-      "price": 35,
-      "unit": "1 KG",
-      "unitPrice": "35,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/14002118.png",
       "url": null
     },
     {
@@ -313,15 +295,6 @@
       "url": null
     },
     {
-      "name": "Colgate Diş Macunu 50 Ml",
-      "brand": "Colgate",
-      "price": 42.5,
-      "unit": "50 ML",
-      "unitPrice": "850,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/bim/1400642.jpg",
-      "url": null
-    },
-    {
       "name": "Blume Peçete 30x30 Cm 200 Adet",
       "brand": "Blume",
       "price": 42.5,
@@ -358,12 +331,12 @@
       "url": null
     },
     {
-      "name": "Bili Bili Yumurta 15 Adet",
-      "brand": "Bili Bili",
+      "name": "Pepsi Kola 330 Ml",
+      "brand": "Pepsi",
       "price": 47.5,
-      "unit": "15 Adet",
-      "unitPrice": "3,17 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/101381.png",
+      "unit": "330 ML",
+      "unitPrice": "143,94 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/13001718.png",
       "url": null
     },
     {
@@ -421,6 +394,15 @@
       "url": null
     },
     {
+      "name": "Duru Pilavlık Bulgur 1 Kg",
+      "brand": "Duru",
+      "price": 49.75,
+      "unit": "1 KG",
+      "unitPrice": "49,75 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/14002118.png",
+      "url": null
+    },
+    {
       "name": "Jenny & Willy Yenidoğan Bebek Bezi 40 Adet",
       "brand": "Jenny & Willy",
       "price": 50,
@@ -445,15 +427,6 @@
       "unit": "750 ML",
       "unitPrice": "69,33 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1201458.png",
-      "url": null
-    },
-    {
-      "name": "Organik Yumurta 6 Adet",
-      "brand": "Markasız",
-      "price": 52.5,
-      "unit": "6 Adet",
-      "unitPrice": "8,75 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/101741.png",
       "url": null
     },
     {
@@ -511,6 +484,15 @@
       "url": null
     },
     {
+      "name": "Dost Laktozsuz Süt 1 Lt",
+      "brand": "Dost",
+      "price": 59,
+      "unit": "1 LT",
+      "unitPrice": "59,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bim/201224.jpg",
+      "url": null
+    },
+    {
       "name": "Centro Sütlü Fındık Kremalı Gofret 240 Gr",
       "brand": "Centro",
       "price": 59,
@@ -565,6 +547,15 @@
       "url": null
     },
     {
+      "name": "Organik Yumurta 6 Adet",
+      "brand": "Markasız",
+      "price": 65,
+      "unit": "6 Adet",
+      "unitPrice": "10,83 ₺/Adet",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/101741.png",
+      "url": null
+    },
+    {
       "name": "Su 12x330 Ml",
       "brand": "Markasız",
       "price": 66.75,
@@ -589,6 +580,15 @@
       "unit": "156 Adet",
       "unitPrice": "0,44 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/bim/1710562.jpg",
+      "url": null
+    },
+    {
+      "name": "Torku Kakaolu Süt 6x180 Ml",
+      "brand": "Torku",
+      "price": 69.5,
+      "unit": "1.08 LT",
+      "unitPrice": "64,35 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/1705076.png",
       "url": null
     },
     {
@@ -628,12 +628,21 @@
       "url": null
     },
     {
-      "name": "Buono Şeker İlavesiz Sütlü Çikolata 100 Gr",
-      "brand": "Buono",
+      "name": "Bili Bili Yumurta 15 Adet",
+      "brand": "Bili Bili",
       "price": 75,
-      "unit": "100 GR",
-      "unitPrice": "750,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/702471.png",
+      "unit": "15 Adet",
+      "unitPrice": "5,00 ₺/Adet",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/101381.png",
+      "url": null
+    },
+    {
+      "name": "Solo Bambu Tuvalet Kağıdı 12 Adet",
+      "brand": "Solo",
+      "price": 75,
+      "unit": "12 Adet",
+      "unitPrice": "6,25 ₺/Adet",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30424703.png",
       "url": null
     },
     {
@@ -643,24 +652,6 @@
       "unit": "1.1 LT",
       "unitPrice": "68,18 ₺/Lt",
       "image": "",
-      "url": null
-    },
-    {
-      "name": "Haribo Yumuşak Şeker Fruitbons 400 Gr",
-      "brand": "Haribo",
-      "price": 79,
-      "unit": "400 GR",
-      "unitPrice": "197,50 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/27001225.png",
-      "url": null
-    },
-    {
-      "name": "Kent Assortment Şeker 375 Gr",
-      "brand": "Kent",
-      "price": 79,
-      "unit": "375 GR",
-      "unitPrice": "210,67 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bim/1705230.jpg",
       "url": null
     },
     {
@@ -709,30 +700,21 @@
       "url": null
     },
     {
+      "name": "Colgate Diş Macunu 50 Ml",
+      "brand": "Colgate",
+      "price": 85,
+      "unit": "50 ML",
+      "unitPrice": "1.700,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bim/1400642.jpg",
+      "url": null
+    },
+    {
       "name": "Kahverengi Yumurta 10 Adet",
       "brand": "Markasız",
       "price": 87.5,
       "unit": "10 Adet",
       "unitPrice": "8,75 ₺/Adet",
       "image": "",
-      "url": null
-    },
-    {
-      "name": "Binvezir Taze Kaşar 225 Gr",
-      "brand": "Binvezir",
-      "price": 89,
-      "unit": "225 GR",
-      "unitPrice": "395,56 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/200689.png",
-      "url": null
-    },
-    {
-      "name": "Ülker Lokumcuk Şeker 350 Gr",
-      "brand": "Ülker",
-      "price": 89,
-      "unit": "350 GR",
-      "unitPrice": "254,29 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/1705226.png",
       "url": null
     },
     {
@@ -754,12 +736,48 @@
       "url": null
     },
     {
+      "name": "Ülker Lokumcuk Şeker 350 Gr",
+      "brand": "Ülker",
+      "price": 99,
+      "unit": "350 GR",
+      "unitPrice": "282,86 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/1705226.png",
+      "url": null
+    },
+    {
+      "name": "Kent Assortment Şeker 375 Gr",
+      "brand": "Kent",
+      "price": 99,
+      "unit": "375 GR",
+      "unitPrice": "264,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bim/1705230.jpg",
+      "url": null
+    },
+    {
+      "name": "Haribo Yumuşak Şeker Fruitbons 400 Gr",
+      "brand": "Haribo",
+      "price": 99,
+      "unit": "400 GR",
+      "unitPrice": "247,50 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/27001225.png",
+      "url": null
+    },
+    {
       "name": "Işıl Sıvı Sabun 2.5 Lt",
       "brand": "Işıl",
       "price": 105,
       "unit": "2.5 LT",
       "unitPrice": "42,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/bimages/1401987.jpg",
+      "url": null
+    },
+    {
+      "name": "Binvezir Taze Kaşar 225 Gr",
+      "brand": "Binvezir",
+      "price": 109,
+      "unit": "225 GR",
+      "unitPrice": "484,44 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/200689.png",
       "url": null
     },
     {
@@ -934,15 +952,6 @@
       "url": null
     },
     {
-      "name": "Senfoni Sıvı Bulaşık Deterjanı 4 Lt",
-      "brand": "Senfoni",
-      "price": 139,
-      "unit": "4 LT",
-      "unitPrice": "34,75 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/bimages/1201548.jpg",
-      "url": null
-    },
-    {
       "name": "Queen Parfümlü 3 Katlı Tuvalet Kağıdı 12 Adet",
       "brand": "Queen",
       "price": 143,
@@ -979,6 +988,15 @@
       "url": null
     },
     {
+      "name": "Head&Shoulders Şampuan 330 Ml",
+      "brand": "Head&shoulders",
+      "price": 149,
+      "unit": "330 ML",
+      "unitPrice": "451,52 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bim/1402867.jpg",
+      "url": null
+    },
+    {
       "name": "Moliendo Hindiba Hazır Kahve 150 Gr",
       "brand": "Moliendo",
       "price": 159,
@@ -1006,12 +1024,12 @@
       "url": null
     },
     {
-      "name": "Sensodyne Diş Macunu 100 Ml",
-      "brand": "Sensodyne",
-      "price": 164,
-      "unit": "100 ML",
-      "unitPrice": "1.640,00 ₺/Lt",
-      "image": "",
+      "name": "Senfoni Sıvı Bulaşık Deterjanı 4 Lt",
+      "brand": "Senfoni",
+      "price": 159,
+      "unit": "4 LT",
+      "unitPrice": "39,75 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bimages/1201548.jpg",
       "url": null
     },
     {
@@ -1033,15 +1051,6 @@
       "url": null
     },
     {
-      "name": "Duru Duş Katı Sabun 600 Gr",
-      "brand": "Duru",
-      "price": 174,
-      "unit": "600 GR",
-      "unitPrice": "290,00 ₺/Kg",
-      "image": "",
-      "url": null
-    },
-    {
       "name": "Jacobs Monarch Intense Filtre Kahve 250 Gr",
       "brand": "Jacobs",
       "price": 175,
@@ -1051,11 +1060,11 @@
       "url": null
     },
     {
-      "name": "Torku %3 Yağlı Yoğurt 3 Kg",
-      "brand": "Torku",
-      "price": 179,
-      "unit": "3 KG",
-      "unitPrice": "59,67 ₺/Kg",
+      "name": "Sensodyne Diş Macunu 100 Ml",
+      "brand": "Sensodyne",
+      "price": 178.5,
+      "unit": "100 ML",
+      "unitPrice": "1.785,00 ₺/Lt",
       "image": "",
       "url": null
     },
@@ -1084,6 +1093,15 @@
       "unit": "3 LT",
       "unitPrice": "63,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/22002454.png",
+      "url": null
+    },
+    {
+      "name": "Duru Duş Katı Sabun 600 Gr",
+      "brand": "Duru",
+      "price": 195,
+      "unit": "600 GR",
+      "unitPrice": "325,00 ₺/Kg",
+      "image": "",
       "url": null
     },
     {
@@ -1303,6 +1321,15 @@
       "url": null
     },
     {
+      "name": "Peros Matik Toz Deterjan 10 Kg",
+      "brand": "Peros",
+      "price": 389,
+      "unit": "10 KG",
+      "unitPrice": "38,90 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/1707987.png",
+      "url": null
+    },
+    {
       "name": "Jenny & Willy Maxi Bebek Bezi 100 Adet",
       "brand": "Jenny & Willy",
       "price": 389,
@@ -1330,6 +1357,15 @@
       "url": null
     },
     {
+      "name": "Kebir Tereyağı 500 Gr",
+      "brand": "Kebir",
+      "price": 399,
+      "unit": "500 GR",
+      "unitPrice": "798,00 ₺/Kg",
+      "image": "",
+      "url": null
+    },
+    {
       "name": "Rinso Renkliler & Beyazlar Toz Deterjan 8 Kg",
       "brand": "Rinso",
       "price": 429,
@@ -1344,15 +1380,6 @@
       "price": 439,
       "unit": "5 LT",
       "unitPrice": "87,80 ₺/Lt",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Kebir Tereyağı 500 Gr",
-      "brand": "Kebir",
-      "price": 445,
-      "unit": "500 GR",
-      "unitPrice": "890,00 ₺/Kg",
       "image": "",
       "url": null
     },
