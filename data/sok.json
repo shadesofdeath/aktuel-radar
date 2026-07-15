@@ -2,19 +2,10 @@
   "market": "sok",
   "label": "ŞOK",
   "color": "#F0A500",
-  "updatedAt": "2026-07-14T19:01:45.361Z",
+  "updatedAt": "2026-07-15T07:49:47.557Z",
   "source": "https://marketfiyati.org.tr",
   "count": 84,
   "products": [
-    {
-      "name": "Avril Su 500 Ml",
-      "brand": "Avril",
-      "price": 6.75,
-      "unit": "500 ML",
-      "unitPrice": "13,50 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/145189.png",
-      "url": null
-    },
     {
       "name": "Kardelen Su 500 Ml",
       "brand": "Kardelen",
@@ -205,6 +196,15 @@
       "url": null
     },
     {
+      "name": "Eti Pronot Çikolata 35 Gr",
+      "brand": "Eti",
+      "price": 49,
+      "unit": "35 GR",
+      "unitPrice": "1.400,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/migros/7031017.jpg",
+      "url": null
+    },
+    {
       "name": "Peki Muzlu Gofret 350 Gr",
       "brand": "Peki",
       "price": 49.95,
@@ -349,6 +349,15 @@
       "url": null
     },
     {
+      "name": "Karmen Şeker İlavesiz Sütlü Çikolata 100 Gr",
+      "brand": "Karmen",
+      "price": 75,
+      "unit": "100 GR",
+      "unitPrice": "750,00 ₺/Kg",
+      "image": "",
+      "url": null
+    },
+    {
       "name": "Dola Glutensiz Pilavlık Bulgur 400 Gr",
       "brand": "Dola",
       "price": 79,
@@ -484,15 +493,6 @@
       "url": null
     },
     {
-      "name": "Godiva Bol Sütlü Çikolata 60 Gr",
-      "brand": "Godiva",
-      "price": 115,
-      "unit": "60 GR",
-      "unitPrice": "1.916,67 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/82985.png",
-      "url": null
-    },
-    {
       "name": "Evin Ayçiçek Yağı 1 Lt",
       "brand": "Evin",
       "price": 119,
@@ -574,6 +574,24 @@
       "url": null
     },
     {
+      "name": "Colgate Max White Diş Macunu 75 Ml",
+      "brand": "Colgate",
+      "price": 147,
+      "unit": "75 ML",
+      "unitPrice": "1.960,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/24002942.png",
+      "url": null
+    },
+    {
+      "name": "Mintax Yoğun Çamaşır Suyu 4 Lt",
+      "brand": "Mintax",
+      "price": 153,
+      "unit": "4 LT",
+      "unitPrice": "38,25 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/60133.png",
+      "url": null
+    },
+    {
       "name": "Dalin Şampuan 700 Ml",
       "brand": "Dalin",
       "price": 159,
@@ -610,15 +628,6 @@
       "url": null
     },
     {
-      "name": "Blendax Isırgan Özlü Şampuan 500 Ml",
-      "brand": "Blendax",
-      "price": 175,
-      "unit": "500 ML",
-      "unitPrice": "350,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migros/34255822.jpg",
-      "url": null
-    },
-    {
       "name": "Kovandan Çiçek Balı 460 Gr",
       "brand": "Kovandan",
       "price": 176,
@@ -652,15 +661,6 @@
       "unit": "100 ML",
       "unitPrice": "1.790,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/sok/84393.jpg",
-      "url": null
-    },
-    {
-      "name": "Lezzcafe Filtre Kahve 250 Gr",
-      "brand": "Lezzcafe",
-      "price": 189,
-      "unit": "250 GR",
-      "unitPrice": "756,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/103064.png",
       "url": null
     },
     {

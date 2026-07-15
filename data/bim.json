@@ -2,9 +2,9 @@
   "market": "bim",
   "label": "BİM",
   "color": "#E4001B",
-  "updatedAt": "2026-07-14T19:01:45.361Z",
+  "updatedAt": "2026-07-15T07:49:47.557Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 157,
+  "count": 159,
   "products": [
     {
       "name": "Vip 3ü 1 Arada Hazır Kahve 18 Gr",
@@ -175,6 +175,15 @@
       "unit": "500 GR",
       "unitPrice": "49,00 ₺/Kg",
       "image": "",
+      "url": null
+    },
+    {
+      "name": "Snickers Bar Çikolata 36 Gr",
+      "brand": "Snickers",
+      "price": 24.5,
+      "unit": "36 GR",
+      "unitPrice": "690,14 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/27002270.png",
       "url": null
     },
     {
@@ -637,6 +646,15 @@
       "url": null
     },
     {
+      "name": "Buono Şeker İlavesiz Sütlü Çikolata 100 Gr",
+      "brand": "Buono",
+      "price": 75,
+      "unit": "100 GR",
+      "unitPrice": "750,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/702471.png",
+      "url": null
+    },
+    {
       "name": "Solo Bambu Tuvalet Kağıdı 12 Adet",
       "brand": "Solo",
       "price": 75,
@@ -778,6 +796,15 @@
       "unit": "225 GR",
       "unitPrice": "484,44 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bimimages/200689.png",
+      "url": null
+    },
+    {
+      "name": "Colgate Max White Diş Macunu 75 Ml",
+      "brand": "Colgate",
+      "price": 109,
+      "unit": "75 ML",
+      "unitPrice": "1.453,33 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/24002942.png",
       "url": null
     },
     {
@@ -943,15 +970,6 @@
       "url": null
     },
     {
-      "name": "Tat Domates Salçası 1.5 Kg",
-      "brand": "Tat",
-      "price": 139,
-      "unit": "1.5 KG",
-      "unitPrice": "92,67 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30393338.png",
-      "url": null
-    },
-    {
       "name": "Queen Parfümlü 3 Katlı Tuvalet Kağıdı 12 Adet",
       "brand": "Queen",
       "price": 143,
@@ -1033,6 +1051,15 @@
       "url": null
     },
     {
+      "name": "Bingo Sıvı Bulaşık Deterjanı 4 Kg",
+      "brand": "Bingo",
+      "price": 159,
+      "unit": "4 KG",
+      "unitPrice": "39,75 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefour/30211580.jpg",
+      "url": null
+    },
+    {
       "name": "Domestos Çamaşır Suyu 1.25 Lt",
       "brand": "Domestos",
       "price": 167,
@@ -1048,6 +1075,15 @@
       "unit": "1 KG",
       "unitPrice": "169,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bimimages/601363.png",
+      "url": null
+    },
+    {
+      "name": "Ülker Ece Çikolata 350 Gr",
+      "brand": "Ülker",
+      "price": 169,
+      "unit": "350 GR",
+      "unitPrice": "482,86 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/1705227.png",
       "url": null
     },
     {
@@ -1231,15 +1267,6 @@
       "url": null
     },
     {
-      "name": "Artmatik Renkli Toz Deterjan 8 Kg",
-      "brand": "Artmatik",
-      "price": 305,
-      "unit": "8 KG",
-      "unitPrice": "38,12 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimages/1201506.jpg",
-      "url": null
-    },
-    {
       "name": "Binvezir Taze Kaşar 700 Gr",
       "brand": "Binvezir",
       "price": 309,
@@ -1309,15 +1336,6 @@
       "unit": "500 GR",
       "unitPrice": "760,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/migros/3240026.jpg",
-      "url": null
-    },
-    {
-      "name": "Safya Ayçiçek Yağı 5 Lt",
-      "brand": "Safya",
-      "price": 389,
-      "unit": "5 LT",
-      "unitPrice": "77,80 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/bim/1711399.jpg",
       "url": null
     },
     {

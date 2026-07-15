@@ -2,9 +2,9 @@
   "market": "tarimkredi",
   "label": "Tarım Kredi",
   "color": "#0A7D34",
-  "updatedAt": "2026-07-14T19:01:45.361Z",
+  "updatedAt": "2026-07-15T07:49:47.557Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 99,
+  "count": 101,
   "products": [
     {
       "name": "Fuska Su 500 Ml",
@@ -169,15 +169,6 @@
       "url": null
     },
     {
-      "name": "Ülker Çikolata Fındık Rüyası 40 Gr",
-      "brand": "Ülker",
-      "price": 34.9,
-      "unit": "40.5 GR",
-      "unitPrice": "872,50 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/27000367.jpg",
-      "url": null
-    },
-    {
       "name": "Sarıyer Kola 1 Lt",
       "brand": "Sarıyer",
       "price": 37.5,
@@ -256,6 +247,15 @@
       "unit": "142 GR",
       "unitPrice": "379,58 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/migrosimages/7160265.png",
+      "url": null
+    },
+    {
+      "name": "Eti Pronot Çikolata 35 Gr",
+      "brand": "Eti",
+      "price": 54.9,
+      "unit": "35 GR",
+      "unitPrice": "1.568,57 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/migros/7031017.jpg",
       "url": null
     },
     {
@@ -376,15 +376,6 @@
       "url": null
     },
     {
-      "name": "Elit Doğal Zeytinyağlı Sabun 4x180 Gr",
-      "brand": "Elit",
-      "price": 86.9,
-      "unit": "720 GR",
-      "unitPrice": "120,69 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/105569.jpg",
-      "url": null
-    },
-    {
       "name": "Domestos Çamaşır Suyu 750 Ml",
       "brand": "Domestos",
       "price": 89.9,
@@ -499,6 +490,24 @@
       "unit": "1 KG",
       "unitPrice": "109,90 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/migros/1010336.jpg",
+      "url": null
+    },
+    {
+      "name": "Nestlé Damak Çikolata 60 Gr",
+      "brand": "Nestlé",
+      "price": 109.9,
+      "unit": "60 GR",
+      "unitPrice": "1.831,67 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/111864.png",
+      "url": null
+    },
+    {
+      "name": "Elidor Güçlü Ve Parlak Şampuan 500 Ml",
+      "brand": "Elidor",
+      "price": 109.9,
+      "unit": "500 ML",
+      "unitPrice": "219,80 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30381095.png",
       "url": null
     },
     {
@@ -835,6 +844,15 @@
       "url": null
     },
     {
+      "name": "Çaykur Tiryaki Çay 1 Kg",
+      "brand": "Çaykur",
+      "price": 345,
+      "unit": "1 KG",
+      "unitPrice": "345,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/13000056.png",
+      "url": null
+    },
+    {
       "name": "Bingo Toz Deterjan 6 Kg",
       "brand": "Bingo",
       "price": 349,
@@ -853,12 +871,12 @@
       "url": null
     },
     {
-      "name": "Çaykur Tiryaki Çay 1 Kg",
-      "brand": "Çaykur",
-      "price": 356,
-      "unit": "1 KG",
-      "unitPrice": "356,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/13000056.png",
+      "name": "Tarım Kredi Yayla Balı 450 Gr",
+      "brand": "Tarım Kredi",
+      "price": 369.9,
+      "unit": "450 GR",
+      "unitPrice": "822,00 ₺/Kg",
+      "image": "",
       "url": null
     },
     {
