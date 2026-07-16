@@ -2,9 +2,9 @@
   "market": "tarimkredi",
   "label": "Tarım Kredi",
   "color": "#0A7D34",
-  "updatedAt": "2026-07-16T07:54:48.652Z",
+  "updatedAt": "2026-07-16T18:55:16.424Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 99,
+  "count": 107,
   "products": [
     {
       "name": "Fuska Su 500 Ml",
@@ -49,6 +49,15 @@
       "unit": "250 ML",
       "unitPrice": "56,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/121791.png",
+      "url": null
+    },
+    {
+      "name": "Nescafé 2si1 Arada 10 Gr",
+      "brand": "Nescafé",
+      "price": 15,
+      "unit": "10 GR",
+      "unitPrice": "1.500,00 ₺/Kg",
+      "image": "",
       "url": null
     },
     {
@@ -160,15 +169,6 @@
       "url": null
     },
     {
-      "name": "Ülker Çikolata Fındık Rüyası 40 Gr",
-      "brand": "Ülker",
-      "price": 34.9,
-      "unit": "40.5 GR",
-      "unitPrice": "872,50 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/27000367.jpg",
-      "url": null
-    },
-    {
       "name": "Sarıyer Kola 1 Lt",
       "brand": "Sarıyer",
       "price": 37.5,
@@ -184,6 +184,15 @@
       "unit": "1 KG",
       "unitPrice": "40,90 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/101343.png",
+      "url": null
+    },
+    {
+      "name": "Sarıyer Şekersiz Kola 1.5 Lt",
+      "brand": "Sarıyer",
+      "price": 42.5,
+      "unit": "1.5 LT",
+      "unitPrice": "28,33 ₺/Lt",
+      "image": "",
       "url": null
     },
     {
@@ -238,6 +247,15 @@
       "unit": "142 GR",
       "unitPrice": "379,58 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/migrosimages/7160265.png",
+      "url": null
+    },
+    {
+      "name": "Eti Pronot Çikolata 35 Gr",
+      "brand": "Eti",
+      "price": 54.9,
+      "unit": "35 GR",
+      "unitPrice": "1.568,57 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/migros/7031017.jpg",
       "url": null
     },
     {
@@ -466,6 +484,15 @@
       "url": null
     },
     {
+      "name": "Nestlé Damak Çikolata 60 Gr",
+      "brand": "Nestlé",
+      "price": 109.9,
+      "unit": "60 GR",
+      "unitPrice": "1.831,67 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/111864.png",
+      "url": null
+    },
+    {
       "name": "Elidor Güçlü Ve Parlak Şampuan 500 Ml",
       "brand": "Elidor",
       "price": 109.9,
@@ -502,6 +529,15 @@
       "url": null
     },
     {
+      "name": "Peros Beyaz Çiçekler Yumuşatıcı 3 Lt",
+      "brand": "Peros",
+      "price": 119,
+      "unit": "3 LT",
+      "unitPrice": "39,67 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30285104.png",
+      "url": null
+    },
+    {
       "name": "Tto-x Samba Diş Macunu 75 Ml",
       "brand": "Tto-x",
       "price": 126.9,
@@ -535,6 +571,15 @@
       "unit": "400 GR",
       "unitPrice": "324,75 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30478432.png",
+      "url": null
+    },
+    {
+      "name": "Nescafé Coffee Mate 200 Gr",
+      "brand": "Coffee mate",
+      "price": 139.5,
+      "unit": "200 GR",
+      "unitPrice": "697,50 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/126190.jpg",
       "url": null
     },
     {
@@ -579,15 +624,6 @@
       "price": 149.9,
       "unit": "15 Adet",
       "unitPrice": "9,99 ₺/Adet",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Ben Organic Portakal Suyu 946 Ml",
-      "brand": "Orgbenorganic",
-      "price": 152,
-      "unit": "946 ML",
-      "unitPrice": "160,68 ₺/Lt",
       "image": "",
       "url": null
     },
@@ -718,6 +754,33 @@
       "url": null
     },
     {
+      "name": "Peros Beyaz Çiçekler Yumuşatıcı 5 Lt",
+      "brand": "Peros",
+      "price": 219,
+      "unit": "5 LT",
+      "unitPrice": "43,80 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/1708309.png",
+      "url": null
+    },
+    {
+      "name": "Bingo Soft Sensitive Yumuşatıcı 5 Lt",
+      "brand": "Bingo",
+      "price": 224,
+      "unit": "5 LT",
+      "unitPrice": "44,80 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30006466.png",
+      "url": null
+    },
+    {
+      "name": "Bingo Soft Lovely Klasik Yumuşatıcı 5 Lt",
+      "brand": "Bingo",
+      "price": 224,
+      "unit": "5 LT",
+      "unitPrice": "44,80 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30005353.png",
+      "url": null
+    },
+    {
       "name": "Destan Toz Şeker 5 Kg",
       "brand": "Destan",
       "price": 225,
@@ -742,6 +805,15 @@
       "unit": "850 GR",
       "unitPrice": "276,47 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/102894.png",
+      "url": null
+    },
+    {
+      "name": "Bingo Soft Lovely Konsantre Yumuşatıcı 1.44 Lt",
+      "brand": "Bingo",
+      "price": 239,
+      "unit": "1.44 LT",
+      "unitPrice": "165,97 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30063567.png",
       "url": null
     },
     {

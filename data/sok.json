@@ -2,9 +2,9 @@
   "market": "sok",
   "label": "ŞOK",
   "color": "#F0A500",
-  "updatedAt": "2026-07-16T07:54:48.652Z",
+  "updatedAt": "2026-07-16T18:55:16.424Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 86,
+  "count": 92,
   "products": [
     {
       "name": "Kardelen Su 500 Ml",
@@ -34,6 +34,24 @@
       "url": null
     },
     {
+      "name": "Nescafé Classic 2 Gr",
+      "brand": "Nescafé",
+      "price": 13.5,
+      "unit": "2 GR",
+      "unitPrice": "6.750,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/migros/3231670.jpg",
+      "url": null
+    },
+    {
+      "name": "Nescafé Gold 2 Gr",
+      "brand": "Nescafé",
+      "price": 15,
+      "unit": "2 GR",
+      "unitPrice": "7.500,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/30000097.png",
+      "url": null
+    },
+    {
       "name": "Saka Su 500 Ml",
       "brand": "Saka",
       "price": 16.9,
@@ -58,6 +76,15 @@
       "unit": "17 GR",
       "unitPrice": "1.029,41 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/61728.png",
+      "url": null
+    },
+    {
+      "name": "Nescafé Cappuccino Şekerli 14 Gr",
+      "brand": "Nescafé",
+      "price": 17.5,
+      "unit": "14 GR",
+      "unitPrice": "1.250,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30087107.png",
       "url": null
     },
     {
@@ -193,6 +220,15 @@
       "unit": "370 GR",
       "unitPrice": "121,62 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/130120.png",
+      "url": null
+    },
+    {
+      "name": "Eti Pronot Çikolata 35 Gr",
+      "brand": "Eti",
+      "price": 49,
+      "unit": "35 GR",
+      "unitPrice": "1.400,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/migros/7031017.jpg",
       "url": null
     },
     {
@@ -466,6 +502,15 @@
       "url": null
     },
     {
+      "name": "Mintax Sensitive Yumuşatıcı 1.44 Lt",
+      "brand": "Mintax",
+      "price": 107,
+      "unit": "1.44 LT",
+      "unitPrice": "74,31 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/80908.png",
+      "url": null
+    },
+    {
       "name": "Ebru Klasik Kalıp Beyaz Sabun 4x200 Gr",
       "brand": "Ebru",
       "price": 109,
@@ -490,15 +535,6 @@
       "unit": "400 GR",
       "unitPrice": "286,25 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/113103.png",
-      "url": null
-    },
-    {
-      "name": "Godiva Bol Sütlü Çikolata 60 Gr",
-      "brand": "Godiva",
-      "price": 115,
-      "unit": "60 GR",
-      "unitPrice": "1.916,67 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/82985.png",
       "url": null
     },
     {
@@ -580,6 +616,15 @@
       "unit": "75 ML",
       "unitPrice": "1.853,33 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/105746.png",
+      "url": null
+    },
+    {
+      "name": "Nescafé Coffee Mate 200 Gr",
+      "brand": "Coffee mate",
+      "price": 139.5,
+      "unit": "200 GR",
+      "unitPrice": "697,50 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/126190.jpg",
       "url": null
     },
     {
@@ -670,6 +715,15 @@
       "unit": "100 ML",
       "unitPrice": "1.790,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/sok/84393.jpg",
+      "url": null
+    },
+    {
+      "name": "Nescafé Fine Blend 70 Gr",
+      "brand": "Nescafé",
+      "price": 179.5,
+      "unit": "70 GR",
+      "unitPrice": "2.564,29 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/133930.png",
       "url": null
     },
     {

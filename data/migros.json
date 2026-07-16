@@ -2,10 +2,19 @@
   "market": "migros",
   "label": "Migros",
   "color": "#FF6A13",
-  "updatedAt": "2026-07-16T07:54:48.652Z",
+  "updatedAt": "2026-07-16T18:55:16.424Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 239,
+  "count": 231,
   "products": [
+    {
+      "name": "Nescafé Gold 2 Gr",
+      "brand": "Nescafé",
+      "price": 10.5,
+      "unit": "2 GR",
+      "unitPrice": "5.250,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/30000097.png",
+      "url": null
+    },
     {
       "name": "Ülker Kremalı Sandviç Bisküvi 61 Gr",
       "brand": "Ülker",
@@ -22,6 +31,15 @@
       "unit": "42 GR",
       "unitPrice": "355,95 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefour/30255881.jpg",
+      "url": null
+    },
+    {
+      "name": "Nescafé 2si1 Arada 10 Gr",
+      "brand": "Nescafé",
+      "price": 15,
+      "unit": "10 GR",
+      "unitPrice": "1.500,00 ₺/Kg",
+      "image": "",
       "url": null
     },
     {
@@ -241,15 +259,6 @@
       "url": null
     },
     {
-      "name": "Ülker Çikolata Fındık Rüyası 40 Gr",
-      "brand": "Ülker",
-      "price": 34.95,
-      "unit": "40.5 GR",
-      "unitPrice": "862,96 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/27000367.jpg",
-      "url": null
-    },
-    {
       "name": "Starbucks Cappuccino Premium Kahve Karışımı 18 Gr",
       "brand": "Starbucks",
       "price": 36.95,
@@ -310,6 +319,15 @@
       "unit": "95 GR",
       "unitPrice": "441,58 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/migrosimages/5056541.png",
+      "url": null
+    },
+    {
+      "name": "Mars Bar Çikolata 51 Gr",
+      "brand": "Mars",
+      "price": 44.95,
+      "unit": "51 GR",
+      "unitPrice": "881,37 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/27000870.png",
       "url": null
     },
     {
@@ -394,30 +412,12 @@
       "url": null
     },
     {
-      "name": "Ülker Antep Fıstıklı Çikolata 30 Gr",
-      "brand": "Ülker",
-      "price": 52.5,
-      "unit": "30 GR",
-      "unitPrice": "1.750,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/27002688.jpg",
-      "url": null
-    },
-    {
       "name": "McVitie's Karamelli Bisküvi 120 Gr",
       "brand": "Mcvitie's",
       "price": 54.9,
       "unit": "120 GR",
       "unitPrice": "457,50 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101/17002362.jpg",
-      "url": null
-    },
-    {
-      "name": "Lavi %100 Böğürtlen-Elma Suyu 250 Ml",
-      "brand": "Lavi",
-      "price": 54.95,
-      "unit": "250 ML",
-      "unitPrice": "219,80 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migros/8050433.jpg",
       "url": null
     },
     {
@@ -619,21 +619,21 @@
       "url": null
     },
     {
-      "name": "Cappy Portakal Suyu 1 Lt",
-      "brand": "Cappy",
-      "price": 70,
-      "unit": "1 LT",
-      "unitPrice": "70,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefour/30020334.jpg",
-      "url": null
-    },
-    {
       "name": "Duru Başbaşı Bulgur 1 Kg",
       "brand": "Duru",
       "price": 70.95,
       "unit": "1 KG",
       "unitPrice": "70,95 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30266518.png",
+      "url": null
+    },
+    {
+      "name": "Migros Lovely Touch Konsantre Yumuşatıcı 750 Ml",
+      "brand": "Migros",
+      "price": 70.95,
+      "unit": "750 ML",
+      "unitPrice": "94,60 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/migrosimages/30570129.png",
       "url": null
     },
     {
@@ -799,15 +799,6 @@
       "url": null
     },
     {
-      "name": "Dimes Sıkma Portakal Suyu 250 Ml",
-      "brand": "Dimes",
-      "price": 95,
-      "unit": "250 ML",
-      "unitPrice": "380,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30187641.png",
-      "url": null
-    },
-    {
       "name": "Ege Glutensiz Ekmek 285 Gr",
       "brand": "Ege",
       "price": 98.5,
@@ -841,15 +832,6 @@
       "unit": "2 KG",
       "unitPrice": "49,97 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30143704.png",
-      "url": null
-    },
-    {
-      "name": "Tamek %100 Şeftali Elma Suyu 1 Lt",
-      "brand": "Tamek",
-      "price": 99.95,
-      "unit": "1 LT",
-      "unitPrice": "99,95 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefour/30020265.jpg",
       "url": null
     },
     {
@@ -913,24 +895,6 @@
       "unit": "1 KG",
       "unitPrice": "107,95 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101/14002014.jpg",
-      "url": null
-    },
-    {
-      "name": "Mlife Organik Vişne Suyu 330 Ml",
-      "brand": "Mlife",
-      "price": 108.5,
-      "unit": "330 ML",
-      "unitPrice": "328,79 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migrosimages/8054080.png",
-      "url": null
-    },
-    {
-      "name": "Mlife Organik Elma Suyu 330 Ml",
-      "brand": "Mlife",
-      "price": 108.5,
-      "unit": "330 ML",
-      "unitPrice": "328,79 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migrosimages/8054081.png",
       "url": null
     },
     {
@@ -1087,21 +1051,12 @@
       "url": null
     },
     {
-      "name": "Exotic Portakal Suyu 300 Ml",
-      "brand": "Exotic",
+      "name": "Dimes %100 Tropik Meyveler Suyu 1 Lt",
+      "brand": "Dimes",
       "price": 135,
-      "unit": "300 ML",
-      "unitPrice": "450,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migros/8072631.jpg",
-      "url": null
-    },
-    {
-      "name": "Tamek %100 Portakal Suyu 1 Lt",
-      "brand": "Tamek",
-      "price": 135.99,
       "unit": "1 LT",
-      "unitPrice": "135,99 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30093981.png",
+      "unitPrice": "135,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/migros/8050358.jpg",
       "url": null
     },
     {
@@ -1249,24 +1204,6 @@
       "url": null
     },
     {
-      "name": "Minies Bebek Çamaşır Yumuşatıcı 1.5 Lt",
-      "brand": "Minies",
-      "price": 159.95,
-      "unit": "1.5 LT",
-      "unitPrice": "106,63 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migrosimages/31600090.png",
-      "url": null
-    },
-    {
-      "name": "Dimes %100 Portakal Suyu 1 Lt",
-      "brand": "Dimes",
-      "price": 160,
-      "unit": "1 LT",
-      "unitPrice": "160,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefour/30067479.jpg",
-      "url": null
-    },
-    {
       "name": "Danone Disney Kakaolu Süt 6x180 Ml",
       "brand": "Danone",
       "price": 164.5,
@@ -1345,15 +1282,6 @@
       "unit": "1.08 LT",
       "unitPrice": "159,95 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/migrosimages/11014322.png",
-      "url": null
-    },
-    {
-      "name": "Ferrero Raffaello Çikolata T15 150 Gr",
-      "brand": "Ferrero",
-      "price": 172.95,
-      "unit": "150 GR",
-      "unitPrice": "1.153,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/migros/7040240.jpg",
       "url": null
     },
     {
@@ -1483,6 +1411,15 @@
       "url": null
     },
     {
+      "name": "Migros Lavanta Kokulu Yumuşatıcı 5.8 Lt",
+      "brand": "Migros",
+      "price": 199.95,
+      "unit": "5.8 LT",
+      "unitPrice": "34,47 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/migros/30580066.jpg",
+      "url": null
+    },
+    {
       "name": "Elidor Superblend Güçlü Ve Parlak Şampuan 400 Ml",
       "brand": "Elidor",
       "price": 199.95,
@@ -1564,24 +1501,6 @@
       "url": null
     },
     {
-      "name": "Yumoş Extra Orkide Yumuşatıcı 2.52 Lt",
-      "brand": "Yumoş",
-      "price": 224.95,
-      "unit": "2.52 LT",
-      "unitPrice": "89,27 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migros/30591187.jpg",
-      "url": null
-    },
-    {
-      "name": "Exotic Portakal Suyu 750 Ml",
-      "brand": "Exotic",
-      "price": 228,
-      "unit": "750 ML",
-      "unitPrice": "304,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migros/8072639.jpg",
-      "url": null
-    },
-    {
       "name": "Muratbey Peynir Misto 200 Gr",
       "brand": "Muratbey",
       "price": 228.5,
@@ -1624,6 +1543,15 @@
       "unit": "100 GR",
       "unitPrice": "2.399,50 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/migrosimages/7040178.png",
+      "url": null
+    },
+    {
+      "name": "Bingo Soft Lovely Konsantre Yumuşatıcı 1.44 Lt",
+      "brand": "Bingo",
+      "price": 239.95,
+      "unit": "1.44 LT",
+      "unitPrice": "166,63 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30063567.png",
       "url": null
     },
     {
@@ -1726,12 +1654,39 @@
       "url": null
     },
     {
+      "name": "Bingo Soft Sensitive Yumuşatıcı 5 Lt",
+      "brand": "Bingo",
+      "price": 272.95,
+      "unit": "5 LT",
+      "unitPrice": "54,59 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30006466.png",
+      "url": null
+    },
+    {
+      "name": "Bingo Soft Lovely Klasik Yumuşatıcı 5 Lt",
+      "brand": "Bingo",
+      "price": 272.95,
+      "unit": "5 LT",
+      "unitPrice": "54,59 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30005353.png",
+      "url": null
+    },
+    {
       "name": "Reis Basmati Pirinç 1 Kg",
       "brand": "Reis",
       "price": 279.95,
       "unit": "1 KG",
       "unitPrice": "279,95 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30033847.png",
+      "url": null
+    },
+    {
+      "name": "Nescafé Classic Ekonomik Paket 200 Gr",
+      "brand": "Nescafé",
+      "price": 295.88,
+      "unit": "200 GR",
+      "unitPrice": "1.479,40 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/migrosimages/3221310.png",
       "url": null
     },
     {
@@ -1753,48 +1708,12 @@
       "url": null
     },
     {
-      "name": "Yumoş Extra Sensitive Konsantre Yumuşatıcı 1.2 Lt",
-      "brand": "Yumoş",
-      "price": 299.95,
-      "unit": "1.2 LT",
-      "unitPrice": "249,96 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migrosimages/31600087.png",
-      "url": null
-    },
-    {
       "name": "Süper Maylo Bambu Katkılı Tuvalet Kağıdı 40 Adet",
       "brand": "Maylo",
       "price": 299.95,
       "unit": "40 Adet",
       "unitPrice": "7,50 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/migros/31010095.jpg",
-      "url": null
-    },
-    {
-      "name": "Pril Limon Elde Yıkama Bulaşık Deterjanı 3.868 Lt",
-      "brand": "Pril",
-      "price": 299.95,
-      "unit": "3.868 LT",
-      "unitPrice": "77,55 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migrosimages/30619752.png",
-      "url": null
-    },
-    {
-      "name": "Yumoş Uzman Kolay Ütü Konsantre Yumuşatıcı 1.2 Lt",
-      "brand": "Yumoş",
-      "price": 306.95,
-      "unit": "1.2 LT",
-      "unitPrice": "255,79 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migros/30570174.jpg",
-      "url": null
-    },
-    {
-      "name": "Yumoş Uzman Renk Koruma Konsantre Yumuşatıcı 1.2 Lt",
-      "brand": "Yumoş",
-      "price": 306.95,
-      "unit": "1.2 LT",
-      "unitPrice": "255,79 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30281487.png",
       "url": null
     },
     {
@@ -1879,6 +1798,15 @@
       "url": null
     },
     {
+      "name": "Nescafé Gold 100 Gr",
+      "brand": "Nescafé",
+      "price": 359.97,
+      "unit": "100 GR",
+      "unitPrice": "3.599,70 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30099175.png",
+      "url": null
+    },
+    {
       "name": "Tahsildaroğlu Taze Kaşar Peyniri 400 Gr",
       "brand": "Tahsildaroğlu",
       "price": 369.9,
@@ -1903,6 +1831,15 @@
       "unit": "100 GR",
       "unitPrice": "3.799,50 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/migrosimages/29859911.png",
+      "url": null
+    },
+    {
+      "name": "Nescafé Gold Filtre Kahve 250 Gr",
+      "brand": "Nescafé",
+      "price": 389.95,
+      "unit": "250 GR",
+      "unitPrice": "1.559,80 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30383984.png",
       "url": null
     },
     {
@@ -1957,15 +1894,6 @@
       "unit": "3 LT",
       "unitPrice": "143,32 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30090604.png",
-      "url": null
-    },
-    {
-      "name": "Yumoş Çiçek Bahçesi Yumuşatıcı 5 Lt",
-      "brand": "Yumoş",
-      "price": 429.95,
-      "unit": "5 LT",
-      "unitPrice": "85,99 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30139408.png",
       "url": null
     },
     {

@@ -2,19 +2,10 @@
   "market": "a101",
   "label": "A101",
   "color": "#00A0DF",
-  "updatedAt": "2026-07-16T07:54:48.652Z",
+  "updatedAt": "2026-07-16T18:55:16.424Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 220,
+  "count": 209,
   "products": [
-    {
-      "name": "Cafex 2'si 1 Arada Hazır Kahve 12 Gr",
-      "brand": "Cafex",
-      "price": 4.5,
-      "unit": "12 GR",
-      "unitPrice": "375,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/13000991.jpg",
-      "url": null
-    },
     {
       "name": "Cafex Instant Mocha Kahve 18 Gr",
       "brand": "Cafex",
@@ -88,30 +79,21 @@
       "url": null
     },
     {
+      "name": "Nescafé Gold 2 Gr",
+      "brand": "Nescafé",
+      "price": 15,
+      "unit": "2 GR",
+      "unitPrice": "7.500,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/30000097.png",
+      "url": null
+    },
+    {
       "name": "Nescafe 2'si 1 Arada Instant Kahve 10 Gr",
       "brand": "Nescafe",
       "price": 15,
       "unit": "10 GR",
       "unitPrice": "1.500,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/13000921.png",
-      "url": null
-    },
-    {
-      "name": "Nescafé 3'ü 1 Arada Sütlü Köpüklü Hazır Kahve 17 Gr",
-      "brand": "Nescafé",
-      "price": 15,
-      "unit": "17 GR",
-      "unitPrice": "882,35 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/30000019.png",
-      "url": null
-    },
-    {
-      "name": "Nescafé 3'ü 1 Arada Hazır Kahve 18 Gr",
-      "brand": "Nescafé",
-      "price": 15,
-      "unit": "17.5 GR",
-      "unitPrice": "857,14 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/13000065.png",
       "url": null
     },
     {
@@ -247,24 +229,6 @@
       "unit": "45 Adet",
       "unitPrice": "0,51 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/a101images/23000680.png",
-      "url": null
-    },
-    {
-      "name": "Starbucks Mocha Hazır Kahve 22 Gr",
-      "brand": "Starbucks",
-      "price": 23.5,
-      "unit": "22 GR",
-      "unitPrice": "1.068,18 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/30000866.png",
-      "url": null
-    },
-    {
-      "name": "Starbucks Caramel Latte Hazır Kahve 23 Gr",
-      "brand": "Starbucks",
-      "price": 23.5,
-      "unit": "23 GR",
-      "unitPrice": "1.021,74 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/30000865.png",
       "url": null
     },
     {
@@ -637,6 +601,15 @@
       "url": null
     },
     {
+      "name": "Pepsi Max Gazlı İçecek Kola 1 Lt",
+      "brand": "Pepsi Max",
+      "price": 57,
+      "unit": "1 LT",
+      "unitPrice": "57,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/13002354.png",
+      "url": null
+    },
+    {
       "name": "Sinangil Glutensiz Un 500 Gr",
       "brand": "Sinangil",
       "price": 58.5,
@@ -706,15 +679,6 @@
       "unit": "100 ML",
       "unitPrice": "649,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/24003224.png",
-      "url": null
-    },
-    {
-      "name": "Coca-Cola Kola 1.25 Lt",
-      "brand": "Coca-Cola",
-      "price": 65,
-      "unit": "1.25 LT",
-      "unitPrice": "52,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101/13001030.jpg",
       "url": null
     },
     {
@@ -796,15 +760,6 @@
       "unit": "49 GR",
       "unitPrice": "1.418,37 ₺/Kg",
       "image": "",
-      "url": null
-    },
-    {
-      "name": "Cola Turka Kola 2.5 Lt",
-      "brand": "Cola Turka",
-      "price": 70,
-      "unit": "2.5 LT",
-      "unitPrice": "28,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101/13002841.jpg",
       "url": null
     },
     {
@@ -952,15 +907,6 @@
       "url": null
     },
     {
-      "name": "Coca-Cola Kola 2.5 Lt",
-      "brand": "Coca-Cola",
-      "price": 90,
-      "unit": "2.5 LT",
-      "unitPrice": "36,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/13002293.png",
-      "url": null
-    },
-    {
       "name": "Yumurta Gezen 10 Adet",
       "brand": "Markasız",
       "price": 95,
@@ -985,15 +931,6 @@
       "unit": "4 KG",
       "unitPrice": "24,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/22000811.png",
-      "url": null
-    },
-    {
-      "name": "Coca-Cola Kola 3 Lt",
-      "brand": "Coca-Cola",
-      "price": 97.5,
-      "unit": "3 LT",
-      "unitPrice": "32,50 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/13002590.png",
       "url": null
     },
     {
@@ -1066,6 +1003,15 @@
       "unit": "653 ML",
       "unitPrice": "167,69 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/22000953.png",
+      "url": null
+    },
+    {
+      "name": "Çiçeğim Konsantre Çiçek Yumuşatıcı 1.5 Lt",
+      "brand": "Çiçeğim",
+      "price": 112,
+      "unit": "1.5 LT",
+      "unitPrice": "74,67 ₺/Lt",
+      "image": "",
       "url": null
     },
     {
@@ -1150,6 +1096,15 @@
       "url": null
     },
     {
+      "name": "Çiçeğim Sensitive Yumuşatıcı 3 Lt",
+      "brand": "Çiçeğim",
+      "price": 120,
+      "unit": "3 LT",
+      "unitPrice": "40,00 ₺/Lt",
+      "image": "",
+      "url": null
+    },
+    {
       "name": "Fairy Bulaşık Deterjanı 650 Ml",
       "brand": "Fairy",
       "price": 122,
@@ -1159,30 +1114,12 @@
       "url": null
     },
     {
-      "name": "Cafex 2'si 1 Arada Hazır Kahve 400 Gr",
-      "brand": "Cafex",
-      "price": 123.5,
-      "unit": "400 GR",
-      "unitPrice": "308,75 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/30000053.png",
-      "url": null
-    },
-    {
       "name": "Yumurta M Boy 53-62 Gr 30 Adet",
       "brand": "Markasız",
       "price": 129,
       "unit": "30 Adet",
       "unitPrice": "4,30 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/a101images/11002432.png",
-      "url": null
-    },
-    {
-      "name": "Nescafé 2'si 1 Arada Hazır Kahve 10 Adet",
-      "brand": "Nescafé",
-      "price": 129,
-      "unit": "100 GR",
-      "unitPrice": "1.290,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/30000076.png",
       "url": null
     },
     {
@@ -1312,6 +1249,33 @@
       "url": null
     },
     {
+      "name": "Abc Lotus Konsantre Yumuşatıcı 1.44 Lt",
+      "brand": "Abc",
+      "price": 169,
+      "unit": "1.44 LT",
+      "unitPrice": "117,36 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101/22002292.jpg",
+      "url": null
+    },
+    {
+      "name": "Abc Gül Konsantre Yumuşatıcı 1.44 Lt",
+      "brand": "Abc",
+      "price": 169,
+      "unit": "1.44 LT",
+      "unitPrice": "117,36 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101/22002291.jpg",
+      "url": null
+    },
+    {
+      "name": "Bingo Konsantre Yumuşatıcı Lilyum 960 Ml",
+      "brand": "Bingo",
+      "price": 169,
+      "unit": "960 ML",
+      "unitPrice": "176,04 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/22002679.png",
+      "url": null
+    },
+    {
       "name": "Blendax Yasemin Şampuan 500 Ml",
       "brand": "Blendax",
       "price": 175,
@@ -1411,6 +1375,15 @@
       "url": null
     },
     {
+      "name": "Nescafé Matinal Kahve 100 Gr",
+      "brand": "Nescafé",
+      "price": 199,
+      "unit": "100 GR",
+      "unitPrice": "1.990,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/30000494.png",
+      "url": null
+    },
+    {
       "name": "Orkide Ayçiçek Yağı 2 Lt",
       "brand": "Orkide",
       "price": 199,
@@ -1444,15 +1417,6 @@
       "unit": "5 LT",
       "unitPrice": "39,80 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/22002041.png",
-      "url": null
-    },
-    {
-      "name": "Nescafé 2'si 1 Arada Hazır Kahve 20 Adet",
-      "brand": "Nescafé",
-      "price": 200,
-      "unit": "20 Adet",
-      "unitPrice": "10,00 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/a101/30000958.jpg",
       "url": null
     },
     {
@@ -1537,15 +1501,6 @@
       "url": null
     },
     {
-      "name": "Vernel Lavanta Konsantre Yumuşatıcı 1.44 Lt",
-      "brand": "Vernel",
-      "price": 235,
-      "unit": "1.44 LT",
-      "unitPrice": "163,19 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101/22002727.jpg",
-      "url": null
-    },
-    {
       "name": "Papia Biocare Tuvalet Kağıdı 12 Adet",
       "brand": "Papia",
       "price": 245,
@@ -1588,33 +1543,6 @@
       "unit": "4 LT",
       "unitPrice": "62,50 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101/22000879.jpg",
-      "url": null
-    },
-    {
-      "name": "Yumoş Konsantre Yumuşatıcı Acıbadem Etkili 1.2 Lt",
-      "brand": "Yumoş",
-      "price": 275,
-      "unit": "1.2 LT",
-      "unitPrice": "229,17 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/22002605.png",
-      "url": null
-    },
-    {
-      "name": "Yumoş Konsantre Kolay Ütü Yumuşatıcı 1.2 Lt",
-      "brand": "Yumoş",
-      "price": 275,
-      "unit": "1.2 LT",
-      "unitPrice": "229,17 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/22002604.png",
-      "url": null
-    },
-    {
-      "name": "Yumoş Konsantre Renk Koruyucu Yumuşatıcı 1.2 Lt",
-      "brand": "Yumoş",
-      "price": 275,
-      "unit": "1.2 LT",
-      "unitPrice": "229,17 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/22002603.png",
       "url": null
     },
     {
@@ -1843,24 +1771,6 @@
       "url": null
     },
     {
-      "name": "Molfix XL 6 Numara 38 Adet",
-      "brand": "Molfix",
-      "price": 415,
-      "unit": "38 Adet",
-      "unitPrice": "10,92 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/23001478.png",
-      "url": null
-    },
-    {
-      "name": "Molfix Junior 5 Numara 48 Adet",
-      "brand": "Molfix",
-      "price": 415,
-      "unit": "48 Adet",
-      "unitPrice": "8,65 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/23001477.png",
-      "url": null
-    },
-    {
       "name": "Tarabya Kaşar Peyniri 1 Kg",
       "brand": "Tarabya",
       "price": 425,
@@ -1957,15 +1867,6 @@
       "unit": "10 KG",
       "unitPrice": "54,95 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/22000838.png",
-      "url": null
-    },
-    {
-      "name": "Nescafé Gold Kavanoz Granül Kahve 100 Gr",
-      "brand": "Nescafé",
-      "price": 599,
-      "unit": "100 GR",
-      "unitPrice": "5.990,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/13001073.png",
       "url": null
     },
     {

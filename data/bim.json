@@ -2,46 +2,10 @@
   "market": "bim",
   "label": "BİM",
   "color": "#E4001B",
-  "updatedAt": "2026-07-16T07:54:48.652Z",
+  "updatedAt": "2026-07-16T18:55:16.424Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 158,
+  "count": 156,
   "products": [
-    {
-      "name": "Vip 3ü 1 Arada Hazır Kahve 18 Gr",
-      "brand": "VIP",
-      "price": 4.5,
-      "unit": "18 GR",
-      "unitPrice": "250,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/300208.png",
-      "url": null
-    },
-    {
-      "name": "Vip 2'si 1 Arada Hazır Kahve 12 Gr",
-      "brand": "VIP",
-      "price": 4.5,
-      "unit": "12 GR",
-      "unitPrice": "375,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimages/300851.jpg",
-      "url": null
-    },
-    {
-      "name": "Vip Fındıklı 3ü 1 Arada Hazır Kahve 18 Gr",
-      "brand": "VIP",
-      "price": 4.5,
-      "unit": "18 GR",
-      "unitPrice": "250,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/300492.png",
-      "url": null
-    },
-    {
-      "name": "Vip Latte Hazır Kahve 17 Gr",
-      "brand": "VIP",
-      "price": 5.5,
-      "unit": "17 GR",
-      "unitPrice": "323,53 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bim/301330.jpg",
-      "url": null
-    },
     {
       "name": "Torku Nobir Kaplamalı Gofret 24x35 Gr",
       "brand": "Torku",
@@ -94,15 +58,6 @@
       "unit": "34 GR",
       "unitPrice": "411,76 ₺/Kg",
       "image": "",
-      "url": null
-    },
-    {
-      "name": "Nescafé 3'ü 1 Arada 2'si 1 Arada Hazır Kahve 10 Gr",
-      "brand": "Nescafé",
-      "price": 15,
-      "unit": "17.5 GR",
-      "unitPrice": "857,14 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/301635.png",
       "url": null
     },
     {
@@ -175,6 +130,15 @@
       "unit": "500 GR",
       "unitPrice": "49,00 ₺/Kg",
       "image": "",
+      "url": null
+    },
+    {
+      "name": "Snickers Bar Çikolata 36 Gr",
+      "brand": "Snickers",
+      "price": 24.5,
+      "unit": "36 GR",
+      "unitPrice": "690,14 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/27002270.png",
       "url": null
     },
     {
@@ -565,6 +529,15 @@
       "url": null
     },
     {
+      "name": "Kristal Şekersiz Kola Gazlı İçecek 2.5 Lt",
+      "brand": "Kristal",
+      "price": 65,
+      "unit": "2.5 LT",
+      "unitPrice": "26,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/13002672.png",
+      "url": null
+    },
+    {
       "name": "Su 12x330 Ml",
       "brand": "Markasız",
       "price": 66.75,
@@ -718,6 +691,15 @@
       "url": null
     },
     {
+      "name": "ABC Eylül Güneşi Konsantre Yumuşatıcı 1.44 Lt",
+      "brand": "Abc",
+      "price": 85,
+      "unit": "1.44 LT",
+      "unitPrice": "59,03 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bim/1701755.jpg",
+      "url": null
+    },
+    {
       "name": "Colgate Diş Macunu 50 Ml",
       "brand": "Colgate",
       "price": 85,
@@ -799,6 +781,15 @@
       "url": null
     },
     {
+      "name": "Abc Mavi Normal Yumuşatıcı 5 Lt",
+      "brand": "Abc",
+      "price": 109,
+      "unit": "5 LT",
+      "unitPrice": "21,80 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bim/1712343.jpg",
+      "url": null
+    },
+    {
       "name": "Colgate Max White Diş Macunu 75 Ml",
       "brand": "Colgate",
       "price": 109,
@@ -814,15 +805,6 @@
       "unit": "2.5 KG",
       "unitPrice": "44,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1700038.png",
-      "url": null
-    },
-    {
-      "name": "Vernel Yumuşatıcı 5 Lt",
-      "brand": "Vernel",
-      "price": 115,
-      "unit": "5 LT",
-      "unitPrice": "23,00 ₺/Lt",
-      "image": "",
       "url": null
     },
     {
@@ -850,24 +832,6 @@
       "unit": "500 GR",
       "unitPrice": "240,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bimimages/300384.png",
-      "url": null
-    },
-    {
-      "name": "Bulut Soft Çamaşır Yumuşatıcı Bahar Tazeliği 3 Lt",
-      "brand": "Bulut",
-      "price": 120,
-      "unit": "3 LT",
-      "unitPrice": "40,00 ₺/Lt",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Bulut Çamaşır Yumuşatıcı Lavanta Çiçek Bahar 3 Lt",
-      "brand": "Bulut",
-      "price": 120,
-      "unit": "3 LT",
-      "unitPrice": "40,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/bim/1201592.jpg",
       "url": null
     },
     {
@@ -934,15 +898,6 @@
       "url": null
     },
     {
-      "name": "Nescafé 3'ü 1 Arada 2'si 1 Arada Hazır Kahve 10 Adet",
-      "brand": "Nescafé",
-      "price": 129,
-      "unit": "10 Adet",
-      "unitPrice": "12,90 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/301586.png",
-      "url": null
-    },
-    {
       "name": "Tukaş Domates Salçası 1.65 Kg",
       "brand": "Tukaş",
       "price": 129,
@@ -976,6 +931,15 @@
       "unit": "1.5 KG",
       "unitPrice": "92,67 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30393338.png",
+      "url": null
+    },
+    {
+      "name": "Bingo Lilyum Konsantre Yumuşatıcı 1.44 Lt",
+      "brand": "Bingo",
+      "price": 139,
+      "unit": "1.44 LT",
+      "unitPrice": "96,53 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bim/1712952.jpg",
       "url": null
     },
     {
@@ -1024,15 +988,6 @@
       "url": null
     },
     {
-      "name": "Moliendo Hindiba Hazır Kahve 150 Gr",
-      "brand": "Moliendo",
-      "price": 159,
-      "unit": "150 GR",
-      "unitPrice": "1.060,00 ₺/Kg",
-      "image": "",
-      "url": null
-    },
-    {
       "name": "Pepsi Kola 4x1 Lt",
       "brand": "Pepsi",
       "price": 159,
@@ -1078,6 +1033,15 @@
       "url": null
     },
     {
+      "name": "Ülker Ece Çikolata 350 Gr",
+      "brand": "Ülker",
+      "price": 169,
+      "unit": "350 GR",
+      "unitPrice": "482,86 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/1705227.png",
+      "url": null
+    },
+    {
       "name": "Jacobs Monarch Intense Filtre Kahve 250 Gr",
       "brand": "Jacobs",
       "price": 175,
@@ -1120,6 +1084,24 @@
       "unit": "3 LT",
       "unitPrice": "63,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/22002454.png",
+      "url": null
+    },
+    {
+      "name": "Bingo Soft Sensitive Yumuşatıcı 5 Lt",
+      "brand": "Bingo",
+      "price": 195,
+      "unit": "5 LT",
+      "unitPrice": "39,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30006466.png",
+      "url": null
+    },
+    {
+      "name": "Bingo Soft Lovely Klasik Yumuşatıcı 5 Lt",
+      "brand": "Bingo",
+      "price": 195,
+      "unit": "5 LT",
+      "unitPrice": "39,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30005353.png",
       "url": null
     },
     {
