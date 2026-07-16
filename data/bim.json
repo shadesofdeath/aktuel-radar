@@ -2,9 +2,9 @@
   "market": "bim",
   "label": "BİM",
   "color": "#E4001B",
-  "updatedAt": "2026-07-15T18:54:29.676Z",
+  "updatedAt": "2026-07-16T07:54:48.652Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 159,
+  "count": 158,
   "products": [
     {
       "name": "Vip 3ü 1 Arada Hazır Kahve 18 Gr",
@@ -178,15 +178,6 @@
       "url": null
     },
     {
-      "name": "Snickers Bar Çikolata 36 Gr",
-      "brand": "Snickers",
-      "price": 24.5,
-      "unit": "36 GR",
-      "unitPrice": "690,14 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/27002270.png",
-      "url": null
-    },
-    {
       "name": "Blume Peçete 200 Adet",
       "brand": "Blume",
       "price": 27,
@@ -274,6 +265,15 @@
       "unit": "90 GR",
       "unitPrice": "433,33 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bim/500708.jpg",
+      "url": null
+    },
+    {
+      "name": "Aknaz Kekikli Zeytinli Taze Peynir 180 Gr",
+      "brand": "Aknaz",
+      "price": 39.5,
+      "unit": "180 GR",
+      "unitPrice": "219,44 ₺/Kg",
+      "image": "",
       "url": null
     },
     {
@@ -754,6 +754,15 @@
       "url": null
     },
     {
+      "name": "Haribo Yumuşak Şeker Fruitbons 400 Gr",
+      "brand": "Haribo",
+      "price": 99,
+      "unit": "400 GR",
+      "unitPrice": "247,50 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/27001225.png",
+      "url": null
+    },
+    {
       "name": "Ülker Lokumcuk Şeker 350 Gr",
       "brand": "Ülker",
       "price": 99,
@@ -769,15 +778,6 @@
       "unit": "375 GR",
       "unitPrice": "264,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bim/1705230.jpg",
-      "url": null
-    },
-    {
-      "name": "Haribo Yumuşak Şeker Fruitbons 400 Gr",
-      "brand": "Haribo",
-      "price": 99,
-      "unit": "400 GR",
-      "unitPrice": "247,50 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/27001225.png",
       "url": null
     },
     {
@@ -970,6 +970,15 @@
       "url": null
     },
     {
+      "name": "Tat Domates Salçası 1.5 Kg",
+      "brand": "Tat",
+      "price": 139,
+      "unit": "1.5 KG",
+      "unitPrice": "92,67 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30393338.png",
+      "url": null
+    },
+    {
       "name": "Queen Parfümlü 3 Katlı Tuvalet Kağıdı 12 Adet",
       "brand": "Queen",
       "price": 143,
@@ -1051,15 +1060,6 @@
       "url": null
     },
     {
-      "name": "Bingo Sıvı Bulaşık Deterjanı 4 Kg",
-      "brand": "Bingo",
-      "price": 159,
-      "unit": "4 KG",
-      "unitPrice": "39,75 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefour/30211580.jpg",
-      "url": null
-    },
-    {
       "name": "Domestos Çamaşır Suyu 1.25 Lt",
       "brand": "Domestos",
       "price": 167,
@@ -1075,15 +1075,6 @@
       "unit": "1 KG",
       "unitPrice": "169,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bimimages/601363.png",
-      "url": null
-    },
-    {
-      "name": "Ülker Ece Çikolata 350 Gr",
-      "brand": "Ülker",
-      "price": 169,
-      "unit": "350 GR",
-      "unitPrice": "482,86 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/1705227.png",
       "url": null
     },
     {

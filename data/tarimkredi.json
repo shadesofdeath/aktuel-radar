@@ -2,9 +2,9 @@
   "market": "tarimkredi",
   "label": "Tarım Kredi",
   "color": "#0A7D34",
-  "updatedAt": "2026-07-15T18:54:29.676Z",
+  "updatedAt": "2026-07-16T07:54:48.652Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 101,
+  "count": 99,
   "products": [
     {
       "name": "Fuska Su 500 Ml",
@@ -49,15 +49,6 @@
       "unit": "250 ML",
       "unitPrice": "56,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/121791.png",
-      "url": null
-    },
-    {
-      "name": "Bagetürk Normal Ekmek 1 Adet",
-      "brand": "Bagetürk",
-      "price": 17.5,
-      "unit": "1 Adet",
-      "unitPrice": "17,50 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/109900.jpg",
       "url": null
     },
     {
@@ -169,6 +160,15 @@
       "url": null
     },
     {
+      "name": "Ülker Çikolata Fındık Rüyası 40 Gr",
+      "brand": "Ülker",
+      "price": 34.9,
+      "unit": "40.5 GR",
+      "unitPrice": "872,50 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101/27000367.jpg",
+      "url": null
+    },
+    {
       "name": "Sarıyer Kola 1 Lt",
       "brand": "Sarıyer",
       "price": 37.5,
@@ -223,15 +223,6 @@
       "url": null
     },
     {
-      "name": "Torku Üçgen Peynir 100 Gr",
-      "brand": "Torku",
-      "price": 52.9,
-      "unit": "100 GR",
-      "unitPrice": "529,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/migrosimages/10250743.png",
-      "url": null
-    },
-    {
       "name": "Torku Bitter Portakal Gofret 142 Gr",
       "brand": "Torku",
       "price": 53.9,
@@ -247,15 +238,6 @@
       "unit": "142 GR",
       "unitPrice": "379,58 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/migrosimages/7160265.png",
-      "url": null
-    },
-    {
-      "name": "Eti Pronot Çikolata 35 Gr",
-      "brand": "Eti",
-      "price": 54.9,
-      "unit": "35 GR",
-      "unitPrice": "1.568,57 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/migros/7031017.jpg",
       "url": null
     },
     {
@@ -376,6 +358,15 @@
       "url": null
     },
     {
+      "name": "Elit Doğal Zeytinyağlı Sabun 4x180 Gr",
+      "brand": "Elit",
+      "price": 86.9,
+      "unit": "720 GR",
+      "unitPrice": "120,69 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/105569.jpg",
+      "url": null
+    },
+    {
       "name": "Domestos Çamaşır Suyu 750 Ml",
       "brand": "Domestos",
       "price": 89.9,
@@ -430,24 +421,6 @@
       "url": null
     },
     {
-      "name": "Kumartaşlı Boy Yumurta M Boy 53-63 Gr 30 Adet",
-      "brand": "Kumartaşlı",
-      "price": 99.9,
-      "unit": "30 Adet",
-      "unitPrice": "3,33 ₺/Adet",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Keskinoğlu Yumurta M Boy 30 Adet",
-      "brand": "Keskinoğlu",
-      "price": 99.9,
-      "unit": "30 Adet",
-      "unitPrice": "3,33 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/107464.jpg",
-      "url": null
-    },
-    {
       "name": "Toblerone Çikolata Sütlü 100 Gr",
       "brand": "Toblerone",
       "price": 99.9,
@@ -493,15 +466,6 @@
       "url": null
     },
     {
-      "name": "Nestlé Damak Çikolata 60 Gr",
-      "brand": "Nestlé",
-      "price": 109.9,
-      "unit": "60 GR",
-      "unitPrice": "1.831,67 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/111864.png",
-      "url": null
-    },
-    {
       "name": "Elidor Güçlü Ve Parlak Şampuan 500 Ml",
       "brand": "Elidor",
       "price": 109.9,
@@ -544,6 +508,24 @@
       "unit": "75 ML",
       "unitPrice": "1.692,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/129264.jpg",
+      "url": null
+    },
+    {
+      "name": "Kumartaşlı Boy Yumurta M Boy 53-63 Gr 30 Adet",
+      "brand": "Kumartaşlı",
+      "price": 129,
+      "unit": "30 Adet",
+      "unitPrice": "4,30 ₺/Adet",
+      "image": "",
+      "url": null
+    },
+    {
+      "name": "Keskinoğlu Yumurta M Boy 30 Adet",
+      "brand": "Keskinoğlu",
+      "price": 129,
+      "unit": "30 Adet",
+      "unitPrice": "4,30 ₺/Adet",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/107464.jpg",
       "url": null
     },
     {

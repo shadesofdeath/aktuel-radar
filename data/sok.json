@@ -2,9 +2,9 @@
   "market": "sok",
   "label": "ŞOK",
   "color": "#F0A500",
-  "updatedAt": "2026-07-15T18:54:29.676Z",
+  "updatedAt": "2026-07-16T07:54:48.652Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 84,
+  "count": 86,
   "products": [
     {
       "name": "Kardelen Su 500 Ml",
@@ -196,15 +196,6 @@
       "url": null
     },
     {
-      "name": "Eti Pronot Çikolata 35 Gr",
-      "brand": "Eti",
-      "price": 49,
-      "unit": "35 GR",
-      "unitPrice": "1.400,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/migros/7031017.jpg",
-      "url": null
-    },
-    {
       "name": "Peki Muzlu Gofret 350 Gr",
       "brand": "Peki",
       "price": 49.95,
@@ -247,6 +238,15 @@
       "unit": "200 Adet",
       "unitPrice": "0,29 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/31049089.png",
+      "url": null
+    },
+    {
+      "name": "Tamköy Ekşi Mayalı Ekmek 1 Kg",
+      "brand": "Tamköy",
+      "price": 59.75,
+      "unit": "1 KG",
+      "unitPrice": "59,75 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/69707.png",
       "url": null
     },
     {
@@ -493,6 +493,15 @@
       "url": null
     },
     {
+      "name": "Godiva Bol Sütlü Çikolata 60 Gr",
+      "brand": "Godiva",
+      "price": 115,
+      "unit": "60 GR",
+      "unitPrice": "1.916,67 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/82985.png",
+      "url": null
+    },
+    {
       "name": "Evin Ayçiçek Yağı 1 Lt",
       "brand": "Evin",
       "price": 119,
@@ -679,6 +688,15 @@
       "unit": "400 ML",
       "unitPrice": "497,50 ₺/Lt",
       "image": "",
+      "url": null
+    },
+    {
+      "name": "Mis Tam Yağlı Beyaz Peynir 750 Gr",
+      "brand": "Mis",
+      "price": 205,
+      "unit": "750 GR",
+      "unitPrice": "273,33 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/59393.png",
       "url": null
     },
     {

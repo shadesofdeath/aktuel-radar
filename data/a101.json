@@ -2,9 +2,9 @@
   "market": "a101",
   "label": "A101",
   "color": "#00A0DF",
-  "updatedAt": "2026-07-15T18:54:29.676Z",
+  "updatedAt": "2026-07-16T07:54:48.652Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 221,
+  "count": 220,
   "products": [
     {
       "name": "Cafex 2'si 1 Arada Hazır Kahve 12 Gr",
@@ -97,21 +97,21 @@
       "url": null
     },
     {
-      "name": "Nescafé 3'ü 1 Arada Hazır Kahve 18 Gr",
-      "brand": "Nescafé",
-      "price": 15,
-      "unit": "17.5 GR",
-      "unitPrice": "857,14 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/13000065.png",
-      "url": null
-    },
-    {
       "name": "Nescafé 3'ü 1 Arada Sütlü Köpüklü Hazır Kahve 17 Gr",
       "brand": "Nescafé",
       "price": 15,
       "unit": "17 GR",
       "unitPrice": "882,35 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/30000019.png",
+      "url": null
+    },
+    {
+      "name": "Nescafé 3'ü 1 Arada Hazır Kahve 18 Gr",
+      "brand": "Nescafé",
+      "price": 15,
+      "unit": "17.5 GR",
+      "unitPrice": "857,14 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/13000065.png",
       "url": null
     },
     {
@@ -556,15 +556,6 @@
       "url": null
     },
     {
-      "name": "Yöresel Ekmek 1 Adet",
-      "brand": "Markasız",
-      "price": 49.95,
-      "unit": "1 Adet",
-      "unitPrice": "49,95 ₺/Adet",
-      "image": "",
-      "url": null
-    },
-    {
       "name": "Coca-Cola Kola 330 Ml",
       "brand": "Coca-Cola",
       "price": 50,
@@ -598,6 +589,15 @@
       "unit": "40 GR",
       "unitPrice": "1.362,50 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/16002121.png",
+      "url": null
+    },
+    {
+      "name": "Yöresel Ekmek 1 Adet",
+      "brand": "Markasız",
+      "price": 54.95,
+      "unit": "1 Adet",
+      "unitPrice": "54,95 ₺/Adet",
+      "image": "",
       "url": null
     },
     {
@@ -886,15 +886,6 @@
       "unit": "830 GR",
       "unitPrice": "95,78 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/18000401.png",
-      "url": null
-    },
-    {
-      "name": "Vernel Sensitive Konsantre Yumuşatıcı 960 Ml",
-      "brand": "Vernel",
-      "price": 79.5,
-      "unit": "960 ML",
-      "unitPrice": "82,81 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101/22002056.jpg",
       "url": null
     },
     {
