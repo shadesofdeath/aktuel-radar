@@ -2,7 +2,7 @@
   "market": "sok",
   "label": "ŞOK",
   "color": "#F0A500",
-  "updatedAt": "2026-07-16T18:55:16.424Z",
+  "updatedAt": "2026-07-17T07:51:34.817Z",
   "source": "https://marketfiyati.org.tr",
   "count": 92,
   "products": [
@@ -187,6 +187,15 @@
       "url": null
     },
     {
+      "name": "Güzelpınar Su 5 Lt",
+      "brand": "Güzelpınar",
+      "price": 36,
+      "unit": "5 LT",
+      "unitPrice": "7,20 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/65718.png",
+      "url": null
+    },
+    {
       "name": "Amigo Soslu Cips Fıstık 200 Gr",
       "brand": "Amigo",
       "price": 36.5,
@@ -250,6 +259,15 @@
       "url": null
     },
     {
+      "name": "Mintax Yoğun Çamaşır Suyu 1 Lt",
+      "brand": "Mintax",
+      "price": 52.5,
+      "unit": "1 LT",
+      "unitPrice": "52,50 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/36150.png",
+      "url": null
+    },
+    {
       "name": "Mis Tam Yağlı Homojenize Yoğurt 750 Gr",
       "brand": "Mis",
       "price": 53.9,
@@ -274,15 +292,6 @@
       "unit": "200 Adet",
       "unitPrice": "0,29 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/31049089.png",
-      "url": null
-    },
-    {
-      "name": "Tamköy Ekşi Mayalı Ekmek 1 Kg",
-      "brand": "Tamköy",
-      "price": 59.75,
-      "unit": "1 KG",
-      "unitPrice": "59,75 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/69707.png",
       "url": null
     },
     {
@@ -520,15 +529,6 @@
       "url": null
     },
     {
-      "name": "Sensodyne Promine Çocuk Diş Macunu 50 Ml",
-      "brand": "Sensodyne",
-      "price": 110,
-      "unit": "50 ML",
-      "unitPrice": "2.200,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/sok/170822.jpg",
-      "url": null
-    },
-    {
       "name": "Activia Probiyotik Yoğurt Orman Meyveli 4x100 Gr",
       "brand": "Activia",
       "price": 114.5,
@@ -553,6 +553,15 @@
       "unit": "75 ML",
       "unitPrice": "1.586,67 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/115026.jpg",
+      "url": null
+    },
+    {
+      "name": "Mintax Lavanta Bahçesi Yumuşatıcı 3 Lt",
+      "brand": "Mintax",
+      "price": 120,
+      "unit": "3 LT",
+      "unitPrice": "40,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/36162.png",
       "url": null
     },
     {
@@ -628,15 +637,6 @@
       "url": null
     },
     {
-      "name": "Colgate Max White Diş Macunu 75 Ml",
-      "brand": "Colgate",
-      "price": 147,
-      "unit": "75 ML",
-      "unitPrice": "1.960,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/24002942.png",
-      "url": null
-    },
-    {
       "name": "Mintax Yoğun Çamaşır Suyu 4 Lt",
       "brand": "Mintax",
       "price": 153,
@@ -673,12 +673,30 @@
       "url": null
     },
     {
+      "name": "Beyaz Güvercin Tuvalet Kağıdı 16 Adet",
+      "brand": "Beyaz Güvercin",
+      "price": 169,
+      "unit": "16 Adet",
+      "unitPrice": "10,56 ₺/Adet",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/73960.png",
+      "url": null
+    },
+    {
       "name": "Duru Hydro Pure Sabun 4x135 Gr",
       "brand": "Duru",
       "price": 174,
       "unit": "540 GR",
       "unitPrice": "322,22 ₺/Kg",
       "image": "",
+      "url": null
+    },
+    {
+      "name": "Blendax Isırgan Özlü Şampuan 500 Ml",
+      "brand": "Blendax",
+      "price": 175,
+      "unit": "500 ML",
+      "unitPrice": "350,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/migros/34255822.jpg",
       "url": null
     },
     {
@@ -763,21 +781,21 @@
       "url": null
     },
     {
+      "name": "Mis Tuzlu Tereyağı 500 Gr",
+      "brand": "Mis",
+      "price": 295,
+      "unit": "500 GR",
+      "unitPrice": "590,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/85162.png",
+      "url": null
+    },
+    {
       "name": "Mis Tereyağı 500 Gr",
       "brand": "Mis",
       "price": 299,
       "unit": "500 GR",
       "unitPrice": "598,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/12010997.png",
-      "url": null
-    },
-    {
-      "name": "Yumoş Extra Orkide Konsantre Yumuşatıcı 1.44 Lt",
-      "brand": "Yumoş",
-      "price": 299,
-      "unit": "1.44 LT",
-      "unitPrice": "207,64 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migros/30589510.jpg",
       "url": null
     },
     {
@@ -799,30 +817,12 @@
       "url": null
     },
     {
-      "name": "Kebir Tereyağı 500 Gr",
-      "brand": "Kebir",
-      "price": 445,
-      "unit": "500 GR",
-      "unitPrice": "890,00 ₺/Kg",
-      "image": "",
-      "url": null
-    },
-    {
       "name": "Evin Ayçiçek Yağı 5 Lt",
       "brand": "Evin",
       "price": 459,
       "unit": "5 LT",
       "unitPrice": "91,80 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/65301.png",
-      "url": null
-    },
-    {
-      "name": "Mis Tereyağı 1 Kg",
-      "brand": "Mis",
-      "price": 469,
-      "unit": "1 KG",
-      "unitPrice": "469,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/40810.png",
       "url": null
     },
     {

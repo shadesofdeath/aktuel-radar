@@ -2,9 +2,9 @@
   "market": "a101",
   "label": "A101",
   "color": "#00A0DF",
-  "updatedAt": "2026-07-16T18:55:16.424Z",
+  "updatedAt": "2026-07-17T07:51:34.817Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 209,
+  "count": 205,
   "products": [
     {
       "name": "Cafex Instant Mocha Kahve 18 Gr",
@@ -13,15 +13,6 @@
       "unit": "18 GR",
       "unitPrice": "305,56 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/30000421.png",
-      "url": null
-    },
-    {
-      "name": "Fenomen Polonya Şekeri Sert Şeker 25 Gr",
-      "brand": "Fenomen",
-      "price": 5.5,
-      "unit": "25 GR",
-      "unitPrice": "220,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/27002009.png",
       "url": null
     },
     {
@@ -40,6 +31,15 @@
       "unit": "250 ML",
       "unitPrice": "50,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101/13002008.jpg",
+      "url": null
+    },
+    {
+      "name": "Tamek Buzlu Çay Karpuz Ve Çilek 200 Ml",
+      "brand": "Tamek",
+      "price": 13.5,
+      "unit": "200 ML",
+      "unitPrice": "67,50 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/migros/8050557.jpg",
       "url": null
     },
     {
@@ -71,6 +71,15 @@
     },
     {
       "name": "Susamlı Ekmek 1 Adet",
+      "brand": "Markasız",
+      "price": 15,
+      "unit": "1 Adet",
+      "unitPrice": "15,00 ₺/Adet",
+      "image": "",
+      "url": null
+    },
+    {
+      "name": "Ekmek 1 Adet",
       "brand": "Markasız",
       "price": 15,
       "unit": "1 Adet",
@@ -139,15 +148,6 @@
       "unit": "1 Adet",
       "unitPrice": "17,50 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/a101images/14000059.png",
-      "url": null
-    },
-    {
-      "name": "Ekmek 1 Adet",
-      "brand": "Markasız",
-      "price": 17.5,
-      "unit": "1 Adet",
-      "unitPrice": "17,50 ₺/Adet",
-      "image": "",
       "url": null
     },
     {
@@ -340,12 +340,12 @@
       "url": null
     },
     {
-      "name": "Büyük Ekmek 1 Adet",
-      "brand": "Markasız",
-      "price": 34.9,
-      "unit": "1 Adet",
-      "unitPrice": "34,90 ₺/Adet",
-      "image": "",
+      "name": "Filiz Boncuk Makarna 500 Gr",
+      "brand": "Filiz",
+      "price": 33.5,
+      "unit": "500 GR",
+      "unitPrice": "67,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/130506.jpg",
       "url": null
     },
     {
@@ -520,6 +520,24 @@
       "url": null
     },
     {
+      "name": "Büyük Ekmek 1 Adet",
+      "brand": "Markasız",
+      "price": 49.95,
+      "unit": "1 Adet",
+      "unitPrice": "49,95 ₺/Adet",
+      "image": "",
+      "url": null
+    },
+    {
+      "name": "Yöresel Ekmek 1 Adet",
+      "brand": "Markasız",
+      "price": 49.95,
+      "unit": "1 Adet",
+      "unitPrice": "49,95 ₺/Adet",
+      "image": "",
+      "url": null
+    },
+    {
       "name": "Coca-Cola Kola 330 Ml",
       "brand": "Coca-Cola",
       "price": 50,
@@ -556,15 +574,6 @@
       "url": null
     },
     {
-      "name": "Yöresel Ekmek 1 Adet",
-      "brand": "Markasız",
-      "price": 54.95,
-      "unit": "1 Adet",
-      "unitPrice": "54,95 ₺/Adet",
-      "image": "",
-      "url": null
-    },
-    {
       "name": "Sek Yağlı Süt 1 Lt",
       "brand": "Sek",
       "price": 55,
@@ -580,6 +589,15 @@
       "unit": "12 Adet",
       "unitPrice": "4,58 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/migrosimages/20000308.png",
+      "url": null
+    },
+    {
+      "name": "Nescafé Mocha Instant Kahve 9 Adet",
+      "brand": "Nescafé",
+      "price": 55,
+      "unit": "9 Adet",
+      "unitPrice": "6,11 ₺/Adet",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/30000802.png",
       "url": null
     },
     {
@@ -790,15 +808,6 @@
       "url": null
     },
     {
-      "name": "Sek Yarım Yağlı Yoğurt 750 Gr",
-      "brand": "Sek",
-      "price": 75,
-      "unit": "750 GR",
-      "unitPrice": "100,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/12003455.jpg",
-      "url": null
-    },
-    {
       "name": "Lays & Ruffles Klasik & Original Cips 300 Gr",
       "brand": "Lays & Ruffles",
       "price": 75,
@@ -967,6 +976,15 @@
       "unit": "2 KG",
       "unitPrice": "49,75 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101/14001895.jpg",
+      "url": null
+    },
+    {
+      "name": "İpek Dökülen Saçlar Şampuan 480 Ml",
+      "brand": "İpek",
+      "price": 99.5,
+      "unit": "480 ML",
+      "unitPrice": "207,29 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101/24006201.jpg",
       "url": null
     },
     {
@@ -1186,24 +1204,6 @@
       "url": null
     },
     {
-      "name": "Colgate Max White Diş Macunu 75 Ml",
-      "brand": "Colgate",
-      "price": 147,
-      "unit": "75 ML",
-      "unitPrice": "1.960,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/24002942.png",
-      "url": null
-    },
-    {
-      "name": "Solo Bambu Katkılı Tuvalet Kağıdı 16 Adet",
-      "brand": "Solo",
-      "price": 154.9,
-      "unit": "16 Adet",
-      "unitPrice": "9,68 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/migros/31010064.jpg",
-      "url": null
-    },
-    {
       "name": "Ariel Toz Deterjan 1.5 Kg",
       "brand": "Ariel",
       "price": 158,
@@ -1276,12 +1276,12 @@
       "url": null
     },
     {
-      "name": "Blendax Yasemin Şampuan 500 Ml",
+      "name": "Blendax Isırgan Özlü Şampuan 500 Ml",
       "brand": "Blendax",
       "price": 175,
       "unit": "500 ML",
       "unitPrice": "350,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/24003234.png",
+      "image": "https://cdn.marketfiyati.org.tr/migros/34255822.jpg",
       "url": null
     },
     {
@@ -1327,15 +1327,6 @@
       "unit": "500 GR",
       "unitPrice": "365,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/12002666.png",
-      "url": null
-    },
-    {
-      "name": "Ünal Eski Kaşar Peyniri 250 Gr",
-      "brand": "Ünal",
-      "price": 185,
-      "unit": "250 GR",
-      "unitPrice": "740,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/12001829.png",
       "url": null
     },
     {
@@ -1636,15 +1627,6 @@
       "url": null
     },
     {
-      "name": "Yudum Ayçiçek Yağı 2 Lt",
-      "brand": "Yudum",
-      "price": 300,
-      "unit": "2 LT",
-      "unitPrice": "150,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30099933.png",
-      "url": null
-    },
-    {
       "name": "Çiçeğim Renkli Toz Deterjan 8 Kg",
       "brand": "Çiçeğim",
       "price": 305,
@@ -1780,15 +1762,6 @@
       "url": null
     },
     {
-      "name": "Sırma Ayçiçek Yağı 5 Lt",
-      "brand": "Sırma",
-      "price": 429,
-      "unit": "5 LT",
-      "unitPrice": "85,80 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101/19000841.jpg",
-      "url": null
-    },
-    {
       "name": "Perwoll Siyah Sıvı Deterjan 2.97 Lt",
       "brand": "Perwoll",
       "price": 429,
@@ -1803,15 +1776,6 @@
       "price": 439,
       "unit": "9 KG",
       "unitPrice": "48,78 ₺/Kg",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Kebir Tereyağı 500 Gr",
-      "brand": "Kebir",
-      "price": 445,
-      "unit": "500 GR",
-      "unitPrice": "890,00 ₺/Kg",
       "image": "",
       "url": null
     },

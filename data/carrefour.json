@@ -2,9 +2,9 @@
   "market": "carrefour",
   "label": "CarrefourSA",
   "color": "#0E4C92",
-  "updatedAt": "2026-07-16T18:55:16.424Z",
+  "updatedAt": "2026-07-17T07:51:34.817Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 348,
+  "count": 337,
   "products": [
     {
       "name": "Eti Bumbo Bisküvi 42 Gr",
@@ -106,30 +106,21 @@
       "url": null
     },
     {
+      "name": "Ülker Çikolata İstanbul 35 Gr",
+      "brand": "Ülker",
+      "price": 19.9,
+      "unit": "35 GR",
+      "unitPrice": "568,57 ₺/Kg",
+      "image": "",
+      "url": null
+    },
+    {
       "name": "Normal Ekmek 1 Adet",
       "brand": "Markasız",
       "price": 20,
       "unit": "1 Adet",
       "unitPrice": "20,00 ₺/Adet",
       "image": "",
-      "url": null
-    },
-    {
-      "name": "Pınar Su 500 Ml",
-      "brand": "Pınar",
-      "price": 20.5,
-      "unit": "500 ML",
-      "unitPrice": "41,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30451730.png",
-      "url": null
-    },
-    {
-      "name": "Çaykur Didi Limon Soğuk Çay 550 Ml",
-      "brand": "Didi",
-      "price": 21.9,
-      "unit": "550 ML",
-      "unitPrice": "39,82 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30331472.png",
       "url": null
     },
     {
@@ -196,15 +187,6 @@
       "url": null
     },
     {
-      "name": "Ülker Çikolata İstanbul 35 Gr",
-      "brand": "Ülker",
-      "price": 27,
-      "unit": "35 GR",
-      "unitPrice": "771,43 ₺/Kg",
-      "image": "",
-      "url": null
-    },
-    {
       "name": "Filiz Dirsek Makarna 500 Gr",
       "brand": "Filiz",
       "price": 27.5,
@@ -220,6 +202,15 @@
       "unit": "500 GR",
       "unitPrice": "55,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30082105.png",
+      "url": null
+    },
+    {
+      "name": "Filiz Boncuk Makarna 500 Gr",
+      "brand": "Filiz",
+      "price": 27.5,
+      "unit": "500 GR",
+      "unitPrice": "55,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/130506.jpg",
       "url": null
     },
     {
@@ -349,6 +340,15 @@
       "url": null
     },
     {
+      "name": "Pastavilla Kelebek Makarna 500 Gr",
+      "brand": "Pastavilla",
+      "price": 34.9,
+      "unit": "500 GR",
+      "unitPrice": "69,80 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30098460.png",
+      "url": null
+    },
+    {
       "name": "Pastavilla Dirsek Makarna 500 Gr",
       "brand": "Pastavilla",
       "price": 34.9,
@@ -385,6 +385,15 @@
       "url": null
     },
     {
+      "name": "Ülker Çikolata İstanbul 93 Gr",
+      "brand": "Ülker",
+      "price": 39.9,
+      "unit": "93 GR",
+      "unitPrice": "429,03 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefour/30499593.jpg",
+      "url": null
+    },
+    {
       "name": "Tat Domates Salçası 170 Gr",
       "brand": "Tat",
       "price": 39.95,
@@ -409,6 +418,15 @@
       "unit": "96 GR",
       "unitPrice": "427,08 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefour/30463832.jpg",
+      "url": null
+    },
+    {
+      "name": "Carrefour Küp Şeker 750 Gr",
+      "brand": "Carrefour",
+      "price": 41.9,
+      "unit": "750 GR",
+      "unitPrice": "55,87 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30113514.png",
       "url": null
     },
     {
@@ -493,30 +511,21 @@
       "url": null
     },
     {
-      "name": "Fibril Lavanta Islak Mendil 90 Adet",
-      "brand": "Fibril",
-      "price": 48.5,
-      "unit": "90 Adet",
-      "unitPrice": "0,54 ₺/Adet",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Fibril Sedir Ağacı Islak Mendil 90 Adet",
-      "brand": "Fibril",
-      "price": 48.5,
-      "unit": "90 Adet",
-      "unitPrice": "0,54 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/migros/31030164.jpg",
-      "url": null
-    },
-    {
       "name": "Carrefour Kırmızı Mercimek 1 Kg",
       "brand": "Carrefour",
       "price": 49.5,
       "unit": "1 KG",
       "unitPrice": "49,50 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30464706.png",
+      "url": null
+    },
+    {
+      "name": "Carrefour Yağlı Süt 1 Lt",
+      "brand": "Carrefour",
+      "price": 49.9,
+      "unit": "1 LT",
+      "unitPrice": "49,90 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30261237.png",
       "url": null
     },
     {
@@ -565,6 +574,15 @@
       "url": null
     },
     {
+      "name": "Carrefour Elma Kokulu Bulaşık Deterjanı 750 Ml",
+      "brand": "Carrefour",
+      "price": 52,
+      "unit": "750 ML",
+      "unitPrice": "69,33 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30207310.png",
+      "url": null
+    },
+    {
       "name": "Ruffles Klasik Mega Boy Cips 193 Gr",
       "brand": "Ruffles",
       "price": 53.99,
@@ -610,21 +628,21 @@
       "url": null
     },
     {
-      "name": "Ülker Sütlü Çikolata 70 Gr",
-      "brand": "Ülker",
-      "price": 55.99,
-      "unit": "70 GR",
-      "unitPrice": "799,86 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/27002139.png",
-      "url": null
-    },
-    {
       "name": "Sade Organik Pirinç 500 Gr",
       "brand": "Sade Organik",
       "price": 56.99,
       "unit": "500 GR",
       "unitPrice": "113,98 ₺/Kg",
       "image": "",
+      "url": null
+    },
+    {
+      "name": "Carrefour Küp Şeker 1 Kg",
+      "brand": "Carrefour",
+      "price": 57.9,
+      "unit": "1 KG",
+      "unitPrice": "57,90 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefour/30085595.jpg",
       "url": null
     },
     {
@@ -763,15 +781,6 @@
       "url": null
     },
     {
-      "name": "Doğalım Yumurta 53-62 Gr 6 Adet",
-      "brand": "Doğalım",
-      "price": 65.9,
-      "unit": "6 Adet",
-      "unitPrice": "10,98 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30077892.png",
-      "url": null
-    },
-    {
       "name": "Damla Su 5 Lt",
       "brand": "Damla",
       "price": 65.9,
@@ -808,15 +817,6 @@
       "url": null
     },
     {
-      "name": "Knorr Kremalı Mantarlı Makarna Sosu 52 Gr",
-      "brand": "Knorr",
-      "price": 67.5,
-      "unit": "52 GR",
-      "unitPrice": "1.298,08 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefour/30499602.jpg",
-      "url": null
-    },
-    {
       "name": "Knorr Mac & Cheese Makarna Sosu 50 Gr",
       "brand": "Knorr",
       "price": 67.5,
@@ -835,12 +835,12 @@
       "url": null
     },
     {
-      "name": "Ülker Çikolata İstanbul 93 Gr",
-      "brand": "Ülker",
-      "price": 67.99,
-      "unit": "93 GR",
-      "unitPrice": "731,08 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefour/30499593.jpg",
+      "name": "Pınar Organik Süt 1 Lt",
+      "brand": "Pınar",
+      "price": 67.95,
+      "unit": "1 LT",
+      "unitPrice": "67,95 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101/12002124.jpg",
       "url": null
     },
     {
@@ -880,21 +880,21 @@
       "url": null
     },
     {
+      "name": "Sütaş Light Yoğurt 650 Gr",
+      "brand": "Sütaş",
+      "price": 71.5,
+      "unit": "650 GR",
+      "unitPrice": "110,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30089466.png",
+      "url": null
+    },
+    {
       "name": "Duru Pilavlık Bulgur 1 Kg",
       "brand": "Duru",
       "price": 71.5,
       "unit": "1 KG",
       "unitPrice": "71,50 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/14002118.png",
-      "url": null
-    },
-    {
-      "name": "Duru Başbaşı Bulgur 1 Kg",
-      "brand": "Duru",
-      "price": 71.5,
-      "unit": "1 KG",
-      "unitPrice": "71,50 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30266518.png",
       "url": null
     },
     {
@@ -949,15 +949,6 @@
       "unit": "60 GR",
       "unitPrice": "1.241,67 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sok/96608.jpg",
-      "url": null
-    },
-    {
-      "name": "İçim Barista Süt 1 Lt",
-      "brand": "İçim",
-      "price": 74.9,
-      "unit": "1 LT",
-      "unitPrice": "74,90 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30474026.png",
       "url": null
     },
     {
@@ -1030,15 +1021,6 @@
       "unit": "750 ML",
       "unitPrice": "106,53 ₺/Lt",
       "image": "",
-      "url": null
-    },
-    {
-      "name": "Pınar Organik Süt 1 Lt",
-      "brand": "Pınar",
-      "price": 79.95,
-      "unit": "1 LT",
-      "unitPrice": "79,95 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101/12002124.jpg",
       "url": null
     },
     {
@@ -1186,15 +1168,6 @@
       "url": null
     },
     {
-      "name": "Fairy Limon Bulaşık Deterjanı 650 Ml",
-      "brand": "Fairy",
-      "price": 89.95,
-      "unit": "650 ML",
-      "unitPrice": "138,38 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefour/30020460.jpg",
-      "url": null
-    },
-    {
       "name": "Lay's Klasik Mega Boy Cips 193 Gr",
       "brand": "Lay's",
       "price": 91.9,
@@ -1210,15 +1183,6 @@
       "unit": "2 KG",
       "unitPrice": "45,99 ₺/Kg",
       "image": "",
-      "url": null
-    },
-    {
-      "name": "Signal White System Diş Macunu 75 Ml",
-      "brand": "Signal",
-      "price": 92.05,
-      "unit": "75 ML",
-      "unitPrice": "1.227,33 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/115026.jpg",
       "url": null
     },
     {
@@ -1240,15 +1204,6 @@
       "url": null
     },
     {
-      "name": "İçim Süzme Peynir 250 Gr",
-      "brand": "İçim",
-      "price": 93.9,
-      "unit": "250 GR",
-      "unitPrice": "375,60 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30053364.png",
-      "url": null
-    },
-    {
       "name": "Damla Su 6 Lt",
       "brand": "Damla",
       "price": 94.25,
@@ -1258,21 +1213,21 @@
       "url": null
     },
     {
+      "name": "Ülker Sütlü Çikolata 70 Gr",
+      "brand": "Ülker",
+      "price": 94.9,
+      "unit": "70 GR",
+      "unitPrice": "1.355,71 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/27002139.png",
+      "url": null
+    },
+    {
       "name": "Ekmek Tost Süper 470 G Uno",
       "brand": "Uno",
       "price": 95,
       "unit": "470 GR",
       "unitPrice": "202,13 ₺/Kg",
       "image": "",
-      "url": null
-    },
-    {
-      "name": "Ace Ultra Çamaşır Suyu Okaliptüs 750 Ml",
-      "brand": "Ace",
-      "price": 95.5,
-      "unit": "750 ML",
-      "unitPrice": "127,33 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migros/30569679.jpg",
       "url": null
     },
     {
@@ -1291,6 +1246,15 @@
       "unit": "500 GR",
       "unitPrice": "193,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101/12003505.jpg",
+      "url": null
+    },
+    {
+      "name": "İçim Süzme Peynir 250 Gr",
+      "brand": "İçim",
+      "price": 96.9,
+      "unit": "250 GR",
+      "unitPrice": "387,60 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30053364.png",
       "url": null
     },
     {
@@ -1384,6 +1348,15 @@
       "url": null
     },
     {
+      "name": "Carrefour Hindistan Cevizi Sıvı Sabun 2.5 Lt",
+      "brand": "Carrefour",
+      "price": 105,
+      "unit": "2.5 LT",
+      "unitPrice": "42,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30340593.png",
+      "url": null
+    },
+    {
       "name": "Sinangil Glutensiz Un 500 Gr",
       "brand": "Sinangil",
       "price": 105.9,
@@ -1408,6 +1381,15 @@
       "unit": "100 GR",
       "unitPrice": "1.095,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefour/30207274.jpg",
+      "url": null
+    },
+    {
+      "name": "Sade Organik Kırmızı Mercimek 1 Kg",
+      "brand": "Sade Organik",
+      "price": 109.99,
+      "unit": "1 KG",
+      "unitPrice": "109,99 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30019397.png",
       "url": null
     },
     {
@@ -1519,6 +1501,24 @@
       "url": null
     },
     {
+      "name": "Carrefour Çift Katlı Tuvalet Kağıdı 16 Adet",
+      "brand": "Carrefour",
+      "price": 123.5,
+      "unit": "16 Adet",
+      "unitPrice": "7,72 ₺/Adet",
+      "image": "",
+      "url": null
+    },
+    {
+      "name": "İçim Mini Peynir 180 Gr",
+      "brand": "İçim",
+      "price": 124.95,
+      "unit": "180 GR",
+      "unitPrice": "694,17 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefour/30491356.jpg",
+      "url": null
+    },
+    {
       "name": "Schär Farina Glutensiz Un 1 Kg",
       "brand": "Schär",
       "price": 125.99,
@@ -1546,15 +1546,6 @@
       "url": null
     },
     {
-      "name": "Sütaş Tereyağı 125 Gr",
-      "brand": "Sütaş",
-      "price": 129.5,
-      "unit": "125 GR",
-      "unitPrice": "1.036,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30095235.png",
-      "url": null
-    },
-    {
       "name": "Pınar Tereyağı 125 Gr",
       "brand": "Pınar",
       "price": 129.5,
@@ -1570,15 +1561,6 @@
       "unit": "1 KG",
       "unitPrice": "129,90 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30057681.png",
-      "url": null
-    },
-    {
-      "name": "Uni Baby Şampuan 700 Ml",
-      "brand": "Uni Baby",
-      "price": 129.95,
-      "unit": "700 ML",
-      "unitPrice": "185,64 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30035346.png",
       "url": null
     },
     {
@@ -1600,12 +1582,30 @@
       "url": null
     },
     {
-      "name": "Sinangil Karabuğdaylı Glutensiz Un 500 Gr",
-      "brand": "Sinangil",
-      "price": 133,
-      "unit": "500 GR",
-      "unitPrice": "266,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30141051.png",
+      "name": "Duru Kırmızı Futbol Mercimek 1 Kg",
+      "brand": "Duru",
+      "price": 133.25,
+      "unit": "1 KG",
+      "unitPrice": "133,25 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/14002121.png",
+      "url": null
+    },
+    {
+      "name": "Biryağ Ayçiçek Yağı 1 Lt",
+      "brand": "Biryağ",
+      "price": 135,
+      "unit": "1 LT",
+      "unitPrice": "135,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30072273.png",
+      "url": null
+    },
+    {
+      "name": "Dalin Şampuan Klasik 700 Ml",
+      "brand": "Dalin",
+      "price": 136.25,
+      "unit": "700 ML",
+      "unitPrice": "194,64 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefour/30096981.jpg",
       "url": null
     },
     {
@@ -1624,15 +1624,6 @@
       "unit": "200 Adet",
       "unitPrice": "0,69 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/migrosimages/31049086.png",
-      "url": null
-    },
-    {
-      "name": "Ace Klasik Çamaşır Suyu 2 Lt",
-      "brand": "Ace",
-      "price": 139,
-      "unit": "2 LT",
-      "unitPrice": "69,50 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migros/30560922.jpg",
       "url": null
     },
     {
@@ -1660,6 +1651,15 @@
       "unit": "3 KG",
       "unitPrice": "46,63 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101/14001132.jpg",
+      "url": null
+    },
+    {
+      "name": "Duru Sıvı Sabun Avokado 500 Ml",
+      "brand": "Duru",
+      "price": 140.5,
+      "unit": "500 ML",
+      "unitPrice": "281,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sok/115322.jpg",
       "url": null
     },
     {
@@ -1699,6 +1699,15 @@
       "url": null
     },
     {
+      "name": "Organik Gurme Organik Pilavlık Bulgur 1 Kg",
+      "brand": "Organik Gurme",
+      "price": 145.5,
+      "unit": "1 KG",
+      "unitPrice": "145,50 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefour/30420938.jpg",
+      "url": null
+    },
+    {
       "name": "Toblerone Çikolata Sütlü 100 Gr",
       "brand": "Toblerone",
       "price": 147.5,
@@ -1726,12 +1735,12 @@
       "url": null
     },
     {
-      "name": "Solo Bambu Katkılı Tuvalet Kağıdı 16 Adet",
-      "brand": "Solo",
+      "name": "Lotus Bisküvi 125 Gr",
+      "brand": "Lotus",
       "price": 149.9,
-      "unit": "16 Adet",
-      "unitPrice": "9,37 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/migros/31010064.jpg",
+      "unit": "125 GR",
+      "unitPrice": "1.199,20 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefour/30240383.jpg",
       "url": null
     },
     {
@@ -1741,15 +1750,6 @@
       "unit": "1 KG",
       "unitPrice": "150,50 ₺/Kg",
       "image": "",
-      "url": null
-    },
-    {
-      "name": "Familia Plus Natural Tuvalet Kağıdı 16 Adet",
-      "brand": "Familia",
-      "price": 154.95,
-      "unit": "16 Adet",
-      "unitPrice": "9,68 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/migros/31010062.jpg",
       "url": null
     },
     {
@@ -1798,24 +1798,6 @@
       "url": null
     },
     {
-      "name": "Dalin Şampuan Klasik 700 Ml",
-      "brand": "Dalin",
-      "price": 159.95,
-      "unit": "700 ML",
-      "unitPrice": "228,50 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefour/30096981.jpg",
-      "url": null
-    },
-    {
-      "name": "Protex Cream Sıvı Sabun 300 Ml",
-      "brand": "Protex",
-      "price": 161,
-      "unit": "300 ML",
-      "unitPrice": "536,67 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefour/30272154.jpg",
-      "url": null
-    },
-    {
       "name": "Sade Organik Yumurta 10 Adet",
       "brand": "Sade Organik",
       "price": 162.9,
@@ -1834,12 +1816,12 @@
       "url": null
     },
     {
-      "name": "Civita Glutensiz Fusilli Makarna 450 Gr",
-      "brand": "Civita",
-      "price": 165.5,
-      "unit": "450 GR",
-      "unitPrice": "367,78 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefour/30478098.jpg",
+      "name": "Sütaş Kaymaklı Yoğurt 1.75 Kg",
+      "brand": "Sütaş",
+      "price": 165,
+      "unit": "1.75 KG",
+      "unitPrice": "94,29 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30075922.png",
       "url": null
     },
     {
@@ -2023,21 +2005,21 @@
       "url": null
     },
     {
+      "name": "Pınar Folyo Tereyağı 200 Gr",
+      "brand": "Pınar",
+      "price": 189.9,
+      "unit": "200 GR",
+      "unitPrice": "949,50 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/migros/12017017.jpg",
+      "url": null
+    },
+    {
       "name": "Kahve Dünyası Filtre Kahve 250 Gr",
       "brand": "Kahve Dünyası",
       "price": 189.9,
       "unit": "250 GR",
       "unitPrice": "759,60 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefour/30463835.jpg",
-      "url": null
-    },
-    {
-      "name": "Yörüksüt Yarım Yağlı Yoğurt 3 Kg",
-      "brand": "Yörüksüt",
-      "price": 189.95,
-      "unit": "3 KG",
-      "unitPrice": "63,32 ₺/Kg",
-      "image": "",
       "url": null
     },
     {
@@ -2104,24 +2086,6 @@
       "url": null
     },
     {
-      "name": "Hacı Şakir Doğal Kalıp Sabun 4x150 Gr",
-      "brand": "Hacı Şakir",
-      "price": 206.95,
-      "unit": "600 GR",
-      "unitPrice": "344,92 ₺/Kg",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Hacı Şakir Kalıp Sabun Leylak 4x150 Gr",
-      "brand": "Hacı Şakir",
-      "price": 206.95,
-      "unit": "600 GR",
-      "unitPrice": "344,92 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30004695.png",
-      "url": null
-    },
-    {
       "name": "Çaykur Çay Çiçeği 500 Gr",
       "brand": "Çaykur",
       "price": 207,
@@ -2137,15 +2101,6 @@
       "unit": "500 GR",
       "unitPrice": "424,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30377808.png",
-      "url": null
-    },
-    {
-      "name": "U Green Clean Bulaşık Deterjanı 730 Ml",
-      "brand": "U Green Clean",
-      "price": 216.5,
-      "unit": "730 ML",
-      "unitPrice": "296,58 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30266995.png",
       "url": null
     },
     {
@@ -2182,15 +2137,6 @@
       "unit": "350 GR",
       "unitPrice": "627,14 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30423076.png",
-      "url": null
-    },
-    {
-      "name": "Sensodyne Çok Yönlü Koruma Diş Macunu 100 Ml",
-      "brand": "Sensodyne",
-      "price": 219.9,
-      "unit": "100 ML",
-      "unitPrice": "2.199,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefour/30382108.jpg",
       "url": null
     },
     {
@@ -2257,15 +2203,6 @@
       "url": null
     },
     {
-      "name": "Yumoş Extra Orkide Konsantre Yumuşatıcı 1.44 Lt",
-      "brand": "Yumoş",
-      "price": 229.9,
-      "unit": "1.44 LT",
-      "unitPrice": "159,65 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migros/30589510.jpg",
-      "url": null
-    },
-    {
       "name": "Sütaş Piknik Kaşar 400 Gr",
       "brand": "Sütaş",
       "price": 229.95,
@@ -2293,15 +2230,6 @@
       "url": null
     },
     {
-      "name": "Carrefour Filiz Çay 1 Kg",
-      "brand": "Carrefour",
-      "price": 234.9,
-      "unit": "1 KG",
-      "unitPrice": "234,90 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefour/30425190.jpg",
-      "url": null
-    },
-    {
       "name": "Carrefour Eski Kaşar 350 Gr",
       "brand": "Carrefour",
       "price": 235,
@@ -2317,15 +2245,6 @@
       "unit": "1.65 KG",
       "unitPrice": "144,85 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/18001359.png",
-      "url": null
-    },
-    {
-      "name": "Qualt Sıvı Deterjan Siyah 3 Lt",
-      "brand": "Qualt",
-      "price": 239,
-      "unit": "3 LT",
-      "unitPrice": "79,67 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30470799.png",
       "url": null
     },
     {
@@ -2410,30 +2329,12 @@
       "url": null
     },
     {
-      "name": "Bingo Soft Lovely Konsantre Yumuşatıcı 1.44 Lt",
-      "brand": "Bingo",
-      "price": 249.5,
-      "unit": "1.44 LT",
-      "unitPrice": "173,26 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30063567.png",
-      "url": null
-    },
-    {
       "name": "Doğadan Mango Aromalı Matcha Çay 25 Gr",
       "brand": "Doğadan",
       "price": 249.9,
       "unit": "25 GR",
       "unitPrice": "9.996,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefour/30500761.jpg",
-      "url": null
-    },
-    {
-      "name": "Yudum Ayçiçek Yağı 2 Lt",
-      "brand": "Yudum",
-      "price": 249.9,
-      "unit": "2 LT",
-      "unitPrice": "124,95 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30099933.png",
       "url": null
     },
     {
@@ -2473,12 +2374,12 @@
       "url": null
     },
     {
-      "name": "Organik Gurme Organik Kırmızı Mercimek 1 Kg",
-      "brand": "Organik Gurme",
-      "price": 260.5,
-      "unit": "1 KG",
-      "unitPrice": "260,50 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30420931.png",
+      "name": "Dr. Oetker Vitalis Knusper Plus Bal Bademli 450 Gr",
+      "brand": "Dr. Oetker",
+      "price": 264,
+      "unit": "450 GR",
+      "unitPrice": "586,67 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30074373.png",
       "url": null
     },
     {
@@ -2491,6 +2392,15 @@
       "url": null
     },
     {
+      "name": "Biryağ Ayçiçek Yağı 2 Lt",
+      "brand": "Biryağ",
+      "price": 269,
+      "unit": "2 LT",
+      "unitPrice": "134,50 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101/19000396.jpg",
+      "url": null
+    },
+    {
       "name": "Organik Gurme Organik Pirinç 1 Kg",
       "brand": "Organik Gurme",
       "price": 269.5,
@@ -2500,12 +2410,12 @@
       "url": null
     },
     {
-      "name": "Dove Nemlendirici Sıvı Sabun 450 Ml",
-      "brand": "Dove",
-      "price": 271.9,
-      "unit": "450 ML",
-      "unitPrice": "604,22 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migros/29789919.jpg",
+      "name": "Organik Gurme Organik Kırmızı Mercimek 1 Kg",
+      "brand": "Organik Gurme",
+      "price": 270,
+      "unit": "1 KG",
+      "unitPrice": "270,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30420931.png",
       "url": null
     },
     {
@@ -2536,21 +2446,21 @@
       "url": null
     },
     {
-      "name": "Nescafé Gold Filtre Kahve 250 Gr",
-      "brand": "Nescafé",
-      "price": 275.73,
-      "unit": "250 GR",
-      "unitPrice": "1.102,92 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30383984.png",
+      "name": "Peros Sıvı Sabun Zeytinyağı & Bergamot 2.94 Lt",
+      "brand": "Peros",
+      "price": 275.9,
+      "unit": "2.94 LT",
+      "unitPrice": "93,84 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30424991.png",
       "url": null
     },
     {
-      "name": "Ekici Süzme Peynir 400 Gr",
-      "brand": "Ekici",
-      "price": 278.9,
-      "unit": "400 GR",
-      "unitPrice": "697,25 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30370012.png",
+      "name": "Milgo Tuzlu Tereyağı 250 Gr",
+      "brand": "Milgo",
+      "price": 279.9,
+      "unit": "250 GR",
+      "unitPrice": "1.119,60 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefour/30491350.jpg",
       "url": null
     },
     {
@@ -2608,15 +2518,6 @@
       "url": null
     },
     {
-      "name": "Ege Masalı Yadigar Zeytinyağı 500 Ml",
-      "brand": "Ege Masalı",
-      "price": 299,
-      "unit": "500 ML",
-      "unitPrice": "598,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30470567.png",
-      "url": null
-    },
-    {
       "name": "Fora Sele Zeytin 321-350 1 Kg",
       "brand": "Fora",
       "price": 299.95,
@@ -2671,15 +2572,6 @@
       "url": null
     },
     {
-      "name": "Solo Bambu 2 Katlı Tuvalet Kağıdı 40 Adet",
-      "brand": "Solo",
-      "price": 324.9,
-      "unit": "40 Adet",
-      "unitPrice": "8,12 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/23001290.png",
-      "url": null
-    },
-    {
       "name": "Nescafé Gold 50 Gr",
       "brand": "Nescafé Gold",
       "price": 328,
@@ -2707,12 +2599,39 @@
       "url": null
     },
     {
+      "name": "Selpak Tuvalet Kağıdı 16 Adet",
+      "brand": "Selpak",
+      "price": 350,
+      "unit": "16 Adet",
+      "unitPrice": "21,88 ₺/Adet",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30090472.png",
+      "url": null
+    },
+    {
       "name": "Cihanser Eski Kaşar 350 Gr",
       "brand": "Cihanser",
       "price": 356.5,
       "unit": "350 GR",
       "unitPrice": "1.018,57 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30099808.png",
+      "url": null
+    },
+    {
+      "name": "Buffa Manda Tereyağı 200 Gr",
+      "brand": "Buffa",
+      "price": 363.9,
+      "unit": "200 GR",
+      "unitPrice": "1.819,50 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30427694.png",
+      "url": null
+    },
+    {
+      "name": "Parodontax Tam Koruma Beyazlatıcı Diş Macunu 75 Ml",
+      "brand": "Parodontax",
+      "price": 368.5,
+      "unit": "75 ML",
+      "unitPrice": "4.913,33 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30266190.png",
       "url": null
     },
     {
@@ -2869,15 +2788,6 @@
       "url": null
     },
     {
-      "name": "Nutella Bisküvi 304 Gr",
-      "brand": "Nutella",
-      "price": 453.5,
-      "unit": "304 GR",
-      "unitPrice": "1.491,78 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30385082.png",
-      "url": null
-    },
-    {
       "name": "Mandamia Yoğurt 750 Gr",
       "brand": "Mandamia",
       "price": 467.9,
@@ -2983,15 +2893,6 @@
       "unit": "5 LT",
       "unitPrice": "119,18 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30045925.png",
-      "url": null
-    },
-    {
-      "name": "Ulus Tereyağı 1 Kg",
-      "brand": "Ulus",
-      "price": 599.95,
-      "unit": "1 KG",
-      "unitPrice": "599,95 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefour/30500723.jpg",
       "url": null
     },
     {
