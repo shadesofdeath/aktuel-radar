@@ -2,9 +2,9 @@
   "market": "tarimkredi",
   "label": "Tarım Kredi",
   "color": "#0A7D34",
-  "updatedAt": "2026-07-17T18:52:38.371Z",
+  "updatedAt": "2026-07-18T07:26:34.017Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 108,
+  "count": 110,
   "products": [
     {
       "name": "Fuska Su 500 Ml",
@@ -223,6 +223,15 @@
       "url": null
     },
     {
+      "name": "TMO Kırmızı Yaprak Mercimek 1 Kg",
+      "brand": "TMO",
+      "price": 46,
+      "unit": "1 KG",
+      "unitPrice": "46,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/112283.png",
+      "url": null
+    },
+    {
       "name": "5 Dakika Bisküvi 4x75 Gr",
       "brand": "5 Dakika",
       "price": 48.9,
@@ -232,12 +241,12 @@
       "url": null
     },
     {
-      "name": "Tarım Kredi Ada Çayı Çubuk Çay 32 Gr",
-      "brand": "Tarım Kredi",
-      "price": 49.9,
-      "unit": "32 GR",
-      "unitPrice": "1.559,38 ₺/Kg",
-      "image": "",
+      "name": "Torku Üçgen Peynir 100 Gr",
+      "brand": "Torku",
+      "price": 52.9,
+      "unit": "100 GR",
+      "unitPrice": "529,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/migrosimages/10250743.png",
       "url": null
     },
     {
@@ -340,15 +349,6 @@
       "url": null
     },
     {
-      "name": "Elidor Anında Onarıcı Şampuan 325 Ml",
-      "brand": "Elidor",
-      "price": 69,
-      "unit": "325 ML",
-      "unitPrice": "212,31 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/128646.jpg",
-      "url": null
-    },
-    {
       "name": "Tarım Kredi Un 2 Kg",
       "brand": "Tarım Kredi",
       "price": 69.9,
@@ -394,6 +394,15 @@
       "url": null
     },
     {
+      "name": "Elit Doğal Zeytinyağlı Sabun 4x180 Gr",
+      "brand": "Elit",
+      "price": 86.9,
+      "unit": "720 GR",
+      "unitPrice": "120,69 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/105569.jpg",
+      "url": null
+    },
+    {
       "name": "Peros Amber Konsantre Yumuşatıcı 960 Ml",
       "brand": "Peros",
       "price": 89.9,
@@ -418,6 +427,15 @@
       "unit": "1.08 LT",
       "unitPrice": "87,50 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/12003192.png",
+      "url": null
+    },
+    {
+      "name": "Sütaş Muzlu Süt 6x180 Ml",
+      "brand": "Sütaş",
+      "price": 94.5,
+      "unit": "1.08 LT",
+      "unitPrice": "87,50 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/migrosimages/11010179.png",
       "url": null
     },
     {
@@ -457,6 +475,15 @@
       "url": null
     },
     {
+      "name": "Blendax Şampuan Çeşitleri 500 Ml",
+      "brand": "Blendax",
+      "price": 99.9,
+      "unit": "500 ML",
+      "unitPrice": "199,80 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/129625.jpg",
+      "url": null
+    },
+    {
       "name": "Dola Glutensiz Pilavlık Bulgur 400 Gr",
       "brand": "Dola",
       "price": 103.9,
@@ -472,6 +499,15 @@
       "unit": "400 GR",
       "unitPrice": "268,75 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/27001225.png",
+      "url": null
+    },
+    {
+      "name": "Mutlu Organik Yumurta M Boy 10 Adet",
+      "brand": "Mutlu",
+      "price": 108,
+      "unit": "10 Adet",
+      "unitPrice": "10,80 ₺/Adet",
+      "image": "",
       "url": null
     },
     {
@@ -547,15 +583,6 @@
       "url": null
     },
     {
-      "name": "Kumartaşlı Boy Yumurta M Boy 53-63 Gr 30 Adet",
-      "brand": "Kumartaşlı",
-      "price": 129,
-      "unit": "30 Adet",
-      "unitPrice": "4,30 ₺/Adet",
-      "image": "",
-      "url": null
-    },
-    {
       "name": "Keskinoğlu Yumurta M Boy 30 Adet",
       "brand": "Keskinoğlu",
       "price": 129,
@@ -589,6 +616,15 @@
       "unit": "1 KG",
       "unitPrice": "139,90 ₺/Kg",
       "image": "",
+      "url": null
+    },
+    {
+      "name": "Uni Baby Şampuan 900 Ml",
+      "brand": "Uni Baby",
+      "price": 139.9,
+      "unit": "900 ML",
+      "unitPrice": "155,44 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/103319.jpg",
       "url": null
     },
     {
@@ -655,15 +691,6 @@
       "url": null
     },
     {
-      "name": "Bioblas Onarıcı Dolgunlaştırıcı Şampuan 360 Ml",
-      "brand": "Bioblas",
-      "price": 169.9,
-      "unit": "360 ML",
-      "unitPrice": "471,94 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/125791.jpg",
-      "url": null
-    },
-    {
       "name": "Dalin Şampuan 700 Ml",
       "brand": "Dalin",
       "price": 179.9,
@@ -697,15 +724,6 @@
       "unit": "650 ML",
       "unitPrice": "307,54 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/108817.jpg",
-      "url": null
-    },
-    {
-      "name": "Elidor Anında Onarıcı Şampuan 650 Ml",
-      "brand": "Elidor",
-      "price": 199.9,
-      "unit": "650 ML",
-      "unitPrice": "307,54 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/24004950.png",
       "url": null
     },
     {
@@ -772,30 +790,12 @@
       "url": null
     },
     {
-      "name": "Elit Doğal Zeytinyağlı Şampuan 700 Ml",
-      "brand": "Elit",
-      "price": 219,
-      "unit": "700 ML",
-      "unitPrice": "312,86 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/105572.jpg",
-      "url": null
-    },
-    {
       "name": "Bingo Soft Sensitive Yumuşatıcı 5 Lt",
       "brand": "Bingo",
       "price": 224,
       "unit": "5 LT",
       "unitPrice": "44,80 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30006466.png",
-      "url": null
-    },
-    {
-      "name": "Bingo Soft Lovely Klasik Yumuşatıcı 5 Lt",
-      "brand": "Bingo",
-      "price": 224,
-      "unit": "5 LT",
-      "unitPrice": "44,80 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30005353.png",
       "url": null
     },
     {
@@ -880,12 +880,30 @@
       "url": null
     },
     {
+      "name": "Tarım Kredi Natürel Birinci Zeytinyağı 1 Lt",
+      "brand": "Tarım Kredi",
+      "price": 295,
+      "unit": "1 LT",
+      "unitPrice": "295,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/121887.png",
+      "url": null
+    },
+    {
       "name": "Pril Limonlu Sıvı Bulaşık Deterjanı 4 Kg",
       "brand": "Pril",
       "price": 299.9,
       "unit": "4 KG",
       "unitPrice": "74,97 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/hakmarimages/1006538.png",
+      "url": null
+    },
+    {
+      "name": "Tarım Kredi Anadolu Sızma Zeytinyağı 1 Lt",
+      "brand": "Tarım Kredi",
+      "price": 310,
+      "unit": "1 LT",
+      "unitPrice": "310,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/100597.png",
       "url": null
     },
     {
