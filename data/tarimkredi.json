@@ -2,9 +2,9 @@
   "market": "tarimkredi",
   "label": "Tarım Kredi",
   "color": "#0A7D34",
-  "updatedAt": "2026-07-18T18:45:34.432Z",
+  "updatedAt": "2026-07-19T07:57:56.995Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 110,
+  "count": 109,
   "products": [
     {
       "name": "Fuska Su 500 Ml",
@@ -31,6 +31,15 @@
       "unit": "8 GR",
       "unitPrice": "1.468,75 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/images/Dripon-Pratik-Filtre-Kahve-Tekli-8-Gr.png",
+      "url": null
+    },
+    {
+      "name": "Ülker Haylayf Bisküvi 64 Gr",
+      "brand": "Ülker",
+      "price": 12.5,
+      "unit": "64 GR",
+      "unitPrice": "195,31 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30095831.png",
       "url": null
     },
     {
@@ -184,6 +193,15 @@
       "unit": "1 LT",
       "unitPrice": "37,50 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/122032.png",
+      "url": null
+    },
+    {
+      "name": "Oylum Finger Bisküvi 450 Gr",
+      "brand": "Oylum",
+      "price": 39,
+      "unit": "450 GR",
+      "unitPrice": "86,67 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/125291.png",
       "url": null
     },
     {
@@ -457,15 +475,6 @@
       "url": null
     },
     {
-      "name": "Kent Assortment Şeker 375 Gr",
-      "brand": "Kent",
-      "price": 99,
-      "unit": "375 GR",
-      "unitPrice": "264,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bim/1705230.jpg",
-      "url": null
-    },
-    {
       "name": "Toblerone Çikolata Sütlü 100 Gr",
       "brand": "Toblerone",
       "price": 99.9,
@@ -493,15 +502,6 @@
       "url": null
     },
     {
-      "name": "Haribo Yumuşak Şeker Fruitbons 400 Gr",
-      "brand": "Haribo",
-      "price": 107.5,
-      "unit": "400 GR",
-      "unitPrice": "268,75 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/27001225.png",
-      "url": null
-    },
-    {
       "name": "Mutlu Organik Yumurta M Boy 10 Adet",
       "brand": "Mutlu",
       "price": 108,
@@ -526,6 +526,15 @@
       "unit": "60 GR",
       "unitPrice": "1.831,67 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/111864.png",
+      "url": null
+    },
+    {
+      "name": "Sarıyer Kola 4x1 Lt",
+      "brand": "Sarıyer",
+      "price": 109.9,
+      "unit": "4 LT",
+      "unitPrice": "27,48 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/126410.jpg",
       "url": null
     },
     {
@@ -637,15 +646,6 @@
       "url": null
     },
     {
-      "name": "Sarıyer Kola 4x1 Lt",
-      "brand": "Sarıyer",
-      "price": 145,
-      "unit": "4 LT",
-      "unitPrice": "36,25 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/126410.jpg",
-      "url": null
-    },
-    {
       "name": "Akyaka Gezen Yumurta M Boy 15 Adet",
       "brand": "Akyaka",
       "price": 149.9,
@@ -754,15 +754,6 @@
       "url": null
     },
     {
-      "name": "Tarım Kredi Harman Siyah Çay 1 Kg",
-      "brand": "Tarım Kredi",
-      "price": 219,
-      "unit": "1 KG",
-      "unitPrice": "219,00 ₺/Kg",
-      "image": "",
-      "url": null
-    },
-    {
       "name": "Tarım Kredi Anadolu Baldo Pirinç 2.5 Kg",
       "brand": "Tarım Kredi",
       "price": 219,
@@ -796,15 +787,6 @@
       "unit": "5 LT",
       "unitPrice": "44,80 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30006466.png",
-      "url": null
-    },
-    {
-      "name": "Destan Toz Şeker 5 Kg",
-      "brand": "Destan",
-      "price": 225,
-      "unit": "5 KG",
-      "unitPrice": "45,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/112301.jpg",
       "url": null
     },
     {
@@ -958,6 +940,15 @@
       "unit": "80 Adet",
       "unitPrice": "4,37 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30392416.png",
+      "url": null
+    },
+    {
+      "name": "Çaykur Kamelya Çay 1 Kg",
+      "brand": "Çaykur",
+      "price": 379.5,
+      "unit": "1 KG",
+      "unitPrice": "379,50 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/108298.jpg",
       "url": null
     },
     {

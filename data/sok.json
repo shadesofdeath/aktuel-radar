@@ -2,9 +2,9 @@
   "market": "sok",
   "label": "ŞOK",
   "color": "#F0A500",
-  "updatedAt": "2026-07-18T18:45:34.432Z",
+  "updatedAt": "2026-07-19T07:57:56.995Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 92,
+  "count": 95,
   "products": [
     {
       "name": "Kardelen Su 500 Ml",
@@ -139,6 +139,15 @@
       "unit": "330 ML",
       "unitPrice": "69,70 ₺/Lt",
       "image": "",
+      "url": null
+    },
+    {
+      "name": "Eti Kakaolu Bisküvi 125 Gr",
+      "brand": "Eti",
+      "price": 25,
+      "unit": "125 GR",
+      "unitPrice": "200,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/17001275.png",
       "url": null
     },
     {
@@ -295,6 +304,15 @@
       "url": null
     },
     {
+      "name": "Haribo Ekşi Mix Yumuşak Şeker 115 Gr",
+      "brand": "Haribo",
+      "price": 55,
+      "unit": "115 GR",
+      "unitPrice": "478,26 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/131473.png",
+      "url": null
+    },
+    {
       "name": "Danone Süprix Çilek Aromalı Yoğurt 90 Gr",
       "brand": "Danone",
       "price": 57.5,
@@ -310,6 +328,15 @@
       "unit": "200 Adet",
       "unitPrice": "0,29 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/31049089.png",
+      "url": null
+    },
+    {
+      "name": "Tamköy Ekşi Mayalı Ekmek 1 Kg",
+      "brand": "Tamköy",
+      "price": 59.75,
+      "unit": "1 KG",
+      "unitPrice": "59,75 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/69707.png",
       "url": null
     },
     {
@@ -448,15 +475,6 @@
       "url": null
     },
     {
-      "name": "Altınküp Toz Şeker 2 Kg",
-      "brand": "Altınküp",
-      "price": 94.5,
-      "unit": "2 KG",
-      "unitPrice": "47,25 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/48892.png",
-      "url": null
-    },
-    {
       "name": "Saka Su 10 Lt",
       "brand": "Saka",
       "price": 95.5,
@@ -553,6 +571,15 @@
       "unit": "75 ML",
       "unitPrice": "1.586,67 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/115026.jpg",
+      "url": null
+    },
+    {
+      "name": "Deren Filiz Çay 500 Gr",
+      "brand": "Deren",
+      "price": 120,
+      "unit": "500 GR",
+      "unitPrice": "240,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/3111502.png",
       "url": null
     },
     {
