@@ -2,9 +2,9 @@
   "market": "sok",
   "label": "ŞOK",
   "color": "#F0A500",
-  "updatedAt": "2026-07-19T18:50:24.415Z",
+  "updatedAt": "2026-07-20T08:39:18.157Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 95,
+  "count": 96,
   "products": [
     {
       "name": "Kardelen Su 500 Ml",
@@ -124,21 +124,21 @@
       "url": null
     },
     {
-      "name": "Ülker Dido Sütlü Çikolatalı Gofret 35 Gr",
-      "brand": "Ülker",
-      "price": 22.5,
-      "unit": "35 GR",
-      "unitPrice": "642,86 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/17000775.jpg",
-      "url": null
-    },
-    {
       "name": "Crown Şekersiz Kola Kutu 330 Ml",
       "brand": "Crown",
       "price": 23,
       "unit": "330 ML",
       "unitPrice": "69,70 ₺/Lt",
       "image": "",
+      "url": null
+    },
+    {
+      "name": "Filiz Fiyonk Makarna 500 Gr",
+      "brand": "Filiz",
+      "price": 24.5,
+      "unit": "500 GR",
+      "unitPrice": "49,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101/14002548.jpg",
       "url": null
     },
     {
@@ -193,15 +193,6 @@
       "unit": "142 GR",
       "unitPrice": "239,44 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/87404.png",
-      "url": null
-    },
-    {
-      "name": "Güzelpınar Su 5 Lt",
-      "brand": "Güzelpınar",
-      "price": 36,
-      "unit": "5 LT",
-      "unitPrice": "7,20 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/65718.png",
       "url": null
     },
     {
@@ -475,6 +466,15 @@
       "url": null
     },
     {
+      "name": "Altınküp Toz Şeker 2 Kg",
+      "brand": "Altınküp",
+      "price": 94.5,
+      "unit": "2 KG",
+      "unitPrice": "47,25 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/48892.png",
+      "url": null
+    },
+    {
       "name": "Saka Su 10 Lt",
       "brand": "Saka",
       "price": 95.5,
@@ -571,15 +571,6 @@
       "unit": "75 ML",
       "unitPrice": "1.586,67 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/115026.jpg",
-      "url": null
-    },
-    {
-      "name": "Deren Filiz Çay 500 Gr",
-      "brand": "Deren",
-      "price": 120,
-      "unit": "500 GR",
-      "unitPrice": "240,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/3111502.png",
       "url": null
     },
     {
@@ -691,6 +682,15 @@
       "url": null
     },
     {
+      "name": "Beyaz Güvercin Tuvalet Kağıdı 16 Adet",
+      "brand": "Beyaz Güvercin",
+      "price": 169,
+      "unit": "16 Adet",
+      "unitPrice": "10,56 ₺/Adet",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/73960.png",
+      "url": null
+    },
+    {
       "name": "Duru Hydro Pure Sabun 4x135 Gr",
       "brand": "Duru",
       "price": 174,
@@ -769,6 +769,15 @@
       "unit": "75 ML",
       "unitPrice": "2.653,33 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/105746.png",
+      "url": null
+    },
+    {
+      "name": "Mis Tam Yağlı Beyaz Peynir 750 Gr",
+      "brand": "Mis",
+      "price": 205,
+      "unit": "750 GR",
+      "unitPrice": "273,33 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/59393.png",
       "url": null
     },
     {

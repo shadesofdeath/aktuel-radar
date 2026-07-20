@@ -2,9 +2,9 @@
   "market": "a101",
   "label": "A101",
   "color": "#00A0DF",
-  "updatedAt": "2026-07-19T18:50:24.415Z",
+  "updatedAt": "2026-07-20T08:39:18.157Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 207,
+  "count": 205,
   "products": [
     {
       "name": "Cafex Instant Mocha Kahve 18 Gr",
@@ -49,6 +49,15 @@
       "unit": "250 ML",
       "unitPrice": "50,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101/13002008.jpg",
+      "url": null
+    },
+    {
+      "name": "Oba Burgu Makarna 500 Gr",
+      "brand": "Oba",
+      "price": 14,
+      "unit": "500 GR",
+      "unitPrice": "28,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/1708355.png",
       "url": null
     },
     {
@@ -142,15 +151,6 @@
       "url": null
     },
     {
-      "name": "Bendo Spagetti Makarna 500 Gr",
-      "brand": "Bendo",
-      "price": 17,
-      "unit": "500 GR",
-      "unitPrice": "34,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/14001938.jpg",
-      "url": null
-    },
-    {
       "name": "Günlük Kepekli Ekmek 1 Adet",
       "brand": "Markasız",
       "price": 17.5,
@@ -166,6 +166,15 @@
       "unit": "17 GR",
       "unitPrice": "1.029,41 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/30000776.png",
+      "url": null
+    },
+    {
+      "name": "Arbella Spagetti Makarna 500 Gr",
+      "brand": "Arbella",
+      "price": 17.5,
+      "unit": "500 GR",
+      "unitPrice": "35,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101/14002517.jpg",
       "url": null
     },
     {
@@ -232,12 +241,12 @@
       "url": null
     },
     {
-      "name": "Berona Spagetti Makarna 500 Gr",
-      "brand": "Berona",
-      "price": 23.5,
-      "unit": "500 GR",
-      "unitPrice": "47,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/14001929.jpg",
+      "name": "Bi Mango Exotic Buzlu Çay 330 Ml",
+      "brand": "Bi",
+      "price": 24.5,
+      "unit": "330 ML",
+      "unitPrice": "74,24 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/a101/13001976.jpg",
       "url": null
     },
     {
@@ -283,15 +292,6 @@
       "unit": "330 ML",
       "unitPrice": "75,76 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101/13000115.jpg",
-      "url": null
-    },
-    {
-      "name": "Ülker Dido Sütlü Çikolatalı Gofret 35 Gr",
-      "brand": "Ülker",
-      "price": 27,
-      "unit": "35 GR",
-      "unitPrice": "771,43 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/17000775.jpg",
       "url": null
     },
     {
@@ -349,6 +349,15 @@
       "url": null
     },
     {
+      "name": "Filiz Fiyonk Makarna 500 Gr",
+      "brand": "Filiz",
+      "price": 33.5,
+      "unit": "500 GR",
+      "unitPrice": "67,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101/14002548.jpg",
+      "url": null
+    },
+    {
       "name": "Yöremce Köftelik Bulgur 1 Kg",
       "brand": "Yöremce",
       "price": 34,
@@ -403,6 +412,15 @@
       "url": null
     },
     {
+      "name": "Karadem Tomurcuk Çay Eko Paket 100 Gr",
+      "brand": "Karadem",
+      "price": 37.5,
+      "unit": "100 GR",
+      "unitPrice": "375,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/30000495.png",
+      "url": null
+    },
+    {
       "name": "Milkten Üçgen Peynir 8x15 Gr",
       "brand": "Milkten",
       "price": 39.5,
@@ -418,6 +436,15 @@
       "unit": "20 Adet",
       "unitPrice": "1,98 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/a101images/30000509.png",
+      "url": null
+    },
+    {
+      "name": "Mest Açai Ananas Yeşil Çay 20 Adet",
+      "brand": "Mest",
+      "price": 39.5,
+      "unit": "20 Adet",
+      "unitPrice": "1,98 ₺/Adet",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/30000876.png",
       "url": null
     },
     {
@@ -817,6 +844,15 @@
       "url": null
     },
     {
+      "name": "Sek Yarım Yağlı Yoğurt 750 Gr",
+      "brand": "Sek",
+      "price": 75,
+      "unit": "750 GR",
+      "unitPrice": "100,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101/12003455.jpg",
+      "url": null
+    },
+    {
       "name": "Lays & Ruffles Klasik & Original Cips 300 Gr",
       "brand": "Lays & Ruffles",
       "price": 75,
@@ -1087,15 +1123,6 @@
       "url": null
     },
     {
-      "name": "Karper Üçgen Peynir 24x12.300 Gr",
-      "brand": "Karper",
-      "price": 119.5,
-      "unit": "300 GR",
-      "unitPrice": "398,33 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/12000137.png",
-      "url": null
-    },
-    {
       "name": "Granoro Lazanya Makarna 500 Gr",
       "brand": "Granoro",
       "price": 119.5,
@@ -1150,15 +1177,6 @@
       "url": null
     },
     {
-      "name": "Peros Beyaz Çiçek Yumuşatıcı 5 Lt",
-      "brand": "Peros",
-      "price": 135,
-      "unit": "5 LT",
-      "unitPrice": "27,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101/22002436.jpg",
-      "url": null
-    },
-    {
       "name": "Colgate Charcoal Diş Macunu 75 Ml",
       "brand": "Colgate",
       "price": 135,
@@ -1195,6 +1213,15 @@
       "url": null
     },
     {
+      "name": "Tursil Toz Deterjan 1.5 Kg",
+      "brand": "Tursil",
+      "price": 145,
+      "unit": "1.5 KG",
+      "unitPrice": "96,67 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/22000652.png",
+      "url": null
+    },
+    {
       "name": "Eti Finger Bisküvi 900 Gr",
       "brand": "Eti",
       "price": 147,
@@ -1204,30 +1231,12 @@
       "url": null
     },
     {
-      "name": "Peros Amber Konsantre Yumuşatıcı 1.44 Lt",
-      "brand": "Peros",
-      "price": 149,
-      "unit": "1.44 LT",
-      "unitPrice": "103,47 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/22002305.png",
-      "url": null
-    },
-    {
       "name": "Dalin Şampuan 700 Ml",
       "brand": "Dalin",
       "price": 149,
       "unit": "700 ML",
       "unitPrice": "212,86 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/24000424.png",
-      "url": null
-    },
-    {
-      "name": "Solo Bambu Katkılı Tuvalet Kağıdı 16 Adet",
-      "brand": "Solo",
-      "price": 154.9,
-      "unit": "16 Adet",
-      "unitPrice": "9,68 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/migros/31010064.jpg",
       "url": null
     },
     {
@@ -1273,15 +1282,6 @@
       "unit": "900 GR",
       "unitPrice": "177,22 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/18002405.png",
-      "url": null
-    },
-    {
-      "name": "Elidor Güçlü Parlaklık Şampuan 650 Ml",
-      "brand": "Elidor",
-      "price": 165,
-      "unit": "650 ML",
-      "unitPrice": "253,85 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/108817.jpg",
       "url": null
     },
     {
@@ -1447,15 +1447,6 @@
       "url": null
     },
     {
-      "name": "Karadem Rize Çay 1 Kg",
-      "brand": "Karadem",
-      "price": 225,
-      "unit": "1 KG",
-      "unitPrice": "225,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/30000589.png",
-      "url": null
-    },
-    {
       "name": "Vera Ayçiçek Yağı 2 Lt",
       "brand": "Vera",
       "price": 225,
@@ -1582,15 +1573,6 @@
       "url": null
     },
     {
-      "name": "Rinso Argan Sıvı Deterjan 2.5 Lt",
-      "brand": "Rinso",
-      "price": 284.9,
-      "unit": "2.5 LT",
-      "unitPrice": "113,96 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101/22002760.jpg",
-      "url": null
-    },
-    {
       "name": "Ekici Beyaz Peynir 800 Gr",
       "brand": "Ekici",
       "price": 289,
@@ -1708,15 +1690,6 @@
       "url": null
     },
     {
-      "name": "Doğuş Çay Gurme 1 Kg",
-      "brand": "Doğuş",
-      "price": 320,
-      "unit": "1 KG",
-      "unitPrice": "320,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/30000282.jpg",
-      "url": null
-    },
-    {
       "name": "Yudum Egemden Yalın Sızma Zeytinyağı 1 Lt",
       "brand": "Yudum",
       "price": 325,
@@ -1741,6 +1714,15 @@
       "unit": "1 KG",
       "unitPrice": "356,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/13000056.png",
+      "url": null
+    },
+    {
+      "name": "Ariel Toz Deterjan 4 Kg",
+      "brand": "Ariel",
+      "price": 362.9,
+      "unit": "4 KG",
+      "unitPrice": "90,72 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101images/22001812.png",
       "url": null
     },
     {
