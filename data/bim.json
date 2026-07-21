@@ -2,9 +2,9 @@
   "market": "bim",
   "label": "BİM",
   "color": "#E4001B",
-  "updatedAt": "2026-07-21T08:07:23.562Z",
+  "updatedAt": "2026-07-21T19:03:03.482Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 152,
+  "count": 145,
   "products": [
     {
       "name": "Torku Nobir Kaplamalı Gofret 24x35 Gr",
@@ -196,15 +196,6 @@
       "url": null
     },
     {
-      "name": "Filiz Fiyonk Makarna 500 Gr",
-      "brand": "Filiz",
-      "price": 33.5,
-      "unit": "500 GR",
-      "unitPrice": "67,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/14002548.jpg",
-      "url": null
-    },
-    {
       "name": "Filiz Boncuk Makarna 500 Gr",
       "brand": "Filiz",
       "price": 33.5,
@@ -250,15 +241,6 @@
       "url": null
     },
     {
-      "name": "Aknaz Kekikli Zeytinli Taze Peynir 180 Gr",
-      "brand": "Aknaz",
-      "price": 39.5,
-      "unit": "180 GR",
-      "unitPrice": "219,44 ₺/Kg",
-      "image": "",
-      "url": null
-    },
-    {
       "name": "Simbat Soslu Cips Fıstık 200 Gr",
       "brand": "Simbat",
       "price": 39.5,
@@ -277,15 +259,6 @@
       "url": null
     },
     {
-      "name": "Teksüt %1.5 Yağlı Süt 1 Lt",
-      "brand": "Teksüt",
-      "price": 39.75,
-      "unit": "1 LT",
-      "unitPrice": "39,75 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/1708539.png",
-      "url": null
-    },
-    {
       "name": "Blume Peçete 30x30 Cm 200 Adet",
       "brand": "Blume",
       "price": 42.5,
@@ -301,6 +274,15 @@
       "unit": "450 GR",
       "unitPrice": "96,67 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bimimages/702742.png",
+      "url": null
+    },
+    {
+      "name": "Teksüt %1.5 Yağlı Süt 1 Lt",
+      "brand": "Teksüt",
+      "price": 44.5,
+      "unit": "1 LT",
+      "unitPrice": "44,50 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/1708539.png",
       "url": null
     },
     {
@@ -403,30 +385,12 @@
       "url": null
     },
     {
-      "name": "Jenny & Willy Yenidoğan Bebek Bezi 40 Adet",
-      "brand": "Jenny & Willy",
-      "price": 50,
-      "unit": "40 Adet",
-      "unitPrice": "1,25 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/bimages/1300424.jpg",
-      "url": null
-    },
-    {
       "name": "Party Bal ve Hardal Aromalı Mısır Cipsi 200 Gr",
       "brand": "Party",
       "price": 52,
       "unit": "200 GR",
       "unitPrice": "260,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bimages/500772.jpg",
-      "url": null
-    },
-    {
-      "name": "Desto Sıvı Bulaşık Deterjanı 750 Ml",
-      "brand": "Desto",
-      "price": 52,
-      "unit": "750 ML",
-      "unitPrice": "69,33 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/1201458.png",
       "url": null
     },
     {
@@ -511,6 +475,15 @@
       "url": null
     },
     {
+      "name": "Desto Sıvı Bulaşık Deterjanı 750 Ml",
+      "brand": "Desto",
+      "price": 62.5,
+      "unit": "750 ML",
+      "unitPrice": "83,33 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/1201458.png",
+      "url": null
+    },
+    {
       "name": "Assu Su 12x250 Ml",
       "brand": "Assu",
       "price": 63.25,
@@ -565,12 +538,12 @@
       "url": null
     },
     {
-      "name": "Torku Petibör Bisküvi 700 Gr",
-      "brand": "Torku",
+      "name": "Wells 2 Katlı Tuvalet Kağıdı 12 Adet",
+      "brand": "Wells",
       "price": 69,
-      "unit": "700 GR",
-      "unitPrice": "98,57 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/1702539.png",
+      "unit": "12 Adet",
+      "unitPrice": "5,75 ₺/Adet",
+      "image": "",
       "url": null
     },
     {
@@ -637,15 +610,6 @@
       "url": null
     },
     {
-      "name": "Solo Bambu Tuvalet Kağıdı 12 Adet",
-      "brand": "Solo",
-      "price": 75,
-      "unit": "12 Adet",
-      "unitPrice": "6,25 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30424703.png",
-      "url": null
-    },
-    {
       "name": "Bebeto Party Mix Yumuşak Şeker 400 Gr",
       "brand": "Bebeto",
       "price": 79,
@@ -691,33 +655,6 @@
       "url": null
     },
     {
-      "name": "Efsane Baldo Pirinç 1 Kg",
-      "brand": "Efsane",
-      "price": 83.5,
-      "unit": "1 KG",
-      "unitPrice": "83,50 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/401458.png",
-      "url": null
-    },
-    {
-      "name": "ABC Eylül Güneşi Konsantre Yumuşatıcı 1.44 Lt",
-      "brand": "Abc",
-      "price": 85,
-      "unit": "1.44 LT",
-      "unitPrice": "59,03 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/bim/1701755.jpg",
-      "url": null
-    },
-    {
-      "name": "Colgate Diş Macunu 50 Ml",
-      "brand": "Colgate",
-      "price": 85,
-      "unit": "50 ML",
-      "unitPrice": "1.700,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/bim/1400642.jpg",
-      "url": null
-    },
-    {
       "name": "Kahverengi Yumurta 10 Adet",
       "brand": "Markasız",
       "price": 87.5,
@@ -751,6 +688,15 @@
       "unit": "400 GR",
       "unitPrice": "247,50 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/27001225.png",
+      "url": null
+    },
+    {
+      "name": "Colgate Diş Macunu 50 Ml",
+      "brand": "Colgate",
+      "price": 99,
+      "unit": "50 ML",
+      "unitPrice": "1.980,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bim/1400642.jpg",
       "url": null
     },
     {
@@ -795,15 +741,6 @@
       "price": 119,
       "unit": "4 LT",
       "unitPrice": "29,75 ₺/Lt",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Duru Duş Katı Sabun 600 Gr",
-      "brand": "Duru",
-      "price": 119,
-      "unit": "600 GR",
-      "unitPrice": "198,33 ₺/Kg",
       "image": "",
       "url": null
     },
@@ -853,15 +790,6 @@
       "url": null
     },
     {
-      "name": "Doğuş Demlik Poşet Siyah Çay 48 Adet",
-      "brand": "Doğuş",
-      "price": 125,
-      "unit": "48 Adet",
-      "unitPrice": "2,60 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/302157.png",
-      "url": null
-    },
-    {
       "name": "Söke Özlüm Un 5 Kg",
       "brand": "Söke",
       "price": 125,
@@ -898,15 +826,6 @@
       "url": null
     },
     {
-      "name": "Tukaş Domates Salçası 1.65 Kg",
-      "brand": "Tukaş",
-      "price": 129,
-      "unit": "1.65 KG",
-      "unitPrice": "78,18 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/1704798.png",
-      "url": null
-    },
-    {
       "name": "Tamek Domates Salçası 1.5 Kg",
       "brand": "Tamek",
       "price": 129,
@@ -922,6 +841,15 @@
       "unit": "1.98 LT",
       "unitPrice": "65,15 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/bim/1712497.jpg",
+      "url": null
+    },
+    {
+      "name": "Tukaş Domates Salçası 1.65 Kg",
+      "brand": "Tukaş",
+      "price": 135,
+      "unit": "1.65 KG",
+      "unitPrice": "81,82 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bimimages/1704798.png",
       "url": null
     },
     {
@@ -943,21 +871,21 @@
       "url": null
     },
     {
-      "name": "Head&Shoulders Şampuan 330 Ml",
-      "brand": "Head&shoulders",
-      "price": 149,
-      "unit": "330 ML",
-      "unitPrice": "451,52 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/bim/1402867.jpg",
-      "url": null
-    },
-    {
       "name": "Pantene Şampuan Çeşitleri 400 Ml",
       "brand": "Pantene",
       "price": 149,
       "unit": "400 ML",
       "unitPrice": "372,50 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/128444.jpg",
+      "url": null
+    },
+    {
+      "name": "Head&Shoulders Şampuan 330 Ml",
+      "brand": "Head&shoulders",
+      "price": 149,
+      "unit": "330 ML",
+      "unitPrice": "451,52 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bim/1402867.jpg",
       "url": null
     },
     {
@@ -1069,6 +997,15 @@
       "url": null
     },
     {
+      "name": "Duru Duş Katı Sabun 600 Gr",
+      "brand": "Duru",
+      "price": 195,
+      "unit": "600 GR",
+      "unitPrice": "325,00 ₺/Kg",
+      "image": "",
+      "url": null
+    },
+    {
       "name": "Binvezir Taze Kaşar 500 Gr",
       "brand": "Binvezir",
       "price": 199,
@@ -1132,15 +1069,6 @@
       "url": null
     },
     {
-      "name": "Sole Ayçiçek Yağı 2 Lt",
-      "brand": "Sole",
-      "price": 225,
-      "unit": "2 LT",
-      "unitPrice": "112,50 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/bim/900313.jpg",
-      "url": null
-    },
-    {
       "name": "Artmatik Toz Deterjan 5 Kg",
       "brand": "Artmatik",
       "price": 227,
@@ -1168,21 +1096,21 @@
       "url": null
     },
     {
+      "name": "Sole Ayçiçek Yağı 2 Lt",
+      "brand": "Sole",
+      "price": 230,
+      "unit": "2 LT",
+      "unitPrice": "115,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/bim/900313.jpg",
+      "url": null
+    },
+    {
       "name": "Agu Baby Maxi Aylık Paket Bebek Bezi 100 Adet",
       "brand": "Agu Baby",
       "price": 235,
       "unit": "100 Adet",
       "unitPrice": "2,35 ₺/Adet",
       "image": "",
-      "url": null
-    },
-    {
-      "name": "Binvezir Taze Kaşar 700 Gr",
-      "brand": "Binvezir",
-      "price": 249,
-      "unit": "700 GR",
-      "unitPrice": "355,71 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bim/200056.jpg",
       "url": null
     },
     {
@@ -1201,6 +1129,15 @@
       "unit": "3.24 LT",
       "unitPrice": "91,05 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/22002024.png",
+      "url": null
+    },
+    {
+      "name": "Binvezir Taze Kaşar 700 Gr",
+      "brand": "Binvezir",
+      "price": 309,
+      "unit": "700 GR",
+      "unitPrice": "441,43 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bim/200056.jpg",
       "url": null
     },
     {
@@ -1273,15 +1210,6 @@
       "unit": "500 GR",
       "unitPrice": "760,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/migros/3240026.jpg",
-      "url": null
-    },
-    {
-      "name": "Peros Matik Toz Deterjan 10 Kg",
-      "brand": "Peros",
-      "price": 389,
-      "unit": "10 KG",
-      "unitPrice": "38,90 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/bimimages/1707987.png",
       "url": null
     },
     {
@@ -1372,6 +1300,15 @@
       "unit": "5 KG",
       "unitPrice": "118,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bimages/1201451.jpg",
+      "url": null
+    },
+    {
+      "name": "Doğuş Tiryaki Siyah Çay 5 Kg",
+      "brand": "Doğuş",
+      "price": 990,
+      "unit": "5 KG",
+      "unitPrice": "198,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/bim/1713201.jpg",
       "url": null
     }
   ]
