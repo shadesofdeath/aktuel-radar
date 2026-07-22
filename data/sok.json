@@ -2,9 +2,9 @@
   "market": "sok",
   "label": "ŞOK",
   "color": "#F0A500",
-  "updatedAt": "2026-07-21T19:03:03.482Z",
+  "updatedAt": "2026-07-22T08:07:52.610Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 112,
+  "count": 114,
   "products": [
     {
       "name": "Kardelen Su 500 Ml",
@@ -151,6 +151,15 @@
       "url": null
     },
     {
+      "name": "Filiz Fiyonk Makarna 500 Gr",
+      "brand": "Filiz",
+      "price": 33.5,
+      "unit": "500 GR",
+      "unitPrice": "67,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101/14002548.jpg",
+      "url": null
+    },
+    {
       "name": "Anadolu Mutfağı Köftelik Bulgur 1 Kg",
       "brand": "Anadolu Mutfağı",
       "price": 34,
@@ -241,6 +250,15 @@
       "url": null
     },
     {
+      "name": "Danone Süprix Çilek Aromalı Yoğurt 90 Gr",
+      "brand": "Danone",
+      "price": 44.9,
+      "unit": "90 GR",
+      "unitPrice": "498,89 ₺/Kg",
+      "image": "",
+      "url": null
+    },
+    {
       "name": "Tam Buğday Ekmek 370 Gr",
       "brand": "Markasız",
       "price": 45,
@@ -286,33 +304,6 @@
       "url": null
     },
     {
-      "name": "Mintax Sıvı Bulaşık Deterjanı Limonlu 750 Ml",
-      "brand": "Mintax",
-      "price": 52,
-      "unit": "750 ML",
-      "unitPrice": "69,33 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/36149.png",
-      "url": null
-    },
-    {
-      "name": "Güzide Hanım Organik Yumurta 6 Adet",
-      "brand": "Güzide Hanım",
-      "price": 52.5,
-      "unit": "6 Adet",
-      "unitPrice": "8,75 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/76146.png",
-      "url": null
-    },
-    {
-      "name": "Mis Tam Yağlı Homojenize Yoğurt 750 Gr",
-      "brand": "Mis",
-      "price": 53.9,
-      "unit": "750 GR",
-      "unitPrice": "71,87 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sok/155760.jpg",
-      "url": null
-    },
-    {
       "name": "Haribo Ekşi Mix Yumuşak Şeker 115 Gr",
       "brand": "Haribo",
       "price": 55,
@@ -322,12 +313,12 @@
       "url": null
     },
     {
-      "name": "Danone Süprix Çilek Aromalı Yoğurt 90 Gr",
-      "brand": "Danone",
-      "price": 57.5,
-      "unit": "90 GR",
-      "unitPrice": "638,89 ₺/Kg",
-      "image": "",
+      "name": "Mis Tam Yağlı Homojenize Yoğurt 750 Gr",
+      "brand": "Mis",
+      "price": 57.9,
+      "unit": "750 GR",
+      "unitPrice": "77,20 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sok/155760.jpg",
       "url": null
     },
     {
@@ -367,21 +358,21 @@
       "url": null
     },
     {
+      "name": "Mintax Sıvı Bulaşık Deterjanı Limonlu 750 Ml",
+      "brand": "Mintax",
+      "price": 62.5,
+      "unit": "750 ML",
+      "unitPrice": "83,33 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/36149.png",
+      "url": null
+    },
+    {
       "name": "Güzelpınar Su 12x250 Ml",
       "brand": "Güzelpınar",
       "price": 63.25,
       "unit": "3 LT",
       "unitPrice": "21,08 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/132042.png",
-      "url": null
-    },
-    {
-      "name": "İpek Yağ Hazinesi Şampuan 480 Ml",
-      "brand": "İpek",
-      "price": 64,
-      "unit": "480 ML",
-      "unitPrice": "133,33 ₺/Lt",
-      "image": "",
       "url": null
     },
     {
@@ -400,6 +391,15 @@
       "unit": "2.5 LT",
       "unitPrice": "25,80 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/36160.png",
+      "url": null
+    },
+    {
+      "name": "Güzide Hanım Organik Yumurta 6 Adet",
+      "brand": "Güzide Hanım",
+      "price": 65,
+      "unit": "6 Adet",
+      "unitPrice": "10,83 ₺/Adet",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/76146.png",
       "url": null
     },
     {
@@ -466,12 +466,12 @@
       "url": null
     },
     {
-      "name": "Lio Kırma Yeşil Zeytin 141-160 400 Gr",
-      "brand": "Lio",
-      "price": 83,
-      "unit": "400 GR",
-      "unitPrice": "207,50 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/59990.png",
+      "name": "Saka Su 10 Lt",
+      "brand": "Saka",
+      "price": 79.5,
+      "unit": "10 LT",
+      "unitPrice": "7,95 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/8069992.png",
       "url": null
     },
     {
@@ -538,6 +538,15 @@
       "url": null
     },
     {
+      "name": "Lio Kırma Yeşil Zeytin 141-160 400 Gr",
+      "brand": "Lio",
+      "price": 92.5,
+      "unit": "400 GR",
+      "unitPrice": "231,25 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/59990.png",
+      "url": null
+    },
+    {
       "name": "Altınküp Toz Şeker 2 Kg",
       "brand": "Altınküp",
       "price": 94.5,
@@ -547,21 +556,21 @@
       "url": null
     },
     {
-      "name": "Saka Su 10 Lt",
-      "brand": "Saka",
-      "price": 95.5,
-      "unit": "10 LT",
-      "unitPrice": "9,55 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/8069992.png",
-      "url": null
-    },
-    {
       "name": "Bisto Un Kurabiyesi 500 Gr",
       "brand": "Bisto",
       "price": 99,
       "unit": "500 GR",
       "unitPrice": "198,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/83046.png",
+      "url": null
+    },
+    {
+      "name": "İpek Yağ Hazinesi Şampuan 480 Ml",
+      "brand": "İpek",
+      "price": 99.5,
+      "unit": "480 ML",
+      "unitPrice": "207,29 ₺/Lt",
+      "image": "",
       "url": null
     },
     {
@@ -628,12 +637,12 @@
       "url": null
     },
     {
-      "name": "Ülker Pötibör Bisküvi 800 Gr",
-      "brand": "Ülker",
-      "price": 112,
-      "unit": "800 GR",
-      "unitPrice": "140,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30238365.png",
+      "name": "Sensodyne Promine Çocuk Diş Macunu 50 Ml",
+      "brand": "Sensodyne",
+      "price": 110,
+      "unit": "50 ML",
+      "unitPrice": "2.200,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sok/170822.jpg",
       "url": null
     },
     {
@@ -643,15 +652,6 @@
       "unit": "400 GR",
       "unitPrice": "286,25 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/113103.png",
-      "url": null
-    },
-    {
-      "name": "Evin Ayçiçek Yağı 1 Lt",
-      "brand": "Evin",
-      "price": 119,
-      "unit": "1 LT",
-      "unitPrice": "119,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/4112001.png",
       "url": null
     },
     {
@@ -682,30 +682,21 @@
       "url": null
     },
     {
-      "name": "Mintax Yumuşatıcı Sensitive 3 Lt",
-      "brand": "Mintax",
-      "price": 120,
-      "unit": "3 LT",
-      "unitPrice": "40,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/80764.png",
-      "url": null
-    },
-    {
-      "name": "Mintax Lavanta Bahçesi Yumuşatıcı 3 Lt",
-      "brand": "Mintax",
-      "price": 120,
-      "unit": "3 LT",
-      "unitPrice": "40,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/36162.png",
-      "url": null
-    },
-    {
       "name": "Blendax Isırgan Özlü Şampuan 500 Ml",
       "brand": "Blendax",
       "price": 120,
       "unit": "500 ML",
       "unitPrice": "240,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/migros/34255822.jpg",
+      "url": null
+    },
+    {
+      "name": "Evin Ayçiçek Yağı 1 Lt",
+      "brand": "Evin",
+      "price": 122,
+      "unit": "1 LT",
+      "unitPrice": "122,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/4112001.png",
       "url": null
     },
     {
@@ -733,6 +724,24 @@
       "unit": "5 KG",
       "unitPrice": "27,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/5015500.png",
+      "url": null
+    },
+    {
+      "name": "Mintax Yumuşatıcı Sensitive 3 Lt",
+      "brand": "Mintax",
+      "price": 135,
+      "unit": "3 LT",
+      "unitPrice": "45,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/80764.png",
+      "url": null
+    },
+    {
+      "name": "Mintax Lavanta Bahçesi Yumuşatıcı 3 Lt",
+      "brand": "Mintax",
+      "price": 135,
+      "unit": "3 LT",
+      "unitPrice": "45,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/36162.png",
       "url": null
     },
     {
@@ -925,6 +934,15 @@
       "url": null
     },
     {
+      "name": "Mis Tereyağı 500 Gr",
+      "brand": "Mis",
+      "price": 279,
+      "unit": "500 GR",
+      "unitPrice": "558,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/12010997.png",
+      "url": null
+    },
+    {
       "name": "Sütaş Yayık Tereyağı 350 Gr",
       "brand": "Sütaş",
       "price": 299,
@@ -934,21 +952,21 @@
       "url": null
     },
     {
-      "name": "Mis Tereyağı 500 Gr",
-      "brand": "Mis",
-      "price": 299,
-      "unit": "500 GR",
-      "unitPrice": "598,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/12010997.png",
-      "url": null
-    },
-    {
       "name": "Sütaş Kaşar Peyniri 500 Gr",
       "brand": "Sütaş",
       "price": 299,
       "unit": "500 GR",
       "unitPrice": "598,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/12000511.png",
+      "url": null
+    },
+    {
+      "name": "Lio Salamura Siyah Zeytin 381-460 2 Kg",
+      "brand": "Lio",
+      "price": 299,
+      "unit": "2 KG",
+      "unitPrice": "149,50 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/77414.png",
       "url": null
     },
     {
@@ -988,21 +1006,21 @@
       "url": null
     },
     {
-      "name": "Evin Ayçiçek Yağı 5 Lt",
-      "brand": "Evin",
-      "price": 459,
-      "unit": "5 LT",
-      "unitPrice": "91,80 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/65301.png",
-      "url": null
-    },
-    {
       "name": "Mis Tereyağı 1 Kg",
       "brand": "Mis",
       "price": 469,
       "unit": "1 KG",
       "unitPrice": "469,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/40810.png",
+      "url": null
+    },
+    {
+      "name": "Evin Ayçiçek Yağı 5 Lt",
+      "brand": "Evin",
+      "price": 469,
+      "unit": "5 LT",
+      "unitPrice": "93,80 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/65301.png",
       "url": null
     },
     {
