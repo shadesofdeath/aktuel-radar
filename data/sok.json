@@ -2,9 +2,9 @@
   "market": "sok",
   "label": "ŞOK",
   "color": "#F0A500",
-  "updatedAt": "2026-07-22T18:56:55.863Z",
+  "updatedAt": "2026-07-23T08:11:05.305Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 114,
+  "count": 113,
   "products": [
     {
       "name": "Kardelen Su 500 Ml",
@@ -70,21 +70,21 @@
       "url": null
     },
     {
-      "name": "Nescafé Mocha 17 Gr",
-      "brand": "Nescafé",
-      "price": 17.5,
-      "unit": "17 GR",
-      "unitPrice": "1.029,41 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/61728.png",
-      "url": null
-    },
-    {
       "name": "Nescafé Cappuccino Şekerli 14 Gr",
       "brand": "Nescafé",
       "price": 17.5,
       "unit": "14 GR",
       "unitPrice": "1.250,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30087107.png",
+      "url": null
+    },
+    {
+      "name": "Nescafé Mocha 17 Gr",
+      "brand": "Nescafé",
+      "price": 17.5,
+      "unit": "17 GR",
+      "unitPrice": "1.029,41 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/61728.png",
       "url": null
     },
     {
@@ -304,6 +304,15 @@
       "url": null
     },
     {
+      "name": "Mintax Yoğun Çamaşır Suyu 1 Lt",
+      "brand": "Mintax",
+      "price": 52.5,
+      "unit": "1 LT",
+      "unitPrice": "52,50 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/36150.png",
+      "url": null
+    },
+    {
       "name": "Haribo Ekşi Mix Yumuşak Şeker 115 Gr",
       "brand": "Haribo",
       "price": 55,
@@ -400,6 +409,15 @@
       "unit": "6 Adet",
       "unitPrice": "10,83 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/76146.png",
+      "url": null
+    },
+    {
+      "name": "Anadolu Mutfağı Yeşil Mercimek 1 Kg",
+      "brand": "Anadolu Mutfağı",
+      "price": 67.5,
+      "unit": "1 KG",
+      "unitPrice": "67,50 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/67094.png",
       "url": null
     },
     {
@@ -511,15 +529,6 @@
       "url": null
     },
     {
-      "name": "Colgate Üçlü Etki Diş Macunu 75 Ml",
-      "brand": "Colgate",
-      "price": 89.9,
-      "unit": "75 ML",
-      "unitPrice": "1.198,67 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/hakmar/1030761.jpg",
-      "url": null
-    },
-    {
       "name": "Bebeland Bebek Bezi Mini 58 Adet",
       "brand": "Bebeland",
       "price": 90,
@@ -562,6 +571,15 @@
       "unit": "500 GR",
       "unitPrice": "198,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/83046.png",
+      "url": null
+    },
+    {
+      "name": "Colgate Üçlü Etki Diş Macunu 75 Ml",
+      "brand": "Colgate",
+      "price": 99,
+      "unit": "75 ML",
+      "unitPrice": "1.320,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/hakmar/1030761.jpg",
       "url": null
     },
     {
@@ -637,39 +655,12 @@
       "url": null
     },
     {
-      "name": "Sensodyne Promine Çocuk Diş Macunu 50 Ml",
-      "brand": "Sensodyne",
-      "price": 110,
-      "unit": "50 ML",
-      "unitPrice": "2.200,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/sok/170822.jpg",
-      "url": null
-    },
-    {
       "name": "Activia Probiyotik Yoğurt Orman Meyveli 4x100 Gr",
       "brand": "Activia",
       "price": 114.5,
       "unit": "400 GR",
       "unitPrice": "286,25 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/113103.png",
-      "url": null
-    },
-    {
-      "name": "Hope Saç Boyası 8.3 Bal Köpüğü 1 Adet",
-      "brand": "Hope",
-      "price": 119,
-      "unit": "1 Adet",
-      "unitPrice": "119,00 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/84860.png",
-      "url": null
-    },
-    {
-      "name": "Signal White System Diş Macunu 75 Ml",
-      "brand": "Signal",
-      "price": 119,
-      "unit": "75 ML",
-      "unitPrice": "1.586,67 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/115026.jpg",
       "url": null
     },
     {
@@ -745,6 +736,15 @@
       "url": null
     },
     {
+      "name": "Hope Saç Boyası 8.3 Bal Köpüğü 1 Adet",
+      "brand": "Hope",
+      "price": 139,
+      "unit": "1 Adet",
+      "unitPrice": "139,00 ₺/Adet",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/84860.png",
+      "url": null
+    },
+    {
       "name": "Palette Natural Colors Saç Boyası 7-0 Bal 1 Adet",
       "brand": "Palette",
       "price": 139,
@@ -760,6 +760,15 @@
       "unit": "200 GR",
       "unitPrice": "697,50 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/126190.jpg",
+      "url": null
+    },
+    {
+      "name": "Signal White System Diş Macunu 75 Ml",
+      "brand": "Signal",
+      "price": 145,
+      "unit": "75 ML",
+      "unitPrice": "1.933,33 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/115026.jpg",
       "url": null
     },
     {
@@ -831,15 +840,6 @@
       "price": 174,
       "unit": "540 GR",
       "unitPrice": "322,22 ₺/Kg",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Kovandan Çiçek Balı 460 Gr",
-      "brand": "Kovandan",
-      "price": 176,
-      "unit": "460 GR",
-      "unitPrice": "382,61 ₺/Kg",
       "image": "",
       "url": null
     },
@@ -943,15 +943,6 @@
       "url": null
     },
     {
-      "name": "Sütaş Yayık Tereyağı 350 Gr",
-      "brand": "Sütaş",
-      "price": 299,
-      "unit": "350 GR",
-      "unitPrice": "854,29 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/106860.png",
-      "url": null
-    },
-    {
       "name": "Sütaş Kaşar Peyniri 500 Gr",
       "brand": "Sütaş",
       "price": 299,
@@ -970,12 +961,12 @@
       "url": null
     },
     {
-      "name": "Elidor Güçlü Ve Parlak Şampuan 650 Ml",
-      "brand": "Elidor",
-      "price": 349,
-      "unit": "650 ML",
-      "unitPrice": "536,92 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migrosimages/34306101.png",
+      "name": "Kovandan Çiçek Balı 850 Gr",
+      "brand": "Kovandan",
+      "price": 315,
+      "unit": "850 GR",
+      "unitPrice": "370,59 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/115647.png",
       "url": null
     },
     {

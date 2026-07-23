@@ -2,9 +2,9 @@
   "market": "bim",
   "label": "BİM",
   "color": "#E4001B",
-  "updatedAt": "2026-07-22T18:56:55.863Z",
+  "updatedAt": "2026-07-23T08:11:05.305Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 146,
+  "count": 147,
   "products": [
     {
       "name": "Torku Nobir Kaplamalı Gofret 24x35 Gr",
@@ -1191,6 +1191,15 @@
       "price": 349,
       "unit": "48 Adet",
       "unitPrice": "7,27 ₺/Adet",
+      "image": "",
+      "url": null
+    },
+    {
+      "name": "Komili Natürel Sızma Zeytinyağı 1 Lt",
+      "brand": "Komili",
+      "price": 359,
+      "unit": "1 LT",
+      "unitPrice": "359,00 ₺/Lt",
       "image": "",
       "url": null
     },

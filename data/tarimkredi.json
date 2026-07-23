@@ -2,9 +2,9 @@
   "market": "tarimkredi",
   "label": "Tarım Kredi",
   "color": "#0A7D34",
-  "updatedAt": "2026-07-22T18:56:55.863Z",
+  "updatedAt": "2026-07-23T08:11:05.305Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 109,
+  "count": 111,
   "products": [
     {
       "name": "Fuska Su 500 Ml",
@@ -151,6 +151,24 @@
       "url": null
     },
     {
+      "name": "Torku Fındıklı Gofret 142 Gr",
+      "brand": "Torku",
+      "price": 29.5,
+      "unit": "142 GR",
+      "unitPrice": "207,75 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/migrosimages/7160265.png",
+      "url": null
+    },
+    {
+      "name": "Torku Bitter Portakal Gofret 142 Gr",
+      "brand": "Torku",
+      "price": 29.5,
+      "unit": "142 GR",
+      "unitPrice": "207,75 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/a101/17002397.jpg",
+      "url": null
+    },
+    {
       "name": "Elit Peçete 100 Adet",
       "brand": "Elit",
       "price": 29.5,
@@ -232,30 +250,21 @@
       "url": null
     },
     {
+      "name": "Torku Bitter Çikolata 60 Gr",
+      "brand": "Torku",
+      "price": 49.9,
+      "unit": "60 GR",
+      "unitPrice": "831,67 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/migros/7030996.jpg",
+      "url": null
+    },
+    {
       "name": "Torku Üçgen Peynir 100 Gr",
       "brand": "Torku",
       "price": 52.9,
       "unit": "100 GR",
       "unitPrice": "529,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/migrosimages/10250743.png",
-      "url": null
-    },
-    {
-      "name": "Torku Bitter Portakal Gofret 142 Gr",
-      "brand": "Torku",
-      "price": 53.9,
-      "unit": "142 GR",
-      "unitPrice": "379,58 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/17002397.jpg",
-      "url": null
-    },
-    {
-      "name": "Torku Fındıklı Gofret 142 Gr",
-      "brand": "Torku",
-      "price": 53.9,
-      "unit": "142 GR",
-      "unitPrice": "379,58 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/migrosimages/7160265.png",
       "url": null
     },
     {
@@ -277,12 +286,12 @@
       "url": null
     },
     {
-      "name": "Torku Bitter Çikolata 60 Gr",
-      "brand": "Torku",
-      "price": 63.9,
-      "unit": "60 GR",
-      "unitPrice": "1.065,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/migros/7030996.jpg",
+      "name": "Ülker İkram Fındıklı Bisküvi 3x84 Gr",
+      "brand": "Ülker",
+      "price": 64,
+      "unit": "252 GR",
+      "unitPrice": "253,97 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/102843.jpg",
       "url": null
     },
     {
@@ -328,15 +337,6 @@
       "unit": "130 GR",
       "unitPrice": "499,23 ₺/Kg",
       "image": "",
-      "url": null
-    },
-    {
-      "name": "Keskinoğlu Yumurta L Boy 15 Adet",
-      "brand": "Keskinoğlu",
-      "price": 65,
-      "unit": "15 Adet",
-      "unitPrice": "4,33 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/107465.jpg",
       "url": null
     },
     {
@@ -466,24 +466,6 @@
       "url": null
     },
     {
-      "name": "Kumartaşlı Boy Yumurta M Boy 53-63 Gr 30 Adet",
-      "brand": "Kumartaşlı",
-      "price": 105,
-      "unit": "30 Adet",
-      "unitPrice": "3,50 ₺/Adet",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Keskinoğlu Yumurta M Boy 30 Adet",
-      "brand": "Keskinoğlu",
-      "price": 105,
-      "unit": "30 Adet",
-      "unitPrice": "3,50 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/107464.jpg",
-      "url": null
-    },
-    {
       "name": "Yayla Basmati Pirinç 1 Kg",
       "brand": "Yayla",
       "price": 109.9,
@@ -504,9 +486,9 @@
     {
       "name": "Tarım Kredi Anadolu Ayçiçek Yağı 1 Lt",
       "brand": "Tarım Kredi",
-      "price": 114,
+      "price": 118,
       "unit": "1 LT",
-      "unitPrice": "114,00 ₺/Lt",
+      "unitPrice": "118,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/108707.png",
       "url": null
     },
@@ -538,6 +520,15 @@
       "url": null
     },
     {
+      "name": "Peros Yumuşatıcı Pembe Güller 3 Lt",
+      "brand": "Peros",
+      "price": 119,
+      "unit": "3 LT",
+      "unitPrice": "39,67 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30285103.png",
+      "url": null
+    },
+    {
       "name": "Agarta Doğal Çocuk Diş Macunu 75 Ml",
       "brand": "Agarta",
       "price": 125,
@@ -553,6 +544,24 @@
       "unit": "75 ML",
       "unitPrice": "1.692,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/129264.jpg",
+      "url": null
+    },
+    {
+      "name": "Keskinoğlu Yumurta M Boy 30 Adet",
+      "brand": "Keskinoğlu",
+      "price": 129,
+      "unit": "30 Adet",
+      "unitPrice": "4,30 ₺/Adet",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/107464.jpg",
+      "url": null
+    },
+    {
+      "name": "Agarta Doğal Diş Macunu Bitki Özlü 100 Ml",
+      "brand": "Agarta",
+      "price": 129,
+      "unit": "100 ML",
+      "unitPrice": "1.290,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/101073.jpg",
       "url": null
     },
     {
@@ -673,21 +682,21 @@
       "url": null
     },
     {
-      "name": "Elidor Güçlü Parlaklık Şampuan 650 Ml",
-      "brand": "Elidor",
-      "price": 199.9,
-      "unit": "650 ML",
-      "unitPrice": "307,54 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/108817.jpg",
-      "url": null
-    },
-    {
       "name": "Elidor Anında Onarıcı Şampuan 650 Ml",
       "brand": "Elidor",
       "price": 199.9,
       "unit": "650 ML",
       "unitPrice": "307,54 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/a101images/24004950.png",
+      "url": null
+    },
+    {
+      "name": "Elidor Güçlü Parlaklık Şampuan 650 Ml",
+      "brand": "Elidor",
+      "price": 199.9,
+      "unit": "650 ML",
+      "unitPrice": "307,54 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/108817.jpg",
       "url": null
     },
     {
@@ -736,15 +745,6 @@
       "url": null
     },
     {
-      "name": "Tarım Kredi Anadolu Ayçiçek Yağı 2 Lt",
-      "brand": "Tarım Kredi",
-      "price": 219,
-      "unit": "2 LT",
-      "unitPrice": "109,50 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/108706.png",
-      "url": null
-    },
-    {
       "name": "Peros Gül Yumuşatıcı 5 Lt",
       "brand": "Peros",
       "price": 219,
@@ -760,6 +760,24 @@
       "unit": "5 LT",
       "unitPrice": "43,80 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/bimimages/1708309.png",
+      "url": null
+    },
+    {
+      "name": "Elit Doğal Zeytinyağlı Şampuan 700 Ml",
+      "brand": "Elit",
+      "price": 219,
+      "unit": "700 ML",
+      "unitPrice": "312,86 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/105572.jpg",
+      "url": null
+    },
+    {
+      "name": "Tarım Kredi Anadolu Ayçiçek Yağı 2 Lt",
+      "brand": "Tarım Kredi",
+      "price": 224,
+      "unit": "2 LT",
+      "unitPrice": "112,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/108706.png",
       "url": null
     },
     {
@@ -972,9 +990,9 @@
     {
       "name": "Tarım Kredi Anadolu Riviera Zeytinyağı 2 Lt",
       "brand": "Tarım Kredi",
-      "price": 445,
+      "price": 505,
       "unit": "2 LT",
-      "unitPrice": "222,50 ₺/Lt",
+      "unitPrice": "252,50 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/100595.jpg",
       "url": null
     },

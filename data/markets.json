@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T18:56:55.863Z",
+  "updatedAt": "2026-07-23T08:11:05.305Z",
   "markets": [
     {
       "slug": "carrefour",
@@ -11,31 +11,31 @@
       "slug": "migros",
       "label": "Migros",
       "color": "#FF6A13",
-      "count": 238
+      "count": 231
     },
     {
       "slug": "a101",
       "label": "A101",
       "color": "#00A0DF",
-      "count": 211
+      "count": 212
     },
     {
       "slug": "bim",
       "label": "BİM",
       "color": "#E4001B",
-      "count": 146
+      "count": 147
     },
     {
       "slug": "sok",
       "label": "ŞOK",
       "color": "#F0A500",
-      "count": 114
+      "count": 113
     },
     {
       "slug": "tarimkredi",
       "label": "Tarım Kredi",
       "color": "#0A7D34",
-      "count": 109
+      "count": 111
     }
   ]
 }
