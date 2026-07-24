@@ -2,9 +2,9 @@
   "market": "tarimkredi",
   "label": "Tarım Kredi",
   "color": "#0A7D34",
-  "updatedAt": "2026-07-23T18:58:22.892Z",
+  "updatedAt": "2026-07-24T08:06:40.200Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 111,
+  "count": 105,
   "products": [
     {
       "name": "Fuska Su 500 Ml",
@@ -250,6 +250,15 @@
       "url": null
     },
     {
+      "name": "Tarım Kredi Ada Çayı Çubuk Çay 32 Gr",
+      "brand": "Tarım Kredi",
+      "price": 49.9,
+      "unit": "32 GR",
+      "unitPrice": "1.559,38 ₺/Kg",
+      "image": "",
+      "url": null
+    },
+    {
       "name": "Torku Bitter Çikolata 60 Gr",
       "brand": "Torku",
       "price": 49.9,
@@ -286,15 +295,6 @@
       "url": null
     },
     {
-      "name": "Ülker İkram Fındıklı Bisküvi 3x84 Gr",
-      "brand": "Ülker",
-      "price": 64,
-      "unit": "252 GR",
-      "unitPrice": "253,97 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/102843.jpg",
-      "url": null
-    },
-    {
       "name": "Sarıyer Kola 2.5 Lt",
       "brand": "Sarıyer",
       "price": 64,
@@ -322,7 +322,7 @@
       "url": null
     },
     {
-      "name": "Ece Dilimli Siyah Zeytin 130 Gr",
+      "name": "Ece Dilimli Yeşil Zeytin 130 Gr",
       "brand": "Ece",
       "price": 64.9,
       "unit": "130 GR",
@@ -331,7 +331,7 @@
       "url": null
     },
     {
-      "name": "Ece Dilimli Yeşil Zeytin 130 Gr",
+      "name": "Ece Dilimli Siyah Zeytin 130 Gr",
       "brand": "Ece",
       "price": 64.9,
       "unit": "130 GR",
@@ -430,15 +430,6 @@
       "url": null
     },
     {
-      "name": "Sütaş Muzlu Süt 6x180 Ml",
-      "brand": "Sütaş",
-      "price": 94.5,
-      "unit": "1.08 LT",
-      "unitPrice": "87,50 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/migrosimages/11010179.png",
-      "url": null
-    },
-    {
       "name": "Aybar Gezen Yumurta 10 Adet",
       "brand": "Aybar",
       "price": 95,
@@ -457,6 +448,15 @@
       "url": null
     },
     {
+      "name": "Toblerone Çikolata Sütlü 100 Gr",
+      "brand": "Toblerone",
+      "price": 99.9,
+      "unit": "100 GR",
+      "unitPrice": "999,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/migrosimages/7040810.png",
+      "url": null
+    },
+    {
       "name": "Dola Glutensiz Pilavlık Bulgur 400 Gr",
       "brand": "Dola",
       "price": 103.9,
@@ -472,15 +472,6 @@
       "unit": "1 KG",
       "unitPrice": "109,90 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/migros/1010336.jpg",
-      "url": null
-    },
-    {
-      "name": "Nestlé Damak Çikolata 60 Gr",
-      "brand": "Nestlé",
-      "price": 109.9,
-      "unit": "60 GR",
-      "unitPrice": "1.831,67 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/tarimkrediimages/111864.png",
       "url": null
     },
     {
@@ -547,21 +538,21 @@
       "url": null
     },
     {
+      "name": "Kumartaşlı Boy Yumurta M Boy 53-63 Gr 30 Adet",
+      "brand": "Kumartaşlı",
+      "price": 129,
+      "unit": "30 Adet",
+      "unitPrice": "4,30 ₺/Adet",
+      "image": "",
+      "url": null
+    },
+    {
       "name": "Keskinoğlu Yumurta M Boy 30 Adet",
       "brand": "Keskinoğlu",
       "price": 129,
       "unit": "30 Adet",
       "unitPrice": "4,30 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/107464.jpg",
-      "url": null
-    },
-    {
-      "name": "Agarta Doğal Diş Macunu Bitki Özlü 100 Ml",
-      "brand": "Agarta",
-      "price": 129,
-      "unit": "100 ML",
-      "unitPrice": "1.290,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/101073.jpg",
       "url": null
     },
     {
@@ -634,15 +625,6 @@
       "unit": "15 Adet",
       "unitPrice": "10,60 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/107268.jpg",
-      "url": null
-    },
-    {
-      "name": "Selpak Extra Tuvalet Kağıdı 3 Katlı 16 Adet",
-      "brand": "Selpak",
-      "price": 159,
-      "unit": "16 Adet",
-      "unitPrice": "9,94 ₺/Adet",
-      "image": "",
       "url": null
     },
     {
@@ -817,15 +799,6 @@
       "url": null
     },
     {
-      "name": "Solo Bambu 2 Katlı Tuvalet Kağıdı 40 Adet",
-      "brand": "Solo",
-      "price": 239.9,
-      "unit": "40 Adet",
-      "unitPrice": "6,00 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/a101images/23001290.png",
-      "url": null
-    },
-    {
       "name": "Perwoll Sıvı Deterjan Renkliler 2.97 Lt",
       "brand": "Perwoll",
       "price": 249.9,
@@ -853,30 +826,12 @@
       "url": null
     },
     {
-      "name": "Familia Tuvalet Kağıdı Natural 3 Katlı 40 Adet",
-      "brand": "Familia",
-      "price": 269.9,
-      "unit": "40 Adet",
-      "unitPrice": "6,75 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/bim/1710620.jpg",
-      "url": null
-    },
-    {
       "name": "Canbebe Mega Paket Junior Bebek Bezi 80 Adet",
       "brand": "Canbebe",
       "price": 272.9,
       "unit": "80 Adet",
       "unitPrice": "3,41 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/tarim_kredi/128223.jpg",
-      "url": null
-    },
-    {
-      "name": "Aqua Bambulu 3 Katlı Tuvalet Kağıdı 40 Adet",
-      "brand": "Aqua",
-      "price": 289.9,
-      "unit": "40 Adet",
-      "unitPrice": "7,25 ₺/Adet",
-      "image": "",
       "url": null
     },
     {
@@ -931,15 +886,6 @@
       "unit": "6 KG",
       "unitPrice": "58,17 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/bim/1201768.jpg",
-      "url": null
-    },
-    {
-      "name": "Baby Turco Doğadan Ultra Maxi Bebek Bezi 104 Adet",
-      "brand": "Baby Turco",
-      "price": 349.9,
-      "unit": "104 Adet",
-      "unitPrice": "3,36 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/carrefourimages/30419720.png",
       "url": null
     },
     {

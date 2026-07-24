@@ -2,9 +2,9 @@
   "market": "sok",
   "label": "ŞOK",
   "color": "#F0A500",
-  "updatedAt": "2026-07-23T18:58:22.892Z",
+  "updatedAt": "2026-07-24T08:06:40.200Z",
   "source": "https://marketfiyati.org.tr",
-  "count": 113,
+  "count": 109,
   "products": [
     {
       "name": "Kardelen Su 500 Ml",
@@ -40,6 +40,15 @@
       "unit": "2 GR",
       "unitPrice": "7.500,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/a101images/30000097.png",
+      "url": null
+    },
+    {
+      "name": "Mis Muzlu Süt 200 Ml",
+      "brand": "Mis",
+      "price": 15.5,
+      "unit": "200 ML",
+      "unitPrice": "77,50 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/33684.png",
       "url": null
     },
     {
@@ -97,15 +106,6 @@
       "url": null
     },
     {
-      "name": "Danone Çilekli Süt 180 Ml",
-      "brand": "Danone",
-      "price": 18.95,
-      "unit": "180 ML",
-      "unitPrice": "105,28 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/a101/12002330.jpg",
-      "url": null
-    },
-    {
       "name": "Sütaş Hüptrik Çilekli Yoğurt 105 Gr",
       "brand": "Sütaş",
       "price": 18.95,
@@ -148,15 +148,6 @@
       "unit": "200 Adet",
       "unitPrice": "0,14 ₺/Adet",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/75183.png",
-      "url": null
-    },
-    {
-      "name": "Filiz Fiyonk Makarna 500 Gr",
-      "brand": "Filiz",
-      "price": 33.5,
-      "unit": "500 GR",
-      "unitPrice": "67,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/a101/14002548.jpg",
       "url": null
     },
     {
@@ -259,21 +250,21 @@
       "url": null
     },
     {
-      "name": "Tam Buğday Ekmek 370 Gr",
-      "brand": "Markasız",
-      "price": 45,
-      "unit": "370 GR",
-      "unitPrice": "121,62 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/130120.png",
-      "url": null
-    },
-    {
       "name": "Ebru Sıvı Sabun Okyanus Rüzgarı 750 Ml",
       "brand": "Ebru",
       "price": 48,
       "unit": "750 ML",
       "unitPrice": "64,00 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/72539.png",
+      "url": null
+    },
+    {
+      "name": "Ebru Sıvı Sabun Hindistan Cevizi 750 Ml",
+      "brand": "Ebru",
+      "price": 48,
+      "unit": "750 ML",
+      "unitPrice": "64,00 ₺/Lt",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/79635.png",
       "url": null
     },
     {
@@ -367,30 +358,12 @@
       "url": null
     },
     {
-      "name": "Mintax Sıvı Bulaşık Deterjanı Limonlu 750 Ml",
-      "brand": "Mintax",
-      "price": 62.5,
-      "unit": "750 ML",
-      "unitPrice": "83,33 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/36149.png",
-      "url": null
-    },
-    {
       "name": "Güzelpınar Su 12x250 Ml",
       "brand": "Güzelpınar",
       "price": 63.25,
       "unit": "3 LT",
       "unitPrice": "21,08 ₺/Lt",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/132042.png",
-      "url": null
-    },
-    {
-      "name": "Duru Sıvı Sabun Avokado 500 Ml",
-      "brand": "Duru",
-      "price": 64,
-      "unit": "500 ML",
-      "unitPrice": "128,00 ₺/Lt",
-      "image": "https://cdn.marketfiyati.org.tr/sok/115322.jpg",
       "url": null
     },
     {
@@ -754,6 +727,15 @@
       "url": null
     },
     {
+      "name": "Palette PNC 8-0 Bal Köpüğü 1 Adet",
+      "brand": "Palette",
+      "price": 139,
+      "unit": "1 Adet",
+      "unitPrice": "139,00 ₺/Adet",
+      "image": "https://cdn.marketfiyati.org.tr/sok/64421.jpg",
+      "url": null
+    },
+    {
       "name": "Nescafé Coffee Mate 200 Gr",
       "brand": "Coffee mate",
       "price": 139.5,
@@ -880,15 +862,6 @@
       "url": null
     },
     {
-      "name": "Palette PNC 8-0 Bal Köpüğü 1 Adet",
-      "brand": "Palette",
-      "price": 199,
-      "unit": "1 Adet",
-      "unitPrice": "199,00 ₺/Adet",
-      "image": "https://cdn.marketfiyati.org.tr/sok/64421.jpg",
-      "url": null
-    },
-    {
       "name": "Omo Renkliler Sıvı Deterjan 1.69 Lt",
       "brand": "Omo",
       "price": 199,
@@ -943,6 +916,15 @@
       "url": null
     },
     {
+      "name": "Mis Tuzlu Tereyağı 500 Gr",
+      "brand": "Mis",
+      "price": 295,
+      "unit": "500 GR",
+      "unitPrice": "590,00 ₺/Kg",
+      "image": "https://cdn.marketfiyati.org.tr/sokimages/85162.png",
+      "url": null
+    },
+    {
       "name": "Sütaş Kaşar Peyniri 500 Gr",
       "brand": "Sütaş",
       "price": 299,
@@ -985,24 +967,6 @@
       "unit": "700 GR",
       "unitPrice": "570,00 ₺/Kg",
       "image": "https://cdn.marketfiyati.org.tr/sokimages/38851.png",
-      "url": null
-    },
-    {
-      "name": "Kebir Tereyağı 500 Gr",
-      "brand": "Kebir",
-      "price": 445,
-      "unit": "500 GR",
-      "unitPrice": "890,00 ₺/Kg",
-      "image": "",
-      "url": null
-    },
-    {
-      "name": "Mis Tereyağı 1 Kg",
-      "brand": "Mis",
-      "price": 469,
-      "unit": "1 KG",
-      "unitPrice": "469,00 ₺/Kg",
-      "image": "https://cdn.marketfiyati.org.tr/sokimages/40810.png",
       "url": null
     },
     {
